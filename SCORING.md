@@ -15,6 +15,5 @@ Measuring task lengths completed in 3.33 m
 
 > ../../bin/cross-zone --file=forbes2016.comp-input.yaml
 Reading competition from 'forbes2016.comp-input.yaml'
-cross-zone: day 1/Gijs_Wanders.20160102-192026.[CIVLID].7.igc:
-hGetContents: invalid argument (invalid byte sequence)
+Tracks crossing zones completed in 34.39 s
 ```
