@@ -16,4 +16,8 @@ Measuring task lengths completed in 3.33 m
 > ../../bin/cross-zone --file=forbes2016.comp-input.yaml
 Reading competition from 'forbes2016.comp-input.yaml'
 Tracks crossing zones completed in 34.39 s
+
+> ../../bin/tag-zone --file=forbes2016.cross-zone.yaml
+Reading zone crossings from 'forbes2016.cross-zone.yaml'
+Tagging zones completed in 528.19 ms
 ```
