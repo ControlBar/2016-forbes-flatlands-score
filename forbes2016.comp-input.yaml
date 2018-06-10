@@ -7,6 +7,7 @@ comp:
   civilId: '10708'
   utcOffset:
     timeZoneMinutes: 660
+  scoreBack: 900.0 s
 nominal:
   launch: 0.95999999
   goal: 0.25
@@ -62,6 +63,7 @@ tasks:
   - 2016-01-02T03:10:00Z
   absent:
   - Federico Martini
+  stopped: null
 - taskName: via SUCKS
   zones:
   - zoneName: FORBE
@@ -96,6 +98,7 @@ tasks:
   absent:
   - Federico Martini
   - Michael Williams
+  stopped: null
 - taskName: TTT to goal
   zones:
   - zoneName: FORBE
@@ -122,6 +125,7 @@ tasks:
     close: 2016-01-06T09:00:00Z
   startGates: []
   absent: []
+  stopped: null
 - taskName: Where is wallygett
   zones:
   - zoneName: FORBE
@@ -144,6 +148,7 @@ tasks:
     close: 2016-01-07T09:00:00Z
   startGates: []
   absent: []
+  stopped: null
 - taskName: racing? confused
   zones:
   - zoneName: FORBE
@@ -181,6 +186,7 @@ tasks:
   - 2016-01-08T04:00:00Z
   absent:
   - Michael Hogan
+  stopped: null
 - taskName: gunning for goal
   zones:
   - zoneName: FORBE
@@ -231,6 +237,7 @@ tasks:
   absent:
   - Simon Braithwaite
   - Stuart Cathcart
+  stopped: null
 taskFolders:
 - - day 1
 - - day 2
