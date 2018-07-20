@@ -9,7 +9,7 @@ comp:
     timeZoneMinutes: 660
   scoreBack: 900.0 s
 nominal:
-  launch: 0.95999999
+  launch: 0.96
   goal: 0.25
   distance: 100.0 km
   free: 10.0 km
@@ -18,16 +18,16 @@ tasks:
 - taskName: Missing in action
   zones:
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 500.0 m
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 5000.0 m
   - zoneName: GUNNIN
     lat: -33.29225
-    lng: 147.71084999
+    lng: 147.71085
     radius: 400.0 m
   - zoneName: SKULLS
     lat: -32.9536
@@ -35,12 +35,77 @@ tasks:
     radius: 400.0 m
   - zoneName: BOGAN
     lat: -33.12592
-    lng: 147.91042999
+    lng: 147.91043
     radius: 400.0 m
   - zoneName: MIA
     lat: -33.35587
-    lng: 147.93355999
+    lng: 147.93356
     radius: 400.0 m
+  strictZones:
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 500.0 m
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 5000.0 m
+  - cylinder:
+      center:
+      - -33.29225 deg
+      - 147.71085 deg
+      radius: 400.0 m
+  - cylinder:
+      center:
+      - -32.9536 deg
+      - 147.55457 deg
+      radius: 400.0 m
+  - cylinder:
+      center:
+      - -33.12592 deg
+      - 147.91043 deg
+      radius: 400.0 m
+  - line:
+      center:
+      - -33.35587 deg
+      - 147.93356 deg
+      radius: 400.0 m
+  kindZones:
+    turnpoints:
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 500.0 m
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 5000.0 m
+    - cylinder:
+        center:
+        - -33.29225 deg
+        - 147.71085 deg
+        radius: 400.0 m
+    - cylinder:
+        center:
+        - -32.9536 deg
+        - 147.55457 deg
+        radius: 400.0 m
+    - cylinder:
+        center:
+        - -33.12592 deg
+        - 147.91043 deg
+        radius: 400.0 m
+    goal:
+      line:
+        center:
+        - -33.35587 deg
+        - 147.93356 deg
+        radius: 400.0 m
+  stopped: null
   speedSection:
   - 2
   - 6
@@ -62,26 +127,71 @@ tasks:
   - 2016-01-02T02:50:00Z
   - 2016-01-02T03:10:00Z
   absent:
-  - Federico Martini
-  stopped: null
+  - - '19'
+    - Federico Martini
 - taskName: via SUCKS
   zones:
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 500.0 m
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 10000.0 m
   - zoneName: SUCK
-    lat: -33.43189999
-    lng: 147.51906999
+    lat: -33.4319
+    lng: 147.51907
     radius: 400.0 m
   - zoneName: TULLIB
     lat: -33.44872
-    lng: 146.72168999
+    lng: 146.72169
     radius: 400.0 m
+  strictZones:
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 500.0 m
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 10000.0 m
+  - cylinder:
+      center:
+      - -33.4319 deg
+      - 147.51907 deg
+      radius: 400.0 m
+  - circle:
+      center:
+      - -33.44872 deg
+      - 146.72169 deg
+      radius: 400.0 m
+  kindZones:
+    turnpoints:
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 500.0 m
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 10000.0 m
+    - cylinder:
+        center:
+        - -33.4319 deg
+        - 147.51907 deg
+        radius: 400.0 m
+    goal:
+      circle:
+        center:
+        - -33.44872 deg
+        - 146.72169 deg
+        radius: 400.0 m
+  stopped: null
   speedSection:
   - 2
   - 4
@@ -96,23 +206,59 @@ tasks:
     close: 2016-01-03T09:00:00Z
   startGates: []
   absent:
-  - Federico Martini
-  - Michael Williams
-  stopped: null
+  - - '19'
+    - Federico Martini
+  - - '16'
+    - Michael Williams
 - taskName: TTT to goal
   zones:
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 500.0 m
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 10000.0 m
   - zoneName: BUDDAB
-    lat: -31.94316999
-    lng: 147.20681999
+    lat: -31.94317
+    lng: 147.20682
     radius: 400.0 m
+  strictZones:
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 500.0 m
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 10000.0 m
+  - circle:
+      center:
+      - -31.94317 deg
+      - 147.20682 deg
+      radius: 400.0 m
+  kindZones:
+    turnpoints:
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 500.0 m
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 10000.0 m
+    goal:
+      circle:
+        center:
+        - -31.94317 deg
+        - 147.20682 deg
+        radius: 400.0 m
+  stopped: null
   speedSection:
   - 2
   - 3
@@ -125,21 +271,55 @@ tasks:
     close: 2016-01-06T09:00:00Z
   startGates: []
   absent: []
-  stopped: null
 - taskName: Where is wallygett
   zones:
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 500.0 m
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 10000.0 m
   - zoneName: WALGET
     lat: -30.05018
-    lng: 148.11019999
+    lng: 148.1102
     radius: 400.0 m
+  strictZones:
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 500.0 m
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 10000.0 m
+  - circle:
+      center:
+      - -30.05018 deg
+      - 148.1102 deg
+      radius: 400.0 m
+  kindZones:
+    turnpoints:
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 500.0 m
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 10000.0 m
+    goal:
+      circle:
+        center:
+        - -30.05018 deg
+        - 148.1102 deg
+        radius: 400.0 m
+  stopped: null
   speedSection:
   - 2
   - 3
@@ -148,25 +328,69 @@ tasks:
     close: 2016-01-07T09:00:00Z
   startGates: []
   absent: []
-  stopped: null
 - taskName: racing? confused
   zones:
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 500.0 m
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 10000.0 m
   - zoneName: YEOVAL
-    lat: -32.76051999
-    lng: 148.64957999
+    lat: -32.76052
+    lng: 148.64958
     radius: 400.0 m
   - zoneName: MOLONG
     lat: -33.11155
-    lng: 148.88159999
+    lng: 148.8816
     radius: 200.0 m
+  strictZones:
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 500.0 m
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 10000.0 m
+  - cylinder:
+      center:
+      - -32.76052 deg
+      - 148.64958 deg
+      radius: 400.0 m
+  - line:
+      center:
+      - -33.11155 deg
+      - 148.8816 deg
+      radius: 200.0 m
+  kindZones:
+    turnpoints:
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 500.0 m
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 10000.0 m
+    - cylinder:
+        center:
+        - -32.76052 deg
+        - 148.64958 deg
+        radius: 400.0 m
+    goal:
+      line:
+        center:
+        - -33.11155 deg
+        - 148.8816 deg
+        radius: 200.0 m
+  stopped: null
   speedSection:
   - 2
   - 4
@@ -185,34 +409,99 @@ tasks:
   - 2016-01-08T03:45:00Z
   - 2016-01-08T04:00:00Z
   absent:
-  - Michael Hogan
-  stopped: null
+  - - '24'
+    - Michael Hogan
 - taskName: gunning for goal
   zones:
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 500.0 m
   - zoneName: FORBE
-    lat: -33.36079999
-    lng: 147.93199999
+    lat: -33.3608
+    lng: 147.932
     radius: 5000.0 m
   - zoneName: GOOLOO
     lat: -33.61847
     lng: 148.40897
     radius: 10000.0 m
   - zoneName: FORRES
-    lat: -33.33037999
-    lng: 148.14814999
+    lat: -33.33038
+    lng: 148.14815
     radius: 400.0 m
   - zoneName: GUNNIN
     lat: -33.29225
-    lng: 147.71084999
+    lng: 147.71085
     radius: 400.0 m
   - zoneName: MIA
     lat: -33.35587
-    lng: 147.93355999
+    lng: 147.93356
     radius: 400.0 m
+  strictZones:
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 500.0 m
+  - cylinder:
+      center:
+      - -33.3608 deg
+      - 147.932 deg
+      radius: 5000.0 m
+  - cylinder:
+      center:
+      - -33.61847 deg
+      - 148.40897 deg
+      radius: 10000.0 m
+  - cylinder:
+      center:
+      - -33.33038 deg
+      - 148.14815 deg
+      radius: 400.0 m
+  - cylinder:
+      center:
+      - -33.29225 deg
+      - 147.71085 deg
+      radius: 400.0 m
+  - line:
+      center:
+      - -33.35587 deg
+      - 147.93356 deg
+      radius: 400.0 m
+  kindZones:
+    turnpoints:
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 500.0 m
+    - cylinder:
+        center:
+        - -33.3608 deg
+        - 147.932 deg
+        radius: 5000.0 m
+    - cylinder:
+        center:
+        - -33.61847 deg
+        - 148.40897 deg
+        radius: 10000.0 m
+    - cylinder:
+        center:
+        - -33.33038 deg
+        - 148.14815 deg
+        radius: 400.0 m
+    - cylinder:
+        center:
+        - -33.29225 deg
+        - 147.71085 deg
+        radius: 400.0 m
+    goal:
+      line:
+        center:
+        - -33.35587 deg
+        - 147.93356 deg
+        radius: 400.0 m
+  stopped: null
   speedSection:
   - 2
   - 6
@@ -235,9 +524,10 @@ tasks:
   - 2016-01-09T03:00:00Z
   - 2016-01-09T03:15:00Z
   absent:
-  - Simon Braithwaite
-  - Stuart Cathcart
-  stopped: null
+  - - '41'
+    - Simon Braithwaite
+  - - '53'
+    - Stuart Cathcart
 taskFolders:
 - - day 1
 - - day 2
@@ -246,697 +536,1044 @@ taskFolders:
 - - day 5
 - - day 6
 pilots:
-- - - Akiko Suzuki
+- - - - '14'
+      - Akiko Suzuki
     - null
-  - - Alexandra Serebrennikova
+  - - - '39'
+      - Alexandra Serebrennikova
     - Sasha.20160102-054009.[CIVLID].39.igc
-  - - Anatoly Reyter
+  - - - '20'
+      - Anatoly Reyter
     - Anatoly Reyter.20160102-082335.[CIVLID].20.igc
-  - - Andrew Barnes
+  - - - '37'
+      - Andrew Barnes
     - Andrew Barnes.20160102-054525.[CIVLID].37.igc
-  - - Bruce Wynne
+  - - - '5'
+      - Bruce Wynne
     - Bruce Wynn.20160102-052933.[CIVLID].5.igc
-  - - Dan Balla
+  - - - '10'
+      - Dan Balla
     - Dan Valla.20160102-060430.[CIVLID].10.igc
-  - - Elia Piccinini
+  - - - '15'
+      - Elia Piccinini
     - Elia pi.20160102-062323.[CIVLID].15.igc
-  - - Erland Åmot
+  - - - '61'
+      - Erland Åmot
     - Erland_Amot.20160102-185804.[CIVLID].61.igc
-  - - Franko Chetcuti
+  - - - '27'
+      - Franko Chetcuti
     - Franco Chep.20160102-081620.[CIVLID].27.igc
-  - - Fredy Bircher
+  - - - '1'
+      - Fredy Bircher
     - Fredy Bircher.20160102-053225.6349.1.igc
-  - - Gary Wright
+  - - - '25'
+      - Gary Wright
     - Gary Wright.20160102-055030.[CIVLID].25.igc
-  - - Gavin Myers
+  - - - '31'
+      - Gavin Myers
     - Gavin Myers.20160102-054759.[CIVLID].31.igc
-  - - Gerolf Heinrichs
+  - - - '38'
+      - Gerolf Heinrichs
     - Gerolf Heinrichs.20160102-054122.[CIVLID].38.igc
-  - - Gijs Wanders
+  - - - '7'
+      - Gijs Wanders
     - Gijs_Wanders.20160102-192026.[CIVLID].7.igc
-  - - Glen Mcfarlane
+  - - - '28'
+      - Glen Mcfarlane
     - Glenn McFar.20160102-054428.[CIVLID].28.igc
-  - - Gordon Rigg
+  - - - '8'
+      - Gordon Rigg
     - null
-  - - Guy Hubbard
+  - - - '42'
+      - Guy Hubbard
     - Guy_Hubbard.20160103-083543.[CIVLID].42.igc
-  - - Hossain Tefaili
+  - - - '58'
+      - Hossain Tefaili
     - null
-  - - Howard Jones
+  - - - '36'
+      - Howard Jones
     - Howard Jones.20160102-073203.[CIVLID].36.igc
-  - - Jason Kath
+  - - - '6'
+      - Jason Kath
     - null
-  - - Jon Durand Snr
+  - - - '32'
+      - Jon Durand Snr
     - Jon Durand Snr.20160102-053313.[CIVLID].32.igc
-  - - Jonny Durand
+  - - - '29'
+      - Jonny Durand
     - Jon Durand Jnr.20160102-053149.[CIVLID].29.igc
-  - - Josh Woods
+  - - - '54'
+      - Josh Woods
     - Josh Woods.20160102-062428.[CIVLID].54.igc
-  - - Justinas Pleikys
+  - - - '35'
+      - Justinas Pleikys
     - Justinas Pleiloys.20160102-053335.[CIVLID].35.igc
-  - - Len Paton
+  - - - '52'
+      - Len Paton
     - Len_Paton.20160103-083205.[CIVLID].52.igc
-  - - Lukas Bader
+  - - - '22'
+      - Lukas Bader
     - null
-  - - Malcolm Brown
+  - - - '2'
+      - Malcolm Brown
     - Malcolm Brown.20160102-220310.[CIVLID].2.igc
-  - - Michael Hogan
+  - - - '24'
+      - Michael Hogan
     - null
-  - - Michael Jackson
+  - - - '51'
+      - Michael Jackson
     - Michael Jackson.20160102-054204.[CIVLID].51.igc
-  - - Michael Williams
+  - - - '16'
+      - Michael Williams
     - null
-  - - Mikhail Karmazin
+  - - - '57'
+      - Mikhail Karmazin
     - Michael Karmazaran.20160102-082522.[CIVLID].57.igc
-  - - Neale Halsall
+  - - - '43'
+      - Neale Halsall
     - Neale_Halsall.20160103-083716.[CIVLID].43.igc
-  - - Nils Vesk
+  - - - '3'
+      - Nils Vesk
     - Nils Vesk.20160102-053102.[CIVLID].3.igc
-  - - Olav Lien Olsen
+  - - - '48'
+      - Olav Lien Olsen
     - Olav_Olsen.20160102-190940.[CIVLID].48.igc
-  - - Olav Opsanger
+  - - - '47'
+      - Olav Opsanger
     - Opsanger.20160102-185657.[CIVLID].47.IGC
-  - - Oyvind Ellefsen
+  - - - '49'
+      - Oyvind Ellefsen
     - Oyvind.20160102-185432.[CIVLID].49.IGC
-  - - Peter Adriaans
+  - - - '60'
+      - Peter Adriaans
     - null
-  - - Peter Burkitt
+  - - - '9'
+      - Peter Burkitt
     - Peter_Burkitt.20160102-145656.[CIVLID].9.igc
-  - - Peter Ebeling
+  - - - '30'
+      - Peter Ebeling
     - Peter_Ebeling.20160102-190720.[CIVLID].30.igc
-  - - Phil Schroder
+  - - - '34'
+      - Phil Schroder
     - null
-  - - Rod Flockhart
+  - - - '26'
+      - Rod Flockhart
     - null
-  - - Rohan Taylor
+  - - - '4'
+      - Rohan Taylor
     - null
-  - - Ryosuke Hattori
+  - - - '12'
+      - Ryosuke Hattori
     - null
-  - - Simon Braithwaite
+  - - - '41'
+      - Simon Braithwaite
     - Simaon Braithwaite.20160102-062555.[CIVLID].41.igc
-  - - Simon West
+  - - - '55'
+      - Simon West
     - Simon West.20160102-054307.[CIVLID].55.igc
-  - - Steve Blenkinsop
+  - - - '46'
+      - Steve Blenkinsop
     - Steve Blenkinsop.20160102-054604.[CIVLID].46.igc
-  - - Steve Hogan
+  - - - '23'
+      - Steve Hogan
     - Steve Hogan.20160102-054845.[CIVLID].23.igc
-  - - Stuart Cathcart
+  - - - '53'
+      - Stuart Cathcart
     - null
-  - - Thomas Lindal
+  - - - '50'
+      - Thomas Lindal
     - Thomas_Lindal.20160102-191037.[CIVLID].50.igc
-  - - Tony Armstrong
+  - - - '56'
+      - Tony Armstrong
     - null
-  - - Tony Giammichele
+  - - - '59'
+      - Tony Giammichele
     - Tong G.20160102-060712.[CIVLID].59.igc
-  - - Trent Brown
+  - - - '33'
+      - Trent Brown
     - Trent Brown.20160102-055831.[CIVLID].33.igc
-  - - Tullio Gervasoni
+  - - - '17'
+      - Tullio Gervasoni
     - Tullio.20160102-055943.[CIVLID].17.igc
-  - - Vic Hare
+  - - - '40'
+      - Vic Hare
     - Vic Hare.20160102-054310.[CIVLID].40.igc
-  - - Wayne Thompson
+  - - - '11'
+      - Wayne Thompson
     - Wayne Thompson.20160102-060306.[CIVLID].11.igc
-  - - Yasuhiro Noma
+  - - - '13'
+      - Yasuhiro Noma
     - null
-  - - Yoko Isomoto
+  - - - '18'
+      - Yoko Isomoto
     - Yoko Isomoto.20160102-055605.[CIVLID].18.igc
-- - - Akiko Suzuki
+- - - - '14'
+      - Akiko Suzuki
     - Akiko Suzuki.20160103-090354.[CIVLID].14.igc
-  - - Alexandra Serebrennikova
+  - - - '39'
+      - Alexandra Serebrennikova
     - Alexandra Serebrennikova.20160103-075154.30169.39.igc
-  - - Anatoly Reyter
+  - - - '20'
+      - Anatoly Reyter
     - Anatoly Reyter.20160103-103247.[CIVLID].20.igc
-  - - Andrew Barnes
+  - - - '37'
+      - Andrew Barnes
     - Andrew Barnes.20160103-081229.[CIVLID].37.igc
-  - - Bruce Wynne
+  - - - '5'
+      - Bruce Wynne
     - Bruce Wynne.20160103-080837.[CIVLID].5.igc
-  - - Craig Taylor
+  - - - '62'
+      - Craig Taylor
     - Craig Taylor.20160103-095159.[CIVLID].62.igc
-  - - Dan Balla
+  - - - '10'
+      - Dan Balla
     - Dan Balla.20160103-093914.[CIVLID].10.igc
-  - - Elia Piccinini
+  - - - '15'
+      - Elia Piccinini
     - Elia Piccinini.20160103-081209.[CIVLID].15.igc
-  - - Erland Åmot
+  - - - '61'
+      - Erland Åmot
     - Erland_Amot.20160104-083523.[CIVLID].61.igc
-  - - Franko Chetcuti
+  - - - '27'
+      - Franko Chetcuti
     - Franco_Chetcuti.20160103-201520.[CIVLID].27.igc
-  - - Fredy Bircher
+  - - - '1'
+      - Fredy Bircher
     - Fredy Bircher.20160103-075719.6349.1.igc
-  - - Gary Wright
+  - - - '25'
+      - Gary Wright
     - Gary_Wright.20160103-045302.[CIVLID].25.IGC
-  - - Gavin Myers
+  - - - '31'
+      - Gavin Myers
     - Gavin Myers.20160103-081326.[CIVLID].31.igc
-  - - Gerolf Heinrichs
+  - - - '38'
+      - Gerolf Heinrichs
     - Gerolf Heinrichs.20160103-075523.[CIVLID].38.igc
-  - - Gijs Wanders
+  - - - '7'
+      - Gijs Wanders
     - Gijs_Wanders.20160103-210408.[CIVLID].7.igc
-  - - Glen Mcfarlane
+  - - - '28'
+      - Glen Mcfarlane
     - Glen McFarlane.20160103-082622.[CIVLID].28.igc
-  - - Gordon Rigg
+  - - - '8'
+      - Gordon Rigg
     - Gorgon_Rigg.20160103-052324.[CIVLID].8.IGC
-  - - Guy Hubbard
+  - - - '42'
+      - Guy Hubbard
     - Guy_Hubbard.20160103-192238.[CIVLID].42.igc
-  - - Hossain Tefaili
+  - - - '58'
+      - Hossain Tefaili
     - Hossain_Tefaili.20160104-085639.[CIVLID].58.IGC
-  - - Howard Jones
+  - - - '36'
+      - Howard Jones
     - Howard_Jones.20160104-085733.[CIVLID].36.IGC
-  - - Jason Kath
+  - - - '6'
+      - Jason Kath
     - Jason Kath.20160103-082902.[CIVLID].6.igc
-  - - Jon Durand Snr
+  - - - '32'
+      - Jon Durand Snr
     - Jon Durand Snr.20160103-082714.[CIVLID].32.igc
-  - - Jonny Durand
+  - - - '29'
+      - Jonny Durand
     - Jonny Durand.20160103-082524.[CIVLID].29.igc
-  - - Josh Woods
+  - - - '54'
+      - Josh Woods
     - Josh Woods.20160103-081102.[CIVLID].54.igc
-  - - Justinas Pleikys
+  - - - '35'
+      - Justinas Pleikys
     - Justinas Pleikys.20160103-083945.[CIVLID].35.igc
-  - - Len Paton
+  - - - '52'
+      - Len Paton
     - Len_Paton.20160103-193010.[CIVLID].52.igc
-  - - Lukas Bader
+  - - - '22'
+      - Lukas Bader
     - Lukas Bader.20160103-075605.[CIVLID].22.igc
-  - - Malcolm Brown
+  - - - '2'
+      - Malcolm Brown
     - Malcolm Brown.20160103-093647.[CIVLID].2.igc
-  - - Michael Hogan
+  - - - '24'
+      - Michael Hogan
     - Michael Hogan.20160103-073736.[CIVLID].24.igc
-  - - Michael Jackson
+  - - - '51'
+      - Michael Jackson
     - Michael Jackson.20160103-081920.[CIVLID].51.igc
-  - - Mikhail Karmazin
+  - - - '57'
+      - Mikhail Karmazin
     - Mikhail_Karmazin.20160104-085834.[CIVLID].57.IGC
-  - - Neale Halsall
+  - - - '43'
+      - Neale Halsall
     - Neale_Halsall.20160103-193108.[CIVLID].43.igc
-  - - Nils Vesk
+  - - - '3'
+      - Nils Vesk
     - Nils Vesk.20160103-080433.[CIVLID].3.igc
-  - - Olav Lien Olsen
+  - - - '48'
+      - Olav Lien Olsen
     - Olav_Olsen.20160104-083114.[CIVLID].48.igc
-  - - Olav Opsanger
+  - - - '47'
+      - Olav Opsanger
     - Olav_Opsanger.20160104-090803.[CIVLID].47.IGC
-  - - Oyvind Ellefsen
+  - - - '49'
+      - Oyvind Ellefsen
     - Oyvind_Ellefsen.20160104-083253.[CIVLID].49.igc
-  - - Peter Adriaans
+  - - - '60'
+      - Peter Adriaans
     - Peter_Adriaans.20160103-150910.[CIVLID].60.igc
-  - - Peter Burkitt
+  - - - '9'
+      - Peter Burkitt
     - Peter Burkitt.20160103-095424.[CIVLID].9.igc
-  - - Peter Ebeling
+  - - - '30'
+      - Peter Ebeling
     - Peter_Ebeling.20160104-085501.[CIVLID].30.igc
-  - - Phil Schroder
+  - - - '34'
+      - Phil Schroder
     - Phil_Schroder.20160103-193155.[CIVLID].34.igc
-  - - Rod Flockhart
+  - - - '26'
+      - Rod Flockhart
     - Rod_Flockhart.20160103-182044.[CIVLID].26.igc
-  - - Rohan Taylor
+  - - - '4'
+      - Rohan Taylor
     - Rohan_Taylor.20160103-052628.[CIVLID].4.igc
-  - - Ryosuke Hattori
+  - - - '12'
+      - Ryosuke Hattori
     - Ryosuke Hattori .20160103-090132.[CIVLID].12.igc
-  - - Simon Braithwaite
+  - - - '41'
+      - Simon Braithwaite
     - Simon Braithwaite.20160103-081001.[CIVLID].41.igc
-  - - Simon West
+  - - - '55'
+      - Simon West
     - Simon West.20160103-082728.[CIVLID].55.igc
-  - - Steve Blenkinsop
+  - - - '46'
+      - Steve Blenkinsop
     - Steve Blenkinsop.20160103-081449.[CIVLID].46.igc
-  - - Steve Hogan
+  - - - '23'
+      - Steve Hogan
     - Steve Hogan.20160103-073959.[CIVLID].23.igc
-  - - Stuart Cathcart
+  - - - '53'
+      - Stuart Cathcart
     - Stuart Cathcart.20160103-052948.[CIVLID].53.igc
-  - - Thomas Lindal
+  - - - '50'
+      - Thomas Lindal
     - Thomas_Lindal.20160104-083417.[CIVLID].50.igc
-  - - Tony Armstrong
+  - - - '56'
+      - Tony Armstrong
     - Tony Armstrong.20160103-081323.[CIVLID].56.igc
-  - - Tony Giammichele
+  - - - '59'
+      - Tony Giammichele
     - Tony Giammichele.20160103-103052.[CIVLID].59.igc
-  - - Trent Brown
+  - - - '33'
+      - Trent Brown
     - Trent Brown.20160103-082048.[CIVLID].33.igc
-  - - Tullio Gervasoni
+  - - - '17'
+      - Tullio Gervasoni
     - Tullio Gervasoni.20160103-075334.[CIVLID].17.igc
-  - - Vic Hare
+  - - - '40'
+      - Vic Hare
     - Vic Hare.20160103-082927.[CIVLID].40.igc
-  - - Wayne Thompson
+  - - - '11'
+      - Wayne Thompson
     - Wayne Thompson.20160103-093740.[CIVLID].11.igc
-  - - Yasuhiro Noma
+  - - - '13'
+      - Yasuhiro Noma
     - Yasuhiro Noma.20160103-090817.[CIVLID].13.igc
-  - - Yoko Isomoto
+  - - - '18'
+      - Yoko Isomoto
     - Yoko Isomoto.20160103-093030.[CIVLID].18.igc
-- - - Akiko Suzuki
+- - - - '14'
+      - Akiko Suzuki
     - Akiko Suzuki.20160106-092539.9768.14.igc
-  - - Alexandra Serebrennikova
+  - - - '39'
+      - Alexandra Serebrennikova
     - Alexandra Serebrennikova.20160106-100129.30169.39.igc
-  - - Anatoly Reyter
+  - - - '20'
+      - Anatoly Reyter
     - Anatoly Reyter.20160106-110347.45431.20.igc
-  - - Andrew Barnes
+  - - - '37'
+      - Andrew Barnes
     - Andrew Barnes.20160106-092649.5800.37.igc
-  - - Bruce Wynne
+  - - - '5'
+      - Bruce Wynne
     - Bruce_Wynne.20160106-211951.5967.5.IGC
-  - - Craig Taylor
+  - - - '62'
+      - Craig Taylor
     - Craig Taylor.20160106-093748.6075.62.igc
-  - - Dan Balla
+  - - - '10'
+      - Dan Balla
     - Dan Balla.20160106-100929.25387.10.igc
-  - - Elia Piccinini
+  - - - '15'
+      - Elia Piccinini
     - Elia Piccinini.20160106-075203.40720.15.igc
-  - - Erland Åmot
+  - - - '61'
+      - Erland Åmot
     - Erland__mot.20160106-211538.40430.61.igc
-  - - Federico Martini
+  - - - '19'
+      - Federico Martini
     - Federico Martini.20160106-080318.6279.19.igc
-  - - Franko Chetcuti
+  - - - '27'
+      - Franko Chetcuti
     - Franko_Chetcuti.20160106-211811.28192.27.igc
-  - - Fredy Bircher
+  - - - '1'
+      - Fredy Bircher
     - Fredy Bircher.20160106-085434.6349.1.igc
-  - - Gary Wright
+  - - - '25'
+      - Gary Wright
     - Gary Wright.20160106-094052.6372.25.igc
-  - - Gavin Myers
+  - - - '31'
+      - Gavin Myers
     - Gavin Myers.20160106-075030.18334.31.igc
-  - - Gerolf Heinrichs
+  - - - '38'
+      - Gerolf Heinrichs
     - Gerolf Heinrichs.20160106-100034.6405.38.igc
-  - - Gijs Wanders
+  - - - '7'
+      - Gijs Wanders
     - Gijs_Wanders.20160106-213645.13730.7.igc
-  - - Glen Mcfarlane
+  - - - '28'
+      - Glen Mcfarlane
     - Glen Mcfarlane.20160106-081340.17641.28.igc
-  - - Gordon Rigg
+  - - - '8'
+      - Gordon Rigg
     - Gordon_Rigg.20160107-083449.6433.8.IGC
-  - - Guy Hubbard
+  - - - '42'
+      - Guy Hubbard
     - Guy_Hubbard.20160106-212332.6467.42.igc
-  - - Hossain Tefaili
+  - - - '58'
+      - Hossain Tefaili
     - Hossain Tefaili.20160106-083515.31375.58.igc
-  - - Howard Jones
+  - - - '36'
+      - Howard Jones
     - Howard_Jones.20160106-213514.36821.36.igc
-  - - Jason Kath
+  - - - '6'
+      - Jason Kath
     - Jason Kath.20160106-081517.18332.6.igc
-  - - Jon Durand Snr
+  - - - '32'
+      - Jon Durand Snr
     - Jon Durand Snr.20160106-075503.6731.32.igc
-  - - Jonny Durand
+  - - - '29'
+      - Jonny Durand
     - Jonny Durand.20160106-075443.2231.29.igc
-  - - Josh Woods
+  - - - '54'
+      - Josh Woods
     - Josh Woods.20160106-081203.42097.54.igc
-  - - Justinas Pleikys
+  - - - '35'
+      - Justinas Pleikys
     - Justinas Pleikys.20160106-092630.10515.35.igc
-  - - Len Paton
+  - - - '52'
+      - Len Paton
     - Len_Paton.20160106-212236.6946.52.igc
-  - - Lukas Bader
+  - - - '22'
+      - Lukas Bader
     - Lukas Bader.20160106-100329.6992.22.igc
-  - - Malcolm Brown
+  - - - '2'
+      - Malcolm Brown
     - Malcolm Brown.20160106-100752.6999.2.igc
-  - - Michael Hogan
+  - - - '24'
+      - Michael Hogan
     - Michael Hogan.20160106-080346.[CIVLID].24.igc
-  - - Michael Jackson
+  - - - '51'
+      - Michael Jackson
     - Michael Jackson.20160106-075356.7134.51.igc
-  - - Michael Williams
+  - - - '16'
+      - Michael Williams
     - null
-  - - Mikhail Karmazin
+  - - - '57'
+      - Mikhail Karmazin
     - Mikhail Karmazin.20160106-110611.7169.57.igc
-  - - Neale Halsall
+  - - - '43'
+      - Neale Halsall
     - Neale_Halsall.20160106-212430.32849.43.igc
-  - - Nils Vesk
+  - - - '3'
+      - Nils Vesk
     - Nils Vesk.20160106-092750.7250.3.igc
-  - - Olav Lien Olsen
+  - - - '48'
+      - Olav Lien Olsen
     - Olav_Lien_Olsen.20160107-082757.7270.48.igc
-  - - Olav Opsanger
+  - - - '47'
+      - Olav Opsanger
     - Olav_Opsanger.20160107-083008.7271.47.IGC
-  - - Oyvind Ellefsen
+  - - - '49'
+      - Oyvind Ellefsen
     - Oyvind_Ellefsen.20160107-082925.7308.49.IGC
-  - - Peter Adriaans
+  - - - '60'
+      - Peter Adriaans
     - Peter_Adriaans.20160106-181018.46619.60.igc
-  - - Peter Burkitt
+  - - - '9'
+      - Peter Burkitt
     - Peter Burkitt.20160106-093858.7382.9.igc
-  - - Peter Ebeling
+  - - - '30'
+      - Peter Ebeling
     - Peter_Ebeling.20160107-083335.7388.30.igc
-  - - Phil Schroder
+  - - - '34'
+      - Phil Schroder
     - Phil_Schroder.20160106-212524.7419.34.igc
-  - - Rod Flockhart
+  - - - '26'
+      - Rod Flockhart
     - Rod Flockhart.20160106-083419.7537.26.igc
-  - - Rohan Taylor
+  - - - '4'
+      - Rohan Taylor
     - Rohan_Taylor.20160106-030838.7545.4.igc
-  - - Ryosuke Hattori
+  - - - '12'
+      - Ryosuke Hattori
     - Ryosuke Hattori.20160106-092153.15164.12.igc
-  - - Simon Braithwaite
+  - - - '41'
+      - Simon Braithwaite
     - Simon Braithwaite.20160106-080935.28188.41.igc
-  - - Simon West
+  - - - '55'
+      - Simon West
     - Simon West.20160106-081452.31925.55.igc
-  - - Steve Blenkinsop
+  - - - '46'
+      - Steve Blenkinsop
     - Steve_Blenkinsop.20160106-212043.7701.46.igc
-  - - Steve Hogan
+  - - - '23'
+      - Steve Hogan
     - null
-  - - Stuart Cathcart
+  - - - '53'
+      - Stuart Cathcart
     - Stuart Cathcart.20160106-080052.42094.53.igc
-  - - Thomas Lindal
+  - - - '50'
+      - Thomas Lindal
     - Thomas_Lindal.20160106-211359.25497.50.igc
-  - - Tony Armstrong
+  - - - '56'
+      - Tony Armstrong
     - Tony Armstrong.20160106-081317.42096.56.igc
-  - - Tony Giammichele
+  - - - '59'
+      - Tony Giammichele
     - Tony Giammichele.20160106-110554.7839.59.igc
-  - - Trent Brown
+  - - - '33'
+      - Trent Brown
     - Trent Brown.20160106-075327.7853.33.igc
-  - - Tullio Gervasoni
+  - - - '17'
+      - Tullio Gervasoni
     - Tullio Gervasoni.20160106-085208.7865.17.igc
-  - - Vic Hare
+  - - - '40'
+      - Vic Hare
     - Vic Hare.20160106-081133.24476.40.igc
-  - - Wayne Thompson
+  - - - '11'
+      - Wayne Thompson
     - Wayne_Thompson.20160107-092500.7945.11.IGC
-  - - Yasuhiro Noma
+  - - - '13'
+      - Yasuhiro Noma
     - Yasuhiro Noma.20160106-092438.7971.13.igc
-  - - Yoko Isomoto
+  - - - '18'
+      - Yoko Isomoto
     - Yoko Isomoto.20160106-075234.12517.18.igc
-- - - Akiko Suzuki
+- - - - '14'
+      - Akiko Suzuki
     - null
-  - - Alexandra Serebrennikova
+  - - - '39'
+      - Alexandra Serebrennikova
     - Alexandra Serebrennikova.20160107-220839.30169.39.igc
-  - - Anatoly Reyter
+  - - - '20'
+      - Anatoly Reyter
     - Anatoly_Reyter.20160108-075835.45431.20.IGC
-  - - Andrew Barnes
+  - - - '37'
+      - Andrew Barnes
     - Andrew Barnes.20160107-233424.5800.37.igc
-  - - Bruce Wynne
+  - - - '5'
+      - Bruce Wynne
     - Bruce_Wynne.20160108-083840.5967.5.IGC
-  - - Craig Taylor
+  - - - '62'
+      - Craig Taylor
     - Craig_Taylor.20160108-091433.6075.62.IGC
-  - - Dan Balla
+  - - - '10'
+      - Dan Balla
     - Dan_Balla.20160108-083442.25387.10.igc
-  - - Elia Piccinini
+  - - - '15'
+      - Elia Piccinini
     - Elia Piccinini.20160107-225810.40720.15.igc
-  - - Erland Åmot
+  - - - '61'
+      - Erland Åmot
     - Erland__mot.20160108-083329.40430.61.igc
-  - - Federico Martini
+  - - - '19'
+      - Federico Martini
     - Federico Martini.20160107-212231.6279.19.igc
-  - - Franko Chetcuti
+  - - - '27'
+      - Franko Chetcuti
     - Franko_Chetcuti.20160108-075426.28192.27.igc
-  - - Fredy Bircher
+  - - - '1'
+      - Fredy Bircher
     - Fredy_Bircher.20160108-081854.6349.1.IGC
-  - - Gary Wright
+  - - - '25'
+      - Gary Wright
     - Gary_Wright.20160108-083644.6372.25.IGC
-  - - Gavin Myers
+  - - - '31'
+      - Gavin Myers
     - Gavin_Myers.20160108-081036.18334.31.IGC
-  - - Gerolf Heinrichs
+  - - - '38'
+      - Gerolf Heinrichs
     - Gerolf Heinrichs.20160107-221320.6405.38.igc
-  - - Gijs Wanders
+  - - - '7'
+      - Gijs Wanders
     - Gijs_Wanders.20160108-083950.13730.7.igc
-  - - Glen Mcfarlane
+  - - - '28'
+      - Glen Mcfarlane
     - Glen_Mcfarlane.20160108-081606.17641.28.IGC
-  - - Gordon Rigg
+  - - - '8'
+      - Gordon Rigg
     - Gordon_Rigg.20160108-081317.6433.8.IGC
-  - - Guy Hubbard
+  - - - '42'
+      - Guy Hubbard
     - Guy_Hubbard.20160108-082401.6467.42.igc
-  - - Hossain Tefaili
+  - - - '58'
+      - Hossain Tefaili
     - Hossain Tefaili.20160107-223311.31375.58.igc
-  - - Howard Jones
+  - - - '36'
+      - Howard Jones
     - Howard_Jones.20160108-081810.36821.36.IGC
-  - - Jason Kath
+  - - - '6'
+      - Jason Kath
     - Jason_Kath.20160108-080235.18332.6.IGC
-  - - Jon Durand Snr
+  - - - '32'
+      - Jon Durand Snr
     - Jon_Durand_Snr.20160108-080624.6731.32.IGC
-  - - Jonny Durand
+  - - - '29'
+      - Jonny Durand
     - Jonny_Durand.20160108-080706.2231.29.IGC
-  - - Josh Woods
+  - - - '54'
+      - Josh Woods
     - Josh_Woods.20160108-081647.42097.54.IGC
-  - - Justinas Pleikys
+  - - - '35'
+      - Justinas Pleikys
     - Justinas Pleikys.20160107-225928.10515.35.igc
-  - - Len Paton
+  - - - '52'
+      - Len Paton
     - Len_Paton.20160108-082446.6946.52.igc
-  - - Lukas Bader
+  - - - '22'
+      - Lukas Bader
     - Lukas_Bader.20160108-085948.6992.22.igc
-  - - Malcolm Brown
+  - - - '2'
+      - Malcolm Brown
     - Malcolm_Brown.20160108-081358.6999.2.IGC
-  - - Michael Hogan
+  - - - '24'
+      - Michael Hogan
     - null
-  - - Michael Jackson
+  - - - '51'
+      - Michael Jackson
     - Michael_Jackson.20160108-081159.7134.51.igc
-  - - Michael Williams
+  - - - '16'
+      - Michael Williams
     - Michael_Williams.20160108-080334.7141.16.IGC
-  - - Mikhail Karmazin
+  - - - '57'
+      - Mikhail Karmazin
     - Mikhail_Karmazin.20160108-090109.7169.57.IGC
-  - - Neale Halsall
+  - - - '43'
+      - Neale Halsall
     - Neale_Halsall.20160108-082545.32849.43.igc
-  - - Nils Vesk
+  - - - '3'
+      - Nils Vesk
     - Nils_Vesk.20160108-081236.7250.3.IGC
-  - - Olav Lien Olsen
+  - - - '48'
+      - Olav Lien Olsen
     - Olav_Lien_Olsen.20160108-083007.7270.48.igc
-  - - Olav Opsanger
+  - - - '47'
+      - Olav Opsanger
     - Olav_Opsanger.20160108-091142.7271.47.IGC
-  - - Oyvind Ellefsen
+  - - - '49'
+      - Oyvind Ellefsen
     - Oyvind_Ellefsen.20160108-084730.7308.49.IGC
-  - - Peter Adriaans
+  - - - '60'
+      - Peter Adriaans
     - Peter_Adriaans.20160108-075922.46619.60.igc
-  - - Peter Burkitt
+  - - - '9'
+      - Peter Burkitt
     - Peter_Burkitt.20160108-083741.7382.9.igc
-  - - Peter Ebeling
+  - - - '30'
+      - Peter Ebeling
     - Peter_Ebeling.20160108-075653.7388.30.igc
-  - - Phil Schroder
+  - - - '34'
+      - Phil Schroder
     - Phil_Schroder.20160108-080958.7419.34.IGC
-  - - Rod Flockhart
+  - - - '26'
+      - Rod Flockhart
     - Rod_Flockhart.20160108-081440.7537.26.IGC
-  - - Rohan Taylor
+  - - - '4'
+      - Rohan Taylor
     - Rohan_Taylor.20160108-080544.7545.4.igc
-  - - Ryosuke Hattori
+  - - - '12'
+      - Ryosuke Hattori
     - Ryosuke Hattori.20160107-223949.15164.12.igc
-  - - Simon Braithwaite
+  - - - '41'
+      - Simon Braithwaite
     - Simon_Braithwaite.20160108-081112.28188.41.IGC
-  - - Simon West
+  - - - '55'
+      - Simon West
     - Simon West.20160107-212715.31925.55.igc
-  - - Steve Blenkinsop
+  - - - '46'
+      - Steve Blenkinsop
     - Steve_Blenkinsop.20160108-081523.7701.46.IGC
-  - - Steve Hogan
+  - - - '23'
+      - Steve Hogan
     - null
-  - - Stuart Cathcart
+  - - - '53'
+      - Stuart Cathcart
     - null
-  - - Thomas Lindal
+  - - - '50'
+      - Thomas Lindal
     - Thomas_Lindal.20160108-083123.25497.50.igc
-  - - Tony Armstrong
+  - - - '56'
+      - Tony Armstrong
     - Tony_Armstrong.20160108-081725.42096.56.IGC
-  - - Tony Giammichele
+  - - - '59'
+      - Tony Giammichele
     - Tony_Giammichele.20160108-080008.7839.59.IGC
-  - - Trent Brown
+  - - - '33'
+      - Trent Brown
     - Trent_Brown.20160108-082016.7853.33.IGC
-  - - Tullio Gervasoni
+  - - - '17'
+      - Tullio Gervasoni
     - Tullio_Gervasoni.20160108-080746.7865.17.IGC
-  - - Vic Hare
+  - - - '40'
+      - Vic Hare
     - Vic Hare.20160107-221843.24476.40.igc
-  - - Wayne Thompson
+  - - - '11'
+      - Wayne Thompson
     - Wayne_Thompson.20160108-083536.7945.11.IGC
-  - - Yasuhiro Noma
+  - - - '13'
+      - Yasuhiro Noma
     - Yasuhiro Noma.20160107-224331.7971.13.igc
-  - - Yoko Isomoto
+  - - - '18'
+      - Yoko Isomoto
     - Yoko_Isomoto.20160108-080831.12517.18.IGC
-- - - Akiko Suzuki
+- - - - '14'
+      - Akiko Suzuki
     - Akiko Suzuki.20160108-095447.9768.14.igc
-  - - Alexandra Serebrennikova
+  - - - '39'
+      - Alexandra Serebrennikova
     - Alexandra Serebrennikova.20160108-085826.30169.39.igc
-  - - Anatoly Reyter
+  - - - '20'
+      - Anatoly Reyter
     - Anatoly_Reyter.20160109-085739.45431.20.IGC
-  - - Andrew Barnes
+  - - - '37'
+      - Andrew Barnes
     - Andrew_Barnes.20160108-192549.5800.37.IGC
-  - - Bruce Wynne
+  - - - '5'
+      - Bruce Wynne
     - Bruce_Wynne.20160108-213426.5967.5.IGC
-  - - Craig Taylor
+  - - - '62'
+      - Craig Taylor
     - Craig_Taylor.20160108-192356.6075.62.IGC
-  - - Dan Balla
+  - - - '10'
+      - Dan Balla
     - null
-  - - Elia Piccinini
+  - - - '15'
+      - Elia Piccinini
     - null
-  - - Erland Åmot
+  - - - '61'
+      - Erland Åmot
     - Erland__mot.20160109-085634.40430.61.igc
-  - - Federico Martini
+  - - - '19'
+      - Federico Martini
     - Federico Martini.20160108-093541.6279.19.igc
-  - - Franko Chetcuti
+  - - - '27'
+      - Franko Chetcuti
     - Franko_Chetcuti.20160108-193419.28192.27.igc
-  - - Fredy Bircher
+  - - - '1'
+      - Fredy Bircher
     - Fredy Bircher.20160108-093425.6349.1.igc
-  - - Gary Wright
+  - - - '25'
+      - Gary Wright
     - Gary_Wright.20160109-090549.6372.25.IGC
-  - - Gavin Myers
+  - - - '31'
+      - Gavin Myers
     - Gavin_Myers.20160108-191510.18334.31.IGC
-  - - Gerolf Heinrichs
+  - - - '38'
+      - Gerolf Heinrichs
     - Gerolf_Heinrichs.20160109-090833.6405.38.igc
-  - - Gijs Wanders
+  - - - '7'
+      - Gijs Wanders
     - Gijs_Wanders.20160108-192958.13730.7.IGC
-  - - Glen Mcfarlane
+  - - - '28'
+      - Glen Mcfarlane
     - Glen_Mcfarlane.20160108-192511.17641.28.IGC
-  - - Gordon Rigg
+  - - - '8'
+      - Gordon Rigg
     - Gordon_Rigg.20160108-192038.6433.8.IGC
-  - - Guy Hubbard
+  - - - '42'
+      - Guy Hubbard
     - Guy_Hubbard.20160108-201322.6467.42.igc
-  - - Hossain Tefaili
+  - - - '58'
+      - Hossain Tefaili
     - null
-  - - Howard Jones
+  - - - '36'
+      - Howard Jones
     - Howard_Jones.20160108-201745.36821.36.igc
-  - - Jason Kath
+  - - - '6'
+      - Jason Kath
     - Jason Kath.20160108-083622.18332.6.igc
-  - - Jon Durand Snr
+  - - - '32'
+      - Jon Durand Snr
     - Jon_Durand_Snr.20160108-192439.6731.32.IGC
-  - - Jonny Durand
+  - - - '29'
+      - Jonny Durand
     - Jonny_Durand.20160108-192316.2231.29.IGC
-  - - Josh Woods
+  - - - '54'
+      - Josh Woods
     - Josh_Woods.20160108-192238.42097.54.IGC
-  - - Justinas Pleikys
+  - - - '35'
+      - Justinas Pleikys
     - Justinas Pleikys.20160108-081212.10515.35.igc
-  - - Len Paton
+  - - - '52'
+      - Len Paton
     - Len_Paton.20160108-201420.6946.52.igc
-  - - Lukas Bader
+  - - - '22'
+      - Lukas Bader
     - Lukas_Bader.20160109-090211.6992.22.igc
-  - - Malcolm Brown
+  - - - '2'
+      - Malcolm Brown
     - Malcolm_Brown.20160108-193034.6999.2.IGC
-  - - Michael Jackson
+  - - - '51'
+      - Michael Jackson
     - Michael_Jackson.20160108-192111.7134.51.IGC
-  - - Michael Williams
+  - - - '16'
+      - Michael Williams
     - null
-  - - Mikhail Karmazin
+  - - - '57'
+      - Mikhail Karmazin
     - Mikhail_Karmazin.20160109-090035.7169.57.IGC
-  - - Neale Halsall
+  - - - '43'
+      - Neale Halsall
     - Neale_Halsall.20160108-201556.32849.43.igc
-  - - Nils Vesk
+  - - - '3'
+      - Nils Vesk
     - Nils_Vesk.20160108-192818.7250.3.IGC
-  - - Olav Lien Olsen
+  - - - '48'
+      - Olav Lien Olsen
     - Olav_Lien_Olsen.20160108-191845.7270.48.IGC
-  - - Olav Opsanger
+  - - - '47'
+      - Olav Opsanger
     - Olav_Opsanger.20160108-191703.7271.47.IGC
-  - - Oyvind Ellefsen
+  - - - '49'
+      - Oyvind Ellefsen
     - Oyvind_Ellefsen.20160108-191931.7308.49.IGC
-  - - Peter Adriaans
+  - - - '60'
+      - Peter Adriaans
     - Peter_Adriaans.20160108-213607.46619.60.igc
-  - - Peter Burkitt
+  - - - '9'
+      - Peter Burkitt
     - Peter_Burkitt.20160109-090328.7382.9.igc
-  - - Peter Ebeling
+  - - - '30'
+      - Peter Ebeling
     - null
-  - - Phil Schroder
+  - - - '34'
+      - Phil Schroder
     - Phil_Schroder.20160108-201508.7419.34.igc
-  - - Rod Flockhart
+  - - - '26'
+      - Rod Flockhart
     - Rod_Flockhart.20160108-191547.7537.26.IGC
-  - - Rohan Taylor
+  - - - '4'
+      - Rohan Taylor
     - Rohan_Taylor.20160108-191417.7545.4.igc
-  - - Ryosuke Hattori
+  - - - '12'
+      - Ryosuke Hattori
     - Ryosuke Hattori.20160108-095152.15164.12.igc
-  - - Simon Braithwaite
+  - - - '41'
+      - Simon Braithwaite
     - Simon Braithwaite.20160108-083253.28188.41.igc
-  - - Simon West
+  - - - '55'
+      - Simon West
     - Simon West.20160108-095651.31925.55.igc
-  - - Steve Blenkinsop
+  - - - '46'
+      - Steve Blenkinsop
     - Steve_Blenkinsop.20160108-191627.7701.46.IGC
-  - - Steve Hogan
+  - - - '23'
+      - Steve Hogan
     - null
-  - - Stuart Cathcart
+  - - - '53'
+      - Stuart Cathcart
     - Stuart Cathcart.20160108-103854.42094.53.igc
-  - - Thomas Lindal
+  - - - '50'
+      - Thomas Lindal
     - Thomas Lindal.20160108-215531.25497.50.igc
-  - - Tony Armstrong
+  - - - '56'
+      - Tony Armstrong
     - Tony_Armstrong.20160108-192204.42096.56.IGC
-  - - Tony Giammichele
+  - - - '59'
+      - Tony Giammichele
     - Tony Giammichele.20160108-224225.7839.59.igc
-  - - Trent Brown
+  - - - '33'
+      - Trent Brown
     - Trent_Brown.20160108-192630.7853.33.IGC
-  - - Tullio Gervasoni
+  - - - '17'
+      - Tullio Gervasoni
     - Tullio_Gervasoni.20160108-192910.7865.17.IGC
-  - - Vic Hare
+  - - - '40'
+      - Vic Hare
     - Vic Hare.20160108-221822.24476.40.igc
-  - - Wayne Thompson
+  - - - '11'
+      - Wayne Thompson
     - Wayne_Thompson.20160109-090433.7945.11.IGC
-  - - Yasuhiro Noma
+  - - - '13'
+      - Yasuhiro Noma
     - Yasuhiro Noma.20160108-095319.7971.13.igc
-  - - Yoko Isomoto
+  - - - '18'
+      - Yoko Isomoto
     - Yoko Isomoto.20160108-093710.12517.18.igc
-- - - Akiko Suzuki
+- - - - '14'
+      - Akiko Suzuki
     - Akiko Suzuki.20160109-085752.9768.14.igc
-  - - Alexandra Serebrennikova
+  - - - '39'
+      - Alexandra Serebrennikova
     - null
-  - - Anatoly Reyter
+  - - - '20'
+      - Anatoly Reyter
     - null
-  - - Andrew Barnes
+  - - - '37'
+      - Andrew Barnes
     - Andrew_Barnes.20160109-203503.5800.37.IGC
-  - - Bruce Wynne
+  - - - '5'
+      - Bruce Wynne
     - Bruce_Wynne.20160109-192202.5967.5.IGC
-  - - Craig Taylor
+  - - - '62'
+      - Craig Taylor
     - Craig_Taylor.20160109-190618.6075.62.IGC
-  - - Dan Balla
+  - - - '10'
+      - Dan Balla
     - Dan_Balla.20160109-202217.25387.10.igc
-  - - Elia Piccinini
+  - - - '15'
+      - Elia Piccinini
     - Elia Piccinini.20160109-094648.40720.15.igc
-  - - Erland Åmot
+  - - - '61'
+      - Erland Åmot
     - Erland__mot.20160109-203816.40430.61.igc
-  - - Federico Martini
+  - - - '19'
+      - Federico Martini
     - Federico Martini.20160109-082348.6279.19.igc
-  - - Franko Chetcuti
+  - - - '27'
+      - Franko Chetcuti
     - Franko_Chetcuti.20160109-201009.28192.27.igc
-  - - Fredy Bircher
+  - - - '1'
+      - Fredy Bircher
     - Fredy Bircher.20160109-082641.6349.1.igc
-  - - Gary Wright
+  - - - '25'
+      - Gary Wright
     - Gary_Wright.20160109-191836.6372.25.igc
-  - - Gavin Myers
+  - - - '31'
+      - Gavin Myers
     - Gavin_Myers.20160109-192934.18334.31.igc
-  - - Gerolf Heinrichs
+  - - - '38'
+      - Gerolf Heinrichs
     - null
-  - - Gijs Wanders
+  - - - '7'
+      - Gijs Wanders
     - Gijs_Wanders.20160109-202921.13730.7.igc
-  - - Glen Mcfarlane
+  - - - '28'
+      - Glen Mcfarlane
     - Glen Mcfarlane.20160109-074352.17641.28.igc
-  - - Gordon Rigg
+  - - - '8'
+      - Gordon Rigg
     - Gordon_Rigg.20160109-061712.6433.8.IGC
-  - - Guy Hubbard
+  - - - '42'
+      - Guy Hubbard
     - Guy_Hubbard.20160109-195028.6467.42.igc
-  - - Hossain Tefaili
+  - - - '58'
+      - Hossain Tefaili
     - null
-  - - Howard Jones
+  - - - '36'
+      - Howard Jones
     - Howard_Jones.20160109-201703.36821.36.igc
-  - - Jason Kath
+  - - - '6'
+      - Jason Kath
     - Jason_Kath.20160109-191934.18332.6.IGC
-  - - Jon Durand Snr
+  - - - '32'
+      - Jon Durand Snr
     - Jon_Durand_Snr.20160109-203424.6731.32.IGC
-  - - Jonny Durand
+  - - - '29'
+      - Jonny Durand
     - Jonny_Durand.20160109-203259.2231.29.IGC
-  - - Josh Woods
+  - - - '54'
+      - Josh Woods
     - Josh Woods.20160109-075254.42097.54.igc
-  - - Justinas Pleikys
+  - - - '35'
+      - Justinas Pleikys
     - Justinas_Pleikys.20160109-201811.10515.35.igc
-  - - Len Paton
+  - - - '52'
+      - Len Paton
     - Len_Paton.20160109-201528.6946.52.igc
-  - - Lukas Bader
+  - - - '22'
+      - Lukas Bader
     - Lukas_Bader.20160109-193428.6992.22.igc
-  - - Malcolm Brown
+  - - - '2'
+      - Malcolm Brown
     - Malcolm_Brown.20160109-201946.6999.2.IGC
-  - - Michael Hogan
+  - - - '24'
+      - Michael Hogan
     - null
-  - - Michael Jackson
+  - - - '51'
+      - Michael Jackson
     - Michael Jackson.20160109-075303.7134.51.igc
-  - - Michael Williams
+  - - - '16'
+      - Michael Williams
     - Michael_Williams.20160109-203150.7141.16.IGC
-  - - Mikhail Karmazin
+  - - - '57'
+      - Mikhail Karmazin
     - Mikhail_Karmazin.20160109-204439.7169.57.IGC
-  - - Neale Halsall
+  - - - '43'
+      - Neale Halsall
     - Neale_Halsall.20160109-195832.32849.43.igc
-  - - Nils Vesk
+  - - - '3'
+      - Nils Vesk
     - Nils Vesk.20160109-090816.7250.3.igc
-  - - Olav Lien Olsen
+  - - - '48'
+      - Olav Lien Olsen
     - Olav_Lien_Olsen.20160109-194825.7270.48.igc
-  - - Olav Opsanger
+  - - - '47'
+      - Olav Opsanger
     - Olav_Opsanger.20160109-193726.7271.47.IGC
-  - - Oyvind Ellefsen
+  - - - '49'
+      - Oyvind Ellefsen
     - Oyvind_Ellefsen.20160109-193317.7308.49.IGC
-  - - Peter Adriaans
+  - - - '60'
+      - Peter Adriaans
     - Peter_Adriaans.20160109-204032.46619.60.igc
-  - - Peter Burkitt
+  - - - '9'
+      - Peter Burkitt
     - Peter_Burkitt.20160109-190501.7382.9.igc
-  - - Peter Ebeling
+  - - - '30'
+      - Peter Ebeling
     - Peter_Ebeling.20160109-202508.7388.30.igc
-  - - Phil Schroder
+  - - - '34'
+      - Phil Schroder
     - Phil_Schroder.20160109-195927.7419.34.igc
-  - - Rod Flockhart
+  - - - '26'
+      - Rod Flockhart
     - Rod_Flockhart.20160109-202658.7537.26.IGC
-  - - Rohan Taylor
+  - - - '4'
+      - Rohan Taylor
     - Rohan_Taylor.20160109-192112.7545.4.igc
-  - - Ryosuke Hattori
+  - - - '12'
+      - Ryosuke Hattori
     - Ryosuke Hattori.20160109-085750.15164.12.igc
-  - - Simon West
+  - - - '55'
+      - Simon West
     - Simon West.20160109-074543.31925.55.igc
-  - - Steve Blenkinsop
+  - - - '46'
+      - Steve Blenkinsop
     - Steve_Blenkinsop.20160109-202339.7701.46.igc
-  - - Steve Hogan
+  - - - '23'
+      - Steve Hogan
     - null
-  - - Thomas Lindal
+  - - - '50'
+      - Thomas Lindal
     - Thomas_Lindal.20160109-203924.25497.50.igc
-  - - Tony Armstrong
+  - - - '56'
+      - Tony Armstrong
     - Tony Armstrong.20160109-075006.42096.56.igc
-  - - Tony Giammichele
+  - - - '59'
+      - Tony Giammichele
     - Tony_Giammichele.20160109-204111.7839.59.IGC
-  - - Trent Brown
+  - - - '33'
+      - Trent Brown
     - Trent_Brown.20160109-203336.7853.33.IGC
-  - - Tullio Gervasoni
+  - - - '17'
+      - Tullio Gervasoni
     - Tullio Gervasoni.20160109-082402.7865.17.igc
-  - - Vic Hare
+  - - - '40'
+      - Vic Hare
     - Vic Hare.20160109-080829.24476.40.igc
-  - - Wayne Thompson
+  - - - '11'
+      - Wayne Thompson
     - Wayne_Thompson.20160109-203032.7945.11.IGC
-  - - Yasuhiro Noma
+  - - - '13'
+      - Yasuhiro Noma
     - Yasuhiro Noma.20160109-085609.7971.13.igc
-  - - Yoko Isomoto
+  - - - '18'
+      - Yoko Isomoto
     - Yoko Isomoto.20160109-082513.12517.18.igc
