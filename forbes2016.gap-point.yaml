@@ -10,7 +10,7 @@ validityWorking:
     flying: 40
     present: 57
   distance:
-    sum: 0.0 km
+    sum: 158.6 km
     flying: 40
     area: 59.375
     nominalGoal: 0.25
@@ -110,8 +110,8 @@ validityWorking:
 validity:
 - time: 0.55556701
   launch: 0.81909998
-  distance: 0
-  task: 0
+  distance: 6.679235e-2
+  task: 3.039485e-2
 - time: 1
   launch: 1
   distance: 1
@@ -140,13 +140,13 @@ allocation:
     arrival: 1.25e-2
     time: 7.0e-2
   points:
-    reach: 0
-    effort: 0
-    distance: 0
-    leading: 0
-    arrival: 0
-    time: 0
-  taskPoints: 0
+    reach: 13.7
+    effort: 13.7
+    distance: 27.4
+    leading: 0.5
+    arrival: 0.4
+    time: 2.1
+  taskPoints: 30
 - goalRatio: 0.76363636
   weight:
     distance: 0.36606975
@@ -218,317 +218,17 @@ allocation:
     time: 412.6
   taskPoints: 943
 score:
-- - - - '39'
-      - Alexandra Serebrennikova
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T02:39:55Z
-        gs: 2016-01-02T02:50:00Z
-        es: null
-        distance: 21.8 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '37'
-      - Andrew Barnes
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:27:00Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 8.1 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '5'
-      - Bruce Wynne
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:45:15Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 13.7 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '10'
-      - Dan Balla
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: null
-        gs: null
-        es: null
-        distance: 0.5 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '15'
-      - Elia Piccinini
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T02:10:00Z
-        gs: 2016-01-02T02:30:00Z
-        es: null
-        distance: 1.7 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '27'
-      - Franko Chetcuti
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T02:04:21Z
-        gs: 2016-01-02T02:30:00Z
-        es: null
-        distance: 4.2 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '1'
-      - Fredy Bircher
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T02:39:44Z
-        gs: 2016-01-02T02:50:00Z
-        es: null
-        distance: 22.6 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '25'
-      - Gary Wright
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:28:31Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 11.6 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '31'
-      - Gavin Myers
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T02:50:33Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 11.1 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '38'
-      - Gerolf Heinrichs
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:38:00Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 21.6 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '7'
-      - Gijs Wanders
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:26:32Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 7.9 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '28'
-      - Glen Mcfarlane
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:26:30Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 11.8 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '42'
-      - Guy Hubbard
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T02:36:14Z
-        gs: 2016-01-02T02:50:00Z
-        es: null
-        distance: 22.6 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '36'
-      - Howard Jones
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:11:38Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 11.5 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '32'
-      - Jon Durand Snr
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:10:17Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 10.9 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '29'
+- - - - '29'
       - Jonny Durand
     - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
+        reach: 13.7
+        effort: 6.8
+        distance: 20.5
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: '1'
+      total: 21
       velocity:
         ss: 2016-01-02T02:36:02Z
         gs: 2016-01-02T02:50:00Z
@@ -538,57 +238,17 @@ score:
         gsElapsed: null
         ssVelocity: null
         gsVelocity: null
-  - - - '54'
-      - Josh Woods
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:11:01Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 14.8 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '35'
-      - Justinas Pleikys
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: null
-        gs: null
-        es: null
-        distance: 1.7 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
   - - - '52'
       - Len Paton
     - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
+        reach: 8.5
+        effort: 6.3
+        distance: 14.8
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: '2'
+      total: 15
       velocity:
         ss: 2016-01-02T02:35:52Z
         gs: 2016-01-02T02:50:00Z
@@ -598,117 +258,17 @@ score:
         gsElapsed: null
         ssVelocity: null
         gsVelocity: null
-  - - - '2'
-      - Malcolm Brown
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:26:29Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 12.3 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '51'
-      - Michael Jackson
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T02:36:03Z
-        gs: 2016-01-02T02:50:00Z
-        es: null
-        distance: 26.7 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '57'
-      - Mikhail Karmazin
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: null
-        gs: null
-        es: null
-        distance: 1.7 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '43'
-      - Neale Halsall
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:37:38Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 11.9 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '3'
-      - Nils Vesk
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:26:14Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 11.7 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
   - - - '48'
       - Olav Lien Olsen
     - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
+        reach: 6.6
+        effort: 5
+        distance: 11.6
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: '3'
+      total: 12
       velocity:
         ss: 2016-01-02T02:35:21Z
         gs: 2016-01-02T02:50:00Z
@@ -718,82 +278,22 @@ score:
         gsElapsed: null
         ssVelocity: null
         gsVelocity: null
-  - - - '47'
-      - Olav Opsanger
+  - - - '51'
+      - Michael Jackson
     - breakdown:
-        reach: 0
+        reach: 9.6
         effort: 0
-        distance: 0
-        leading: 0
+        distance: 9.6
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: '4'
+      total: 10
       velocity:
-        ss: 2016-01-02T03:17:41Z
-        gs: 2016-01-02T03:10:00Z
+        ss: 2016-01-02T02:36:03Z
+        gs: 2016-01-02T02:50:00Z
         es: null
-        distance: 12.0 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '49'
-      - Oyvind Ellefsen
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:26:13Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 11.9 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '9'
-      - Peter Burkitt
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T03:37:48Z
-        gs: 2016-01-02T03:10:00Z
-        es: null
-        distance: 13.9 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '30'
-      - Peter Ebeling
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: null
-        gs: null
-        es: null
-        distance: 1.6 km
+        distance: 26.7 km
         ssElapsed: null
         gsElapsed: null
         ssVelocity: null
@@ -801,14 +301,14 @@ score:
   - - - '41'
       - Simon Braithwaite
     - breakdown:
-        reach: 0
+        reach: 8.7
         effort: 0
-        distance: 0
-        leading: 0
+        distance: 8.7
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: 5=
+      total: 9
       velocity:
         ss: 2016-01-02T02:36:23Z
         gs: 2016-01-02T02:50:00Z
@@ -818,22 +318,302 @@ score:
         gsElapsed: null
         ssVelocity: null
         gsVelocity: null
-  - - - '55'
-      - Simon West
+  - - - '25'
+      - Gary Wright
     - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
+        reach: 4.2
+        effort: 4
+        distance: 8.2
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: 5=
+      total: 9
       velocity:
-        ss: null
-        gs: null
+        ss: 2016-01-02T03:28:31Z
+        gs: 2016-01-02T03:10:00Z
         es: null
-        distance: 1.8 km
+        distance: 11.6 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '1'
+      - Fredy Bircher
+    - breakdown:
+        reach: 8.2
+        effort: 0
+        distance: 8.2
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 5=
+      total: 9
+      velocity:
+        ss: 2016-01-02T02:39:44Z
+        gs: 2016-01-02T02:50:00Z
+        es: null
+        distance: 22.6 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '42'
+      - Guy Hubbard
+    - breakdown:
+        reach: 8.1
+        effort: 0
+        distance: 8.1
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 5=
+      total: 9
+      velocity:
+        ss: 2016-01-02T02:36:14Z
+        gs: 2016-01-02T02:50:00Z
+        es: null
+        distance: 22.6 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '39'
+      - Alexandra Serebrennikova
+    - breakdown:
+        reach: 7.9
+        effort: 0
+        distance: 7.9
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 6=
+      total: 8
+      velocity:
+        ss: 2016-01-02T02:39:55Z
+        gs: 2016-01-02T02:50:00Z
+        es: null
+        distance: 21.8 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '38'
+      - Gerolf Heinrichs
+    - breakdown:
+        reach: 7.8
+        effort: 0
+        distance: 7.8
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 6=
+      total: 8
+      velocity:
+        ss: 2016-01-02T03:38:00Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 21.6 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '36'
+      - Howard Jones
+    - breakdown:
+        reach: 4.2
+        effort: 3.6
+        distance: 7.8
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 6=
+      total: 8
+      velocity:
+        ss: 2016-01-02T03:11:38Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 11.5 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '54'
+      - Josh Woods
+    - breakdown:
+        reach: 5.3
+        effort: 0
+        distance: 5.3
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 7=
+      total: 6
+      velocity:
+        ss: 2016-01-02T03:11:01Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 14.8 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '9'
+      - Peter Burkitt
+    - breakdown:
+        reach: 5
+        effort: 0
+        distance: 5
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 7=
+      total: 6
+      velocity:
+        ss: 2016-01-02T03:37:48Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 13.9 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '5'
+      - Bruce Wynne
+    - breakdown:
+        reach: 5
+        effort: 0
+        distance: 5
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 8=
+      total: 5
+      velocity:
+        ss: 2016-01-02T03:45:15Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 13.7 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '2'
+      - Malcolm Brown
+    - breakdown:
+        reach: 4.4
+        effort: 0
+        distance: 4.4
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 8=
+      total: 5
+      velocity:
+        ss: 2016-01-02T03:26:29Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 12.3 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '47'
+      - Olav Opsanger
+    - breakdown:
+        reach: 4.3
+        effort: 0
+        distance: 4.3
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 8=
+      total: 5
+      velocity:
+        ss: 2016-01-02T03:17:41Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 12.0 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '43'
+      - Neale Halsall
+    - breakdown:
+        reach: 4.3
+        effort: 0
+        distance: 4.3
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 8=
+      total: 5
+      velocity:
+        ss: 2016-01-02T03:37:38Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 11.9 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '49'
+      - Oyvind Ellefsen
+    - breakdown:
+        reach: 4.3
+        effort: 0
+        distance: 4.3
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 8=
+      total: 5
+      velocity:
+        ss: 2016-01-02T03:26:13Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 11.9 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '28'
+      - Glen Mcfarlane
+    - breakdown:
+        reach: 4.2
+        effort: 0
+        distance: 4.2
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 8=
+      total: 5
+      velocity:
+        ss: 2016-01-02T03:26:30Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 11.8 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '3'
+      - Nils Vesk
+    - breakdown:
+        reach: 4.2
+        effort: 0
+        distance: 4.2
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 8=
+      total: 5
+      velocity:
+        ss: 2016-01-02T03:26:14Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 11.7 km
         ssElapsed: null
         gsElapsed: null
         ssVelocity: null
@@ -841,14 +621,14 @@ score:
   - - - '46'
       - Steve Blenkinsop
     - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
+        reach: 3.4
+        effort: 0.8
+        distance: 4.2
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: 8=
+      total: 5
       velocity:
         ss: 2016-01-02T02:53:43Z
         gs: 2016-01-02T03:10:00Z
@@ -858,102 +638,42 @@ score:
         gsElapsed: null
         ssVelocity: null
         gsVelocity: null
-  - - - '23'
-      - Steve Hogan
+  - - - '31'
+      - Gavin Myers
     - breakdown:
-        reach: 0
+        reach: 4
         effort: 0
-        distance: 0
-        leading: 0
+        distance: 4
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: 8=
+      total: 5
       velocity:
-        ss: null
-        gs: null
-        es: null
-        distance: -307.0 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '50'
-      - Thomas Lindal
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: null
-        gs: null
-        es: null
-        distance: 1.4 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '59'
-      - Tony Giammichele
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: 2016-01-02T02:50:20Z
+        ss: 2016-01-02T02:50:33Z
         gs: 2016-01-02T03:10:00Z
         es: null
-        distance: 3.7 km
+        distance: 11.1 km
         ssElapsed: null
         gsElapsed: null
         ssVelocity: null
         gsVelocity: null
-  - - - '33'
-      - Trent Brown
+  - - - '32'
+      - Jon Durand Snr
     - breakdown:
-        reach: 0
+        reach: 3.9
         effort: 0
-        distance: 0
-        leading: 0
+        distance: 3.9
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: 9=
+      total: 4
       velocity:
-        ss: 2016-01-02T04:16:03Z
+        ss: 2016-01-02T03:10:17Z
         gs: 2016-01-02T03:10:00Z
         es: null
-        distance: 7.7 km
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-  - - - '17'
-      - Tullio Gervasoni
-    - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
-        leading: 0
-        arrival: 0
-        time: 0
-      place: 1=
-      total: 0
-      velocity:
-        ss: null
-        gs: null
-        es: null
-        distance: 2.6 km
+        distance: 10.9 km
         ssElapsed: null
         gsElapsed: null
         ssVelocity: null
@@ -961,14 +681,14 @@ score:
   - - - '40'
       - Vic Hare
     - breakdown:
-        reach: 0
+        reach: 3.8
         effort: 0
-        distance: 0
-        leading: 0
+        distance: 3.8
+        leading: 0.5
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: 9=
+      total: 4
       velocity:
         ss: 2016-01-02T03:11:11Z
         gs: 2016-01-02T03:10:00Z
@@ -978,17 +698,137 @@ score:
         gsElapsed: null
         ssVelocity: null
         gsVelocity: null
-  - - - '11'
-      - Wayne Thompson
+  - - - '37'
+      - Andrew Barnes
     - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
+        reach: 2.9
+        effort: 0.8
+        distance: 3.7
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 9=
+      total: 4
+      velocity:
+        ss: 2016-01-02T03:27:00Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 8.1 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '7'
+      - Gijs Wanders
+    - breakdown:
+        reach: 2.8
+        effort: 0.8
+        distance: 3.7
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 9=
+      total: 4
+      velocity:
+        ss: 2016-01-02T03:26:32Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 7.9 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '33'
+      - Trent Brown
+    - breakdown:
+        reach: 2.8
+        effort: 0.8
+        distance: 3.6
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 9=
+      total: 4
+      velocity:
+        ss: 2016-01-02T04:16:03Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 7.7 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '27'
+      - Franko Chetcuti
+    - breakdown:
+        reach: 1.5
+        effort: 0.8
+        distance: 2.3
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 10=
+      total: 3
+      velocity:
+        ss: 2016-01-02T02:04:21Z
+        gs: 2016-01-02T02:30:00Z
+        es: null
+        distance: 4.2 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '59'
+      - Tony Giammichele
+    - breakdown:
+        reach: 1.3
+        effort: 0.8
+        distance: 2.1
+        leading: 0.5
+        arrival: 0
+        time: 0
+      place: 10=
+      total: 3
+      velocity:
+        ss: 2016-01-02T02:50:20Z
+        gs: 2016-01-02T03:10:00Z
+        es: null
+        distance: 3.7 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '17'
+      - Tullio Gervasoni
+    - breakdown:
+        reach: 0.9
+        effort: 0.8
+        distance: 1.7
         leading: 0
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: 11=
+      total: 2
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        distance: 2.6 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '11'
+      - Wayne Thompson
+    - breakdown:
+        reach: 0.8
+        effort: 0.8
+        distance: 1.6
+        leading: 0
+        arrival: 0
+        time: 0
+      place: 11=
+      total: 2
       velocity:
         ss: null
         gs: null
@@ -1001,19 +841,179 @@ score:
   - - - '18'
       - Yoko Isomoto
     - breakdown:
-        reach: 0
-        effort: 0
-        distance: 0
+        reach: 0.7
+        effort: 0.8
+        distance: 1.5
         leading: 0
         arrival: 0
         time: 0
-      place: 1=
-      total: 0
+      place: 12=
+      total: 1
       velocity:
         ss: null
         gs: null
         es: null
         distance: 1.8 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '55'
+      - Simon West
+    - breakdown:
+        reach: 0.7
+        effort: 0.8
+        distance: 1.5
+        leading: 0
+        arrival: 0
+        time: 0
+      place: 12=
+      total: 1
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        distance: 1.8 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '35'
+      - Justinas Pleikys
+    - breakdown:
+        reach: 0.6
+        effort: 0.8
+        distance: 1.4
+        leading: 0
+        arrival: 0
+        time: 0
+      place: 12=
+      total: 1
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        distance: 1.7 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '57'
+      - Mikhail Karmazin
+    - breakdown:
+        reach: 0.6
+        effort: 0.8
+        distance: 1.4
+        leading: 0
+        arrival: 0
+        time: 0
+      place: 12=
+      total: 1
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        distance: 1.7 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '15'
+      - Elia Piccinini
+    - breakdown:
+        reach: 0.6
+        effort: 0.8
+        distance: 1.4
+        leading: 0
+        arrival: 0
+        time: 0
+      place: 12=
+      total: 1
+      velocity:
+        ss: 2016-01-02T02:10:00Z
+        gs: 2016-01-02T02:30:00Z
+        es: null
+        distance: 1.7 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '30'
+      - Peter Ebeling
+    - breakdown:
+        reach: 0.6
+        effort: 0.8
+        distance: 1.4
+        leading: 0
+        arrival: 0
+        time: 0
+      place: 12=
+      total: 1
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        distance: 1.6 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '50'
+      - Thomas Lindal
+    - breakdown:
+        reach: 0.5
+        effort: 0.8
+        distance: 1.3
+        leading: 0
+        arrival: 0
+        time: 0
+      place: 12=
+      total: 1
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        distance: 1.4 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '10'
+      - Dan Balla
+    - breakdown:
+        reach: 0.2
+        effort: 0.8
+        distance: 1
+        leading: 0
+        arrival: 0
+        time: 0
+      place: 12=
+      total: 1
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        distance: 0.5 km
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+  - - - '23'
+      - Steve Hogan
+    - breakdown:
+        reach: -110.9
+        effort: 0.8
+        distance: -110.1
+        leading: 0
+        arrival: 0
+        time: 0
+      place: '13'
+      total: -110
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        distance: -307.0 km
         ssElapsed: null
         gsElapsed: null
         ssVelocity: null
