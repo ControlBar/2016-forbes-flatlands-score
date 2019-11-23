@@ -1,19 +1,29 @@
 comp:
   compName: 2016 Forbes Flatlands
   discipline: hg
+  earthMath: Haversines
   location: Forbes, Australia
-  from: '2016-01-01'
-  to: '2016-01-08'
+  from: 2016-01-01
+  to: 2016-01-08
   civilId: '10708'
   utcOffset:
     timeZoneMinutes: 660
-  scoreBack: 900.0 s
+  scoreBack: 900.000 s
+  give:
+    giveFraction: 5.0e-3
+    giveDistance: null
+  earth:
+    sphere:
+      radius: 6371000.0 m
 nominal:
   launch: 0.96
   goal: 0.25
   distance: 100.0 km
-  free: 10.0 km
-  time: 1.5 h
+  free: 10.000 km
+  time: 1.500000 h
+compTweak:
+  arrivalWeightScaling: null
+  leadingWeightScaling: null
 tasks:
 - taskName: Missing in action
   zones:
@@ -22,59 +32,77 @@ tasks:
       lat: -33.3608
       lng: 147.932
       radius: 500.0 m
+      giveIn: 497.5 m
+      giveOut: 502.5 m
+      alt: 232.000 m
     - zoneName: FORBE
       lat: -33.3608
       lng: 147.932
       radius: 5000.0 m
+      giveIn: 4975.0 m
+      giveOut: 5025.0 m
+      alt: 232.000 m
     - zoneName: GUNNIN
       lat: -33.29225
       lng: 147.71085
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 217.000 m
     - zoneName: SKULLS
       lat: -32.9536
       lng: 147.55457
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 232.000 m
     - zoneName: BOGAN
       lat: -33.12592
       lng: 147.91043
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 286.000 m
     - zoneName: MIA
       lat: -33.35587
       lng: 147.93356
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 232.000 m
     raceKind:
       prolog:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 500.0 m
       race:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 5000.0 m
       - cylinder:
           center:
-          - -33.29225 deg
-          - 147.71085 deg
+          - -33.29225000 deg
+          - 147.71085000 deg
           radius: 400.0 m
       - cylinder:
           center:
-          - -32.9536 deg
-          - 147.55457 deg
+          - -32.95360000 deg
+          - 147.55457000 deg
           radius: 400.0 m
       - cylinder:
           center:
-          - -33.12592 deg
-          - 147.91043 deg
+          - -33.12592000 deg
+          - 147.91043000 deg
           radius: 400.0 m
       race-ess-is-goal:
         line:
           center:
-          - -33.35587 deg
-          - 147.93356 deg
+          - -33.35587000 deg
+          - 147.93356000 deg
           radius: 400.0 m
     openKind: null
   speedSection:
@@ -97,10 +125,14 @@ tasks:
   - 2016-01-02T02:30:00Z
   - 2016-01-02T02:50:00Z
   - 2016-01-02T03:10:00Z
-  absent:
-  - - '19'
-    - Federico Martini
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: 0
+    leadingWeightScaling: 0
+  earlyStart:
+    earliest: 600 s
+    earlyPenalty: 2 s
+  penals: []
 - taskName: via SUCKS
   zones:
     raw:
@@ -108,41 +140,53 @@ tasks:
       lat: -33.3608
       lng: 147.932
       radius: 500.0 m
+      giveIn: 497.5 m
+      giveOut: 502.5 m
+      alt: 232.000 m
     - zoneName: FORBE
       lat: -33.3608
       lng: 147.932
       radius: 10000.0 m
+      giveIn: 9950.0 m
+      giveOut: 10050.0 m
+      alt: 232.000 m
     - zoneName: SUCK
       lat: -33.4319
       lng: 147.51907
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 210.000 m
     - zoneName: TULLIB
       lat: -33.44872
       lng: 146.72169
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 261.000 m
     raceKind:
       prolog:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 500.0 m
       race:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 10000.0 m
       - cylinder:
           center:
-          - -33.4319 deg
-          - 147.51907 deg
+          - -33.43190000 deg
+          - 147.51907000 deg
           radius: 400.0 m
       race-ess-is-goal:
         circle:
           center:
-          - -33.44872 deg
-          - 146.72169 deg
+          - -33.44872000 deg
+          - 146.72169000 deg
           radius: 400.0 m
     openKind: null
   speedSection:
@@ -158,12 +202,14 @@ tasks:
   - open: 2016-01-03T01:30:00Z
     close: 2016-01-03T09:00:00Z
   startGates: []
-  absent:
-  - - '19'
-    - Federico Martini
-  - - '16'
-    - Michael Williams
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: 0
+    leadingWeightScaling: 0
+  earlyStart:
+    earliest: 600 s
+    earlyPenalty: 2 s
+  penals: []
 - taskName: TTT to goal
   zones:
     raw:
@@ -171,32 +217,41 @@ tasks:
       lat: -33.3608
       lng: 147.932
       radius: 500.0 m
+      giveIn: 497.5 m
+      giveOut: 502.5 m
+      alt: 232.000 m
     - zoneName: FORBE
       lat: -33.3608
       lng: 147.932
       radius: 10000.0 m
+      giveIn: 9950.0 m
+      giveOut: 10050.0 m
+      alt: 232.000 m
     - zoneName: BUDDAB
       lat: -31.94317
       lng: 147.20682
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 188.000 m
     raceKind:
       prolog:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 500.0 m
       race:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 10000.0 m
       race-ess-is-goal:
         circle:
           center:
-          - -31.94317 deg
-          - 147.20682 deg
+          - -31.94317000 deg
+          - 147.20682000 deg
           radius: 400.0 m
     openKind: null
   speedSection:
@@ -210,8 +265,14 @@ tasks:
   - open: 2016-01-06T01:30:00Z
     close: 2016-01-06T09:00:00Z
   startGates: []
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: 0
+    leadingWeightScaling: 0
+  earlyStart:
+    earliest: 600 s
+    earlyPenalty: 2 s
+  penals: []
 - taskName: Where is wallygett
   zones:
     raw:
@@ -219,32 +280,41 @@ tasks:
       lat: -33.3608
       lng: 147.932
       radius: 500.0 m
+      giveIn: 497.5 m
+      giveOut: 502.5 m
+      alt: 232.000 m
     - zoneName: FORBE
       lat: -33.3608
       lng: 147.932
       radius: 10000.0 m
+      giveIn: 9950.0 m
+      giveOut: 10050.0 m
+      alt: 232.000 m
     - zoneName: WALGET
       lat: -30.05018
       lng: 148.1102
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 133.000 m
     raceKind:
       prolog:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 500.0 m
       race:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 10000.0 m
       race-ess-is-goal:
         circle:
           center:
-          - -30.05018 deg
-          - 148.1102 deg
+          - -30.05018000 deg
+          - 148.11020000 deg
           radius: 400.0 m
     openKind: null
   speedSection:
@@ -254,8 +324,14 @@ tasks:
   - open: 2016-01-07T01:00:00Z
     close: 2016-01-07T09:00:00Z
   startGates: []
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: 0
+    leadingWeightScaling: 0
+  earlyStart:
+    earliest: 600 s
+    earlyPenalty: 2 s
+  penals: []
 - taskName: racing? confused
   zones:
     raw:
@@ -263,41 +339,53 @@ tasks:
       lat: -33.3608
       lng: 147.932
       radius: 500.0 m
+      giveIn: 497.5 m
+      giveOut: 502.5 m
+      alt: 232.000 m
     - zoneName: FORBE
       lat: -33.3608
       lng: 147.932
       radius: 10000.0 m
+      giveIn: 9950.0 m
+      giveOut: 10050.0 m
+      alt: 232.000 m
     - zoneName: YEOVAL
       lat: -32.76052
       lng: 148.64958
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 400.000 m
     - zoneName: MOLONG
       lat: -33.11155
       lng: 148.8816
       radius: 200.0 m
+      giveIn: 199.0 m
+      giveOut: 201.0 m
+      alt: 554.000 m
     raceKind:
       prolog:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 500.0 m
       race:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 10000.0 m
       - cylinder:
           center:
-          - -32.76052 deg
-          - 148.64958 deg
+          - -32.76052000 deg
+          - 148.64958000 deg
           radius: 400.0 m
       race-ess-is-goal:
         line:
           center:
-          - -33.11155 deg
-          - 148.8816 deg
+          - -33.11155000 deg
+          - 148.88160000 deg
           radius: 200.0 m
     openKind: null
   speedSection:
@@ -317,10 +405,14 @@ tasks:
   - 2016-01-08T03:30:00Z
   - 2016-01-08T03:45:00Z
   - 2016-01-08T04:00:00Z
-  absent:
-  - - '24'
-    - Michael Hogan
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  earlyStart:
+    earliest: 600 s
+    earlyPenalty: 2 s
+  penals: []
 - taskName: gunning for goal
   zones:
     raw:
@@ -328,59 +420,77 @@ tasks:
       lat: -33.3608
       lng: 147.932
       radius: 500.0 m
+      giveIn: 497.5 m
+      giveOut: 502.5 m
+      alt: 232.000 m
     - zoneName: FORBE
       lat: -33.3608
       lng: 147.932
       radius: 5000.0 m
+      giveIn: 4975.0 m
+      giveOut: 5025.0 m
+      alt: 232.000 m
     - zoneName: GOOLOO
       lat: -33.61847
       lng: 148.40897
       radius: 10000.0 m
+      giveIn: 9950.0 m
+      giveOut: 10050.0 m
+      alt: 273.000 m
     - zoneName: FORRES
       lat: -33.33038
       lng: 148.14815
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 317.000 m
     - zoneName: GUNNIN
       lat: -33.29225
       lng: 147.71085
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 217.000 m
     - zoneName: MIA
       lat: -33.35587
       lng: 147.93356
       radius: 400.0 m
+      giveIn: 398.0 m
+      giveOut: 402.0 m
+      alt: 232.000 m
     raceKind:
       prolog:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 500.0 m
       race:
       - cylinder:
           center:
-          - -33.3608 deg
-          - 147.932 deg
+          - -33.36080000 deg
+          - 147.93200000 deg
           radius: 5000.0 m
       - cylinder:
           center:
-          - -33.61847 deg
-          - 148.40897 deg
+          - -33.61847000 deg
+          - 148.40897000 deg
           radius: 10000.0 m
       - cylinder:
           center:
-          - -33.33038 deg
-          - 148.14815 deg
+          - -33.33038000 deg
+          - 148.14815000 deg
           radius: 400.0 m
       - cylinder:
           center:
-          - -33.29225 deg
-          - 147.71085 deg
+          - -33.29225000 deg
+          - 147.71085000 deg
           radius: 400.0 m
       race-ess-is-goal:
         line:
           center:
-          - -33.35587 deg
-          - 147.93356 deg
+          - -33.35587000 deg
+          - 147.93356000 deg
           radius: 400.0 m
     openKind: null
   speedSection:
@@ -404,12 +514,14 @@ tasks:
   - 2016-01-09T02:45:00Z
   - 2016-01-09T03:00:00Z
   - 2016-01-09T03:15:00Z
-  absent:
-  - - '41'
-    - Simon Braithwaite
-  - - '53'
-    - Stuart Cathcart
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  earlyStart:
+    earliest: 600 s
+    earlyPenalty: 2 s
+  penals: []
 taskFolders:
 - - day 1
 - - day 2
@@ -440,7 +552,7 @@ pilots:
       - Elia Piccinini
     - Elia pi.20160102-062323.[CIVLID].15.igc
   - - - '61'
-      - Erland Åmot
+      - Erland Ôö£├ámot
     - Erland_Amot.20160102-185804.[CIVLID].61.igc
   - - - '27'
       - Franko Chetcuti
@@ -614,7 +726,7 @@ pilots:
       - Elia Piccinini
     - Elia Piccinini.20160103-081209.[CIVLID].15.igc
   - - - '61'
-      - Erland Åmot
+      - Erland Ôö£├ámot
     - Erland_Amot.20160104-083523.[CIVLID].61.igc
   - - - '27'
       - Franko Chetcuti
@@ -785,7 +897,7 @@ pilots:
       - Elia Piccinini
     - Elia Piccinini.20160106-075203.40720.15.igc
   - - - '61'
-      - Erland Åmot
+      - Erland Ôö£├ámot
     - Erland__mot.20160106-211538.40430.61.igc
   - - - '19'
       - Federico Martini
@@ -962,7 +1074,7 @@ pilots:
       - Elia Piccinini
     - Elia Piccinini.20160107-225810.40720.15.igc
   - - - '61'
-      - Erland Åmot
+      - Erland Ôö£├ámot
     - Erland__mot.20160108-083329.40430.61.igc
   - - - '19'
       - Federico Martini
@@ -1139,7 +1251,7 @@ pilots:
       - Elia Piccinini
     - null
   - - - '61'
-      - Erland Åmot
+      - Erland Ôö£├ámot
     - Erland__mot.20160109-085634.40430.61.igc
   - - - '19'
       - Federico Martini
@@ -1313,7 +1425,7 @@ pilots:
       - Elia Piccinini
     - Elia Piccinini.20160109-094648.40720.15.igc
   - - - '61'
-      - Erland Åmot
+      - Erland Ôö£├ámot
     - Erland__mot.20160109-203816.40430.61.igc
   - - - '19'
       - Federico Martini
@@ -1459,3 +1571,529 @@ pilots:
   - - - '18'
       - Yoko Isomoto
     - Yoko Isomoto.20160109-082513.12517.18.igc
+pilotGroups:
+- absent:
+  - - '19'
+    - Federico Martini
+  didFlyNoTracklog:
+  - pilot:
+    - '14'
+    - Akiko Suzuki
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '8'
+    - Gordon Rigg
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '58'
+    - Hossain Tefaili
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '6'
+    - Jason Kath
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '22'
+    - Lukas Bader
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '24'
+    - Michael Hogan
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '16'
+    - Michael Williams
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '60'
+    - Peter Adriaans
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '34'
+    - Phil Schroder
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '26'
+    - Rod Flockhart
+    awardedReach:
+      extra:
+        awardedMade: 11.400000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 9.171138266976663e-2
+      flown:
+        awardedMade: 11.400000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 9.171138266976663e-2
+    awardedVelocity:
+      ss: 2016-01-02T03:00:00Z
+      es: null
+  - pilot:
+    - '4'
+    - Rohan Taylor
+    awardedReach:
+      extra:
+        awardedMade: 11.491000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 9.244346475949897e-2
+      flown:
+        awardedMade: 11.491000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 9.244346475949897e-2
+    awardedVelocity:
+      ss: 2016-01-02T03:00:00Z
+      es: null
+  - pilot:
+    - '12'
+    - Ryosuke Hattori
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '53'
+    - Stuart Cathcart
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '56'
+    - Tony Armstrong
+    awardedReach:
+      extra:
+        awardedMade: 38.830000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0.3123818411462314
+      flown:
+        awardedMade: 38.830000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0.3123818411462314
+    awardedVelocity:
+      ss: 2016-01-02T02:39:55Z
+      es: null
+  - pilot:
+    - '13'
+    - Yasuhiro Noma
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 124.303000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  dnf: []
+- absent:
+  - - '19'
+    - Federico Martini
+  - - '16'
+    - Michael Williams
+  didFlyNoTracklog: []
+  dnf: []
+- absent: []
+  didFlyNoTracklog:
+  - pilot:
+    - '16'
+    - Michael Williams
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 170.728000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 170.728000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '23'
+    - Steve Hogan
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 170.728000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 170.728000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  dnf: []
+- absent: []
+  didFlyNoTracklog:
+  - pilot:
+    - '14'
+    - Akiko Suzuki
+    awardedReach:
+      extra:
+        awardedMade: 121.800000 km
+        awardedTask: 367.606000 km
+        awardedFrac: 0.3313330032698052
+      flown:
+        awardedMade: 121.800000 km
+        awardedTask: 367.606000 km
+        awardedFrac: 0.3313330032698052
+    awardedVelocity:
+      ss: 2016-01-07T02:07:00Z
+      es: null
+  - pilot:
+    - '24'
+    - Michael Hogan
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 367.606000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 367.606000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '23'
+    - Steve Hogan
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 367.606000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 367.606000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '53'
+    - Stuart Cathcart
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 367.606000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 367.606000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  dnf: []
+- absent:
+  - - '24'
+    - Michael Hogan
+  didFlyNoTracklog:
+  - pilot:
+    - '10'
+    - Dan Balla
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '15'
+    - Elia Piccinini
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '58'
+    - Hossain Tefaili
+    awardedReach:
+      extra:
+        awardedMade: 111.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0.8044702454721371
+      flown:
+        awardedMade: 111.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0.8044702454721371
+    awardedVelocity:
+      ss: 2016-01-08T03:15:00Z
+      es: null
+  - pilot:
+    - '16'
+    - Michael Williams
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '30'
+    - Peter Ebeling
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '23'
+    - Steve Hogan
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 137.979000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  dnf: []
+- absent:
+  - - '41'
+    - Simon Braithwaite
+  - - '53'
+    - Stuart Cathcart
+  didFlyNoTracklog:
+  - pilot:
+    - '39'
+    - Alexandra Serebrennikova
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '20'
+    - Anatoly Reyter
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '38'
+    - Gerolf Heinrichs
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '58'
+    - Hossain Tefaili
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '24'
+    - Michael Hogan
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  - pilot:
+    - '23'
+    - Steve Hogan
+    awardedReach:
+      extra:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+      flown:
+        awardedMade: 0.000000 km
+        awardedTask: 134.323000 km
+        awardedFrac: 0
+    awardedVelocity:
+      ss: null
+      es: null
+  dnf: []
