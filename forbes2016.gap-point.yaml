@@ -172,15 +172,15 @@ allocation:
 - goalRatio: 0
   weight:
     effort: 0.45
-    arrival: 1.25e-2
-    time: 8.75e-2
+    arrival: 0
+    time: 0.1
     reach: 0.45
     distance: 0.9
     leading: 0
   points:
     effort: 11.58
-    arrival: 0.3
-    time: 2.3
+    arrival: 0
+    time: 2.6
     reach: 11.58
     distance: 23.16
     leading: 0
@@ -188,15 +188,15 @@ allocation:
 - goalRatio: 0.77192982
   weight:
     effort: 0.18273349
-    arrival: 7.931663e-2
-    time: 0.55521639
+    arrival: 0
+    time: 0.63453301
     reach: 0.18273349
     distance: 0.36546699
     leading: 0
   points:
     effort: 182.733
-    arrival: 79.3
-    time: 555.2
+    arrival: 0
+    time: 634.5
     reach: 182.733
     distance: 365.467
     leading: 0
@@ -204,15 +204,15 @@ allocation:
 - goalRatio: 0.47457627
   weight:
     effort: 0.2164476
-    arrival: 7.08881e-2
-    time: 0.4962167
+    arrival: 0
+    time: 0.5671048
     reach: 0.2164476
     distance: 0.4328952
     leading: 0
   points:
     effort: 216.448
-    arrival: 70.9
-    time: 496.2
+    arrival: 0
+    time: 567.1
     reach: 216.448
     distance: 432.895
     leading: 0
@@ -220,15 +220,15 @@ allocation:
 - goalRatio: 0.44067797
   weight:
     effort: 0.22434813
-    arrival: 6.891297e-2
-    time: 0.48239077
+    arrival: 0
+    time: 0.55130374
     reach: 0.22434813
     distance: 0.44869626
     leading: 0
   points:
     effort: 224.348
-    arrival: 68.9
-    time: 482.4
+    arrival: 0
+    time: 551.3
     reach: 224.348
     distance: 448.696
     leading: 0
@@ -1773,15 +1773,15 @@ score:
 - - - - '29'
       - Jonny Durand
     - place: '1'
-      total: 979
+      total: 1000
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 58.4
-        time: 555.2
+        arrival: 0
+        time: 634.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -1802,15 +1802,15 @@ score:
   - - - '51'
       - Michael Jackson
     - place: '2'
-      total: 881
+      total: 909
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 40.6
-        time: 475.3
+        arrival: 0
+        time: 543.2
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -1828,76 +1828,18 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '38'
-      - Gerolf Heinrichs
-    - place: '3'
-      total: 875
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 68.2
-        time: 440.9
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:20:52.721814920152Z
-        gs: null
-        es: 2016-01-03T04:25:29.50970920244Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.076886 h
-        gsElapsed: 2.076886 h
-        ssVelocity: 49.44 km / h
-        gsVelocity: 49.44 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '1'
-      - Fredy Bircher
-    - place: '4'
-      total: 872
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 50
-        time: 456.1
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:32:45.16690362847Z
-        gs: null
-        es: 2016-01-03T04:35:51.379071756418Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.051726 h
-        gsElapsed: 2.051726 h
-        ssVelocity: 50.05 km / h
-        gsVelocity: 50.05 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '41'
       - Simon Braithwaite
-    - place: '5'
-      total: 857
+    - place: '3'
+      total: 903
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 21.4
-        time: 470.3
+        arrival: 0
+        time: 537.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -1915,18 +1857,76 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '56'
-      - Tony Armstrong
-    - place: '6'
-      total: 810
+  - - - '1'
+      - Fredy Bircher
+    - place: '4'
+      total: 887
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 30.1
-        time: 414.9
+        arrival: 0
+        time: 521.3
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:32:45.16690362847Z
+        gs: null
+        es: 2016-01-03T04:35:51.379071756418Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.051726 h
+        gsElapsed: 2.051726 h
+        ssVelocity: 50.05 km / h
+        gsVelocity: 50.05 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '38'
+      - Gerolf Heinrichs
+    - place: '5'
+      total: 869
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 503.9
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:20:52.721814920152Z
+        gs: null
+        es: 2016-01-03T04:25:29.50970920244Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.076886 h
+        gsElapsed: 2.076886 h
+        ssVelocity: 49.44 km / h
+        gsVelocity: 49.44 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '56'
+      - Tony Armstrong
+    - place: '6'
+      total: 840
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 474.2
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -1947,15 +1947,15 @@ score:
   - - - '31'
       - Gavin Myers
     - place: '7'
-      total: 802
+      total: 832
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 28.7
-        time: 407.8
+        arrival: 0
+        time: 466.1
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -1973,38 +1973,67 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '8'
-      - Gordon Rigg
+  - - - '34'
+      - Phil Schroder
     - place: '8'
-      total: 801
+      total: 812
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 75.4
-        time: 359.7
+        arrival: 0
+        time: 446
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T02:04:03.13751334154Z
+        ss: 2016-01-03T03:27:19.10690052357Z
         gs: null
-        es: 2016-01-03T04:18:19.836375407617Z
+        es: 2016-01-03T05:37:39.731031081935Z
         ssDistance: 102.686 km
-        ssElapsed: 2.237972 h
-        gsElapsed: 2.237972 h
-        ssVelocity: 45.88 km / h
-        gsVelocity: 45.88 km / h
+        ssElapsed: 2.172396 h
+        gsElapsed: 2.172396 h
+        ssVelocity: 47.27 km / h
+        gsVelocity: 47.27 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '42'
-      - Guy Hubbard
+  - - - '46'
+      - Steve Blenkinsop
     - place: '9'
+      total: 805
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 439.1
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T03:03:08.890423122236Z
+        gs: null
+        es: 2016-01-03T05:14:14.565887178646Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.184910 h
+        gsElapsed: 2.184910 h
+        ssVelocity: 47.00 km / h
+        gsVelocity: 47.00 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '22'
+      - Lukas Bader
+    - place: '10'
       total: 800
       jump: null
       penaltiesJump: []
@@ -2012,8 +2041,37 @@ score:
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 61.5
-        time: 372.8
+        arrival: 0
+        time: 434.9
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T03:03:32.75945250518Z
+        gs: null
+        es: 2016-01-03T05:15:06.16094083208Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.192612 h
+        gsElapsed: 2.192612 h
+        ssVelocity: 46.83 km / h
+        gsVelocity: 46.83 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '42'
+      - Guy Hubbard
+    - place: '11'
+      total: 792
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 426
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2033,16 +2091,16 @@ score:
       stoppedAlt: null
   - - - '36'
       - Howard Jones
-    - place: '10'
-      total: 784
+    - place: '12'
+      total: 780
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 55.5
-        time: 362.6
+        arrival: 0
+        time: 414.4
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2060,175 +2118,30 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '46'
-      - Steve Blenkinsop
-    - place: 11=
-      total: 773
+  - - - '8'
+      - Gordon Rigg
+    - place: '13'
+      total: 777
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 23.1
-        time: 384.2
+        arrival: 0
+        time: 411.1
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T03:03:08.890423122236Z
+        ss: 2016-01-03T02:04:03.13751334154Z
         gs: null
-        es: 2016-01-03T05:14:14.565887178646Z
+        es: 2016-01-03T04:18:19.836375407617Z
         ssDistance: 102.686 km
-        ssElapsed: 2.184910 h
-        gsElapsed: 2.184910 h
-        ssVelocity: 47.00 km / h
-        gsVelocity: 47.00 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '34'
-      - Phil Schroder
-    - place: 11=
-      total: 773
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 17
-        time: 390.3
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T03:27:19.10690052357Z
-        gs: null
-        es: 2016-01-03T05:37:39.731031081935Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.172396 h
-        gsElapsed: 2.172396 h
-        ssVelocity: 47.27 km / h
-        gsVelocity: 47.27 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '22'
-      - Lukas Bader
-    - place: 13=
-      total: 768
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 22.2
-        time: 380.6
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T03:03:32.75945250518Z
-        gs: null
-        es: 2016-01-03T05:15:06.16094083208Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.192612 h
-        gsElapsed: 2.192612 h
-        ssVelocity: 46.83 km / h
-        gsVelocity: 46.83 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '2'
-      - Malcolm Brown
-    - place: 13=
-      total: 768
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 71.7
-        time: 330.9
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:04:50.36378570733Z
-        gs: null
-        es: 2016-01-03T04:23:07.916839213824Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.304876 h
-        gsElapsed: 2.304876 h
-        ssVelocity: 44.55 km / h
-        gsVelocity: 44.55 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '26'
-      - Rod Flockhart
-    - place: '15'
-      total: 764
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 79.3
-        time: 318.9
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T01:57:36.976625735693Z
-        gs: null
-        es: 2016-01-03T04:17:39.287580694423Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.333975 h
-        gsElapsed: 2.333975 h
-        ssVelocity: 44.00 km / h
-        gsVelocity: 44.00 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '54'
-      - Josh Woods
-    - place: '16'
-      total: 762
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 52.7
-        time: 344.3
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:17:35.41078103727Z
-        gs: null
-        es: 2016-01-03T04:33:58.489149913528Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.273077 h
-        gsElapsed: 2.273077 h
-        ssVelocity: 45.17 km / h
-        gsVelocity: 45.17 km / h
+        ssElapsed: 2.237972 h
+        gsElapsed: 2.237972 h
+        ssVelocity: 45.88 km / h
+        gsVelocity: 45.88 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
@@ -2236,16 +2149,16 @@ score:
       stoppedAlt: null
   - - - '25'
       - Gary Wright
-    - place: '17'
-      total: 753
+    - place: '14'
+      total: 770
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 33.1
-        time: 354.1
+        arrival: 0
+        time: 404.7
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2265,16 +2178,16 @@ score:
       stoppedAlt: null
   - - - '32'
       - Jon Durand Snr
-    - place: '18'
-      total: 739
+    - place: '15'
+      total: 762
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 26.2
-        time: 347.3
+        arrival: 0
+        time: 397
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2292,59 +2205,30 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '43'
-      - Neale Halsall
-    - place: '19'
-      total: 734
+  - - - '54'
+      - Josh Woods
+    - place: '16'
+      total: 759
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 47.5
-        time: 321.3
+        arrival: 0
+        time: 393.5
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T02:17:05.038620535015Z
+        ss: 2016-01-03T02:17:35.41078103727Z
         gs: null
-        es: 2016-01-03T04:36:45.652401425205Z
+        es: 2016-01-03T04:33:58.489149913528Z
         ssDistance: 102.686 km
-        ssElapsed: 2.327948 h
-        gsElapsed: 2.327948 h
-        ssVelocity: 44.11 km / h
-        gsVelocity: 44.11 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '28'
-      - Glen Mcfarlane
-    - place: '20'
-      total: 733
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 64.8
-        time: 302.6
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:03:30.36361026645Z
-        gs: null
-        es: 2016-01-03T04:25:59.159788753456Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.374666 h
-        gsElapsed: 2.374666 h
-        ssVelocity: 43.24 km / h
-        gsVelocity: 43.24 km / h
+        ssElapsed: 2.273077 h
+        gsElapsed: 2.273077 h
+        ssVelocity: 45.17 km / h
+        gsVelocity: 45.17 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
@@ -2352,16 +2236,16 @@ score:
       stoppedAlt: null
   - - - '6'
       - Jason Kath
-    - place: '21'
-      total: 715
+    - place: '17'
+      total: 745
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.6
-        time: 332.5
+        arrival: 0
+        time: 379.9
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2379,30 +2263,88 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '47'
-      - Olav Opsanger
-    - place: '22'
-      total: 711
+  - - - '2'
+      - Malcolm Brown
+    - place: '18'
+      total: 744
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 38.6
-        time: 306.6
+        arrival: 0
+        time: 378.1
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T02:17:36.002387761175Z
+        ss: 2016-01-03T02:04:50.36378570733Z
         gs: null
-        es: 2016-01-03T04:39:28.358695757488Z
+        es: 2016-01-03T04:23:07.916839213824Z
         ssDistance: 102.686 km
-        ssElapsed: 2.364543 h
-        gsElapsed: 2.364543 h
-        ssVelocity: 43.43 km / h
-        gsVelocity: 43.43 km / h
+        ssElapsed: 2.304876 h
+        gsElapsed: 2.304876 h
+        ssVelocity: 44.55 km / h
+        gsVelocity: 44.55 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '43'
+      - Neale Halsall
+    - place: '19'
+      total: 733
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 367.2
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:17:05.038620535015Z
+        gs: null
+        es: 2016-01-03T04:36:45.652401425205Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.327948 h
+        gsElapsed: 2.327948 h
+        ssVelocity: 44.11 km / h
+        gsVelocity: 44.11 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '26'
+      - Rod Flockhart
+    - place: '20'
+      total: 730
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 364.4
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T01:57:36.976625735693Z
+        gs: null
+        es: 2016-01-03T04:17:39.287580694423Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.333975 h
+        gsElapsed: 2.333975 h
+        ssVelocity: 44.00 km / h
+        gsVelocity: 44.00 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
@@ -2410,16 +2352,16 @@ score:
       stoppedAlt: null
   - - - '7'
       - Gijs Wanders
-    - place: '23'
-      total: 697
+    - place: '21'
+      total: 724
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 18
-        time: 313.5
+        arrival: 0
+        time: 358.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2437,47 +2379,18 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '12'
-      - Ryosuke Hattori
-    - place: '24'
-      total: 693
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 24
-        time: 303.4
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:36:26.626342160095Z
-        gs: null
-        es: 2016-01-03T04:58:48.322897369735Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.372693 h
-        gsElapsed: 2.372693 h
-        ssVelocity: 43.28 km / h
-        gsVelocity: 43.28 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '27'
       - Franko Chetcuti
-    - place: '25'
-      total: 690
+    - place: '22'
+      total: 718
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.8
-        time: 308
+        arrival: 0
+        time: 352
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2495,18 +2408,105 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '55'
-      - Simon West
-    - place: '26'
-      total: 686
+  - - - '47'
+      - Olav Opsanger
+    - place: '23'
+      total: 716
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 20.7
-        time: 300.1
+        arrival: 0
+        time: 350.4
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:17:36.002387761175Z
+        gs: null
+        es: 2016-01-03T04:39:28.358695757488Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.364543 h
+        gsElapsed: 2.364543 h
+        ssVelocity: 43.43 km / h
+        gsVelocity: 43.43 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '12'
+      - Ryosuke Hattori
+    - place: '24'
+      total: 712
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 346.7
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:36:26.626342160095Z
+        gs: null
+        es: 2016-01-03T04:58:48.322897369735Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.372693 h
+        gsElapsed: 2.372693 h
+        ssVelocity: 43.28 km / h
+        gsVelocity: 43.28 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '28'
+      - Glen Mcfarlane
+    - place: '25'
+      total: 711
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 345.8
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:03:30.36361026645Z
+        gs: null
+        es: 2016-01-03T04:25:59.159788753456Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.374666 h
+        gsElapsed: 2.374666 h
+        ssVelocity: 43.24 km / h
+        gsVelocity: 43.24 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '55'
+      - Simon West
+    - place: '26'
+      total: 708
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 343
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2524,47 +2524,18 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '52'
-      - Len Paton
-    - place: '27'
-      total: 673
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 31.6
-        time: 276
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:17:09.48820289573Z
-        gs: null
-        es: 2016-01-03T04:43:47.903728420072Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.444004 h
-        gsElapsed: 2.444004 h
-        ssVelocity: 42.02 km / h
-        gsVelocity: 42.02 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '37'
       - Andrew Barnes
-    - place: '28'
-      total: 667
+    - place: '27'
+      total: 689
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 18.4
-        time: 282.9
+        arrival: 0
+        time: 323.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2584,16 +2555,16 @@ score:
       stoppedAlt: null
   - - - '4'
       - Rohan Taylor
-    - place: '29'
-      total: 661
+    - place: 28=
+      total: 681
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 19.5
-        time: 276.1
+        arrival: 0
+        time: 315.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2611,30 +2582,30 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '39'
-      - Alexandra Serebrennikova
-    - place: '30'
-      total: 655
+  - - - '52'
+      - Len Paton
+    - place: 28=
+      total: 681
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 27.4
-        time: 262
+        arrival: 0
+        time: 315.5
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T02:17:42.79789846648Z
+        ss: 2016-01-03T02:17:09.48820289573Z
         gs: null
-        es: 2016-01-03T04:46:38.146347393646Z
+        es: 2016-01-03T04:43:47.903728420072Z
         ssDistance: 102.686 km
-        ssElapsed: 2.482041 h
-        gsElapsed: 2.482041 h
-        ssVelocity: 41.37 km / h
-        gsVelocity: 41.37 km / h
+        ssElapsed: 2.444004 h
+        gsElapsed: 2.444004 h
+        ssVelocity: 42.02 km / h
+        gsVelocity: 42.02 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
@@ -2642,16 +2613,16 @@ score:
       stoppedAlt: null
   - - - '35'
       - Justinas Pleikys
-    - place: 31=
-      total: 652
+    - place: '30'
+      total: 671
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 18.9
-        time: 267.2
+        arrival: 0
+        time: 305.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2669,47 +2640,18 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '49'
-      - Oyvind Ellefsen
-    - place: 31=
-      total: 652
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 45
-        time: 241
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:04:36.142588071209Z
-        gs: null
-        es: 2016-01-03T04:37:01.903827359546Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.540489 h
-        gsElapsed: 2.540489 h
-        ssVelocity: 40.42 km / h
-        gsVelocity: 40.42 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '40'
       - Vic Hare
-    - place: '33'
-      total: 648
+    - place: 31=
+      total: 665
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 20.1
-        time: 262.4
+        arrival: 0
+        time: 299.9
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2727,18 +2669,47 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '15'
-      - Elia Piccinini
-    - place: '34'
-      total: 640
+  - - - '39'
+      - Alexandra Serebrennikova
+    - place: 31=
+      total: 665
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 17.3
-        time: 257.7
+        arrival: 0
+        time: 299.4
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:17:42.79789846648Z
+        gs: null
+        es: 2016-01-03T04:46:38.146347393646Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.482041 h
+        gsElapsed: 2.482041 h
+        ssVelocity: 41.37 km / h
+        gsVelocity: 41.37 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '15'
+      - Elia Piccinini
+    - place: '33'
+      total: 660
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 294.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2758,16 +2729,16 @@ score:
       stoppedAlt: null
   - - - '62'
       - Craig Taylor
-    - place: '35'
-      total: 636
+    - place: '34'
+      total: 656
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.1
-        time: 254.3
+        arrival: 0
+        time: 290.7
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2785,47 +2756,18 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '17'
-      - Tullio Gervasoni
-    - place: '36'
-      total: 635
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 42.8
-        time: 226.7
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:04:04.03711221128Z
-        gs: null
-        es: 2016-01-03T04:38:57.243986440688Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.581446 h
-        gsElapsed: 2.581446 h
-        ssVelocity: 39.78 km / h
-        gsVelocity: 39.78 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '10'
       - Dan Balla
-    - place: '37'
-      total: 633
+    - place: '35'
+      total: 653
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 15.9
-        time: 251.5
+        arrival: 0
+        time: 287.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2843,18 +2785,76 @@ score:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '48'
-      - Olav Lien Olsen
-    - place: '38'
-      total: 627
+  - - - '49'
+      - Oyvind Ellefsen
+    - place: '36'
+      total: 641
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 36.7
-        time: 225.1
+        arrival: 0
+        time: 275.4
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:04:36.142588071209Z
+        gs: null
+        es: 2016-01-03T04:37:01.903827359546Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.540489 h
+        gsElapsed: 2.540489 h
+        ssVelocity: 40.42 km / h
+        gsVelocity: 40.42 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '17'
+      - Tullio Gervasoni
+    - place: '37'
+      total: 625
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 259.1
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:04:04.03711221128Z
+        gs: null
+        es: 2016-01-03T04:38:57.243986440688Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.581446 h
+        gsElapsed: 2.581446 h
+        ssVelocity: 39.78 km / h
+        gsVelocity: 39.78 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '48'
+      - Olav Lien Olsen
+    - place: '38'
+      total: 623
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 257.2
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2875,15 +2875,15 @@ score:
   - - - '3'
       - Nils Vesk
     - place: '39'
-      total: 616
+      total: 612
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 34.8
-        time: 215.6
+        arrival: 0
+        time: 246.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2904,15 +2904,15 @@ score:
   - - - '61'
       - Erland Åmot
     - place: '40'
-      total: 585
+      total: 596
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 17.7
-        time: 201.9
+        arrival: 0
+        time: 230.8
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2933,15 +2933,15 @@ score:
   - - - '57'
       - Mikhail Karmazin
     - place: '41'
-      total: 562
+      total: 572
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.4
-        time: 180.5
+        arrival: 0
+        time: 206.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2962,15 +2962,15 @@ score:
   - - - '50'
       - Thomas Lindal
     - place: '42'
-      total: 517
+      total: 510
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 25.1
-        time: 126.3
+        arrival: 0
+        time: 144.4
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -2991,15 +2991,15 @@ score:
   - - - '11'
       - Wayne Thompson
     - place: '43'
-      total: 500
+      total: 501
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16
-        time: 118.3
+        arrival: 0
+        time: 135.2
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -3020,15 +3020,15 @@ score:
   - - - '14'
       - Akiko Suzuki
     - place: '44'
-      total: 484
+      total: 482
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.3
-        time: 102.3
+        arrival: 0
+        time: 117
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -3426,15 +3426,15 @@ score:
 - - - - '47'
       - Olav Opsanger
     - place: '1'
-      total: 985
+      total: 1000
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 55.8
-        time: 496.2
+        arrival: 0
+        time: 567.1
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3455,15 +3455,15 @@ score:
   - - - '29'
       - Jonny Durand
     - place: '2'
-      total: 946
+      total: 950
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 60.5
-        time: 452.1
+        arrival: 0
+        time: 516.7
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3484,15 +3484,15 @@ score:
   - - - '28'
       - Glen Mcfarlane
     - place: '3'
-      total: 917
+      total: 912
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 65.5
-        time: 418.9
+        arrival: 0
+        time: 478.8
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3513,15 +3513,15 @@ score:
   - - - '51'
       - Michael Jackson
     - place: '4'
-      total: 863
+      total: 891
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 29.2
-        time: 400.4
+        arrival: 0
+        time: 457.6
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3542,15 +3542,15 @@ score:
   - - - '22'
       - Lukas Bader
     - place: '5'
-      total: 851
+      total: 852
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 51.5
-        time: 366.5
+        arrival: 0
+        time: 418.8
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3568,134 +3568,18 @@ score:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '40'
-      - Vic Hare
-    - place: '6'
-      total: 827
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 47.4
-        time: 346.5
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:23:45.958735045209Z
-        gs: null
-        es: 2016-01-06T04:57:28.044418178233Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.561690 h
-        gsElapsed: 2.561690 h
-        ssVelocity: 62.94 km / h
-        gsVelocity: 62.94 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
-  - - - '32'
-      - Jon Durand Snr
-    - place: '7'
-      total: 825
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 70.9
-        time: 321
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:04:33.57401246349Z
-        gs: null
-        es: 2016-01-06T04:42:17.48330459078Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.628864 h
-        gsElapsed: 2.628864 h
-        ssVelocity: 61.33 km / h
-        gsVelocity: 61.33 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
-  - - - '54'
-      - Josh Woods
-    - place: '8'
-      total: 817
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 40.3
-        time: 343.6
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:23:32.13601447414Z
-        gs: null
-        es: 2016-01-06T04:57:40.642993953883Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.569030 h
-        gsElapsed: 2.569030 h
-        ssVelocity: 62.76 km / h
-        gsVelocity: 62.76 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
-  - - - '37'
-      - Andrew Barnes
-    - place: '9'
-      total: 814
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 37.1
-        time: 344.2
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:23:51.024864299595Z
-        gs: null
-        es: 2016-01-06T04:57:53.84782169735Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.567451 h
-        gsElapsed: 2.567451 h
-        ssVelocity: 62.80 km / h
-        gsVelocity: 62.80 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
   - - - '13'
       - Yasuhiro Noma
-    - place: '10'
-      total: 808
+    - place: '6'
+      total: 842
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 16.7
-        time: 358
+        arrival: 0
+        time: 409.2
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3715,16 +3599,16 @@ score:
       stoppedAlt: null
   - - - '33'
       - Trent Brown
-    - place: '11'
-      total: 804
+    - place: '7'
+      total: 831
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 23.4
-        time: 348.2
+        arrival: 0
+        time: 397.9
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3742,18 +3626,105 @@ score:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '41'
-      - Simon Braithwaite
-    - place: '12'
-      total: 801
+  - - - '40'
+      - Vic Hare
+    - place: '8'
+      total: 829
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 31.6
-        time: 336.9
+        arrival: 0
+        time: 396
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:23:45.958735045209Z
+        gs: null
+        es: 2016-01-06T04:57:28.044418178233Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.561690 h
+        gsElapsed: 2.561690 h
+        ssVelocity: 62.94 km / h
+        gsVelocity: 62.94 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '37'
+      - Andrew Barnes
+    - place: 9=
+      total: 826
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 393.4
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:23:51.024864299595Z
+        gs: null
+        es: 2016-01-06T04:57:53.84782169735Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.567451 h
+        gsElapsed: 2.567451 h
+        ssVelocity: 62.80 km / h
+        gsVelocity: 62.80 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '54'
+      - Josh Woods
+    - place: 9=
+      total: 826
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 392.7
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:23:32.13601447414Z
+        gs: null
+        es: 2016-01-06T04:57:40.642993953883Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.569030 h
+        gsElapsed: 2.569030 h
+        ssVelocity: 62.76 km / h
+        gsVelocity: 62.76 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '41'
+      - Simon Braithwaite
+    - place: '11'
+      total: 818
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 385
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3773,16 +3744,16 @@ score:
       stoppedAlt: null
   - - - '56'
       - Tony Armstrong
-    - place: '13'
-      total: 794
+    - place: '12'
+      total: 806
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 34.2
-        time: 326.7
+        arrival: 0
+        time: 373.3
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3802,16 +3773,16 @@ score:
       stoppedAlt: null
   - - - '2'
       - Malcolm Brown
-    - place: '14'
-      total: 779
+    - place: 13=
+      total: 800
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 25.1
-        time: 321.3
+        arrival: 0
+        time: 367.2
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3829,30 +3800,30 @@ score:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '6'
-      - Jason Kath
-    - place: '15'
-      total: 769
+  - - - '32'
+      - Jon Durand Snr
+    - place: 13=
+      total: 800
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 43.7
-        time: 292.3
+        arrival: 0
+        time: 366.8
         reach: 216.448
         distance: 432.895
         leading: 0
       velocity:
-        ss: 2016-01-06T02:14:59.243621938154Z
+        ss: 2016-01-06T02:04:33.57401246349Z
         gs: null
-        es: 2016-01-06T04:57:35.834063005202Z
+        es: 2016-01-06T04:42:17.48330459078Z
         ssDistance: 161.231 km
-        ssElapsed: 2.710164 h
-        gsElapsed: 2.710164 h
-        ssVelocity: 59.49 km / h
-        gsVelocity: 59.49 km / h
+        ssElapsed: 2.628864 h
+        gsElapsed: 2.628864 h
+        ssVelocity: 61.33 km / h
+        gsVelocity: 61.33 km / h
       reach:
         extra: 170.731 km
         flown: 170.731 km
@@ -3860,16 +3831,16 @@ score:
       stoppedAlt: null
   - - - '1'
       - Fredy Bircher
-    - place: '16'
-      total: 757
+    - place: '15'
+      total: 783
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 17.5
-        time: 306.2
+        arrival: 0
+        time: 349.9
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3889,16 +3860,16 @@ score:
       stoppedAlt: null
   - - - '9'
       - Peter Burkitt
-    - place: '17'
-      total: 752
+    - place: '16'
+      total: 780
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 15.6
-        time: 303.6
+        arrival: 0
+        time: 347
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3916,47 +3887,18 @@ score:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '39'
-      - Alexandra Serebrennikova
-    - place: 18=
-      total: 745
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 21.9
-        time: 290.2
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:28:12.290092081488Z
-        gs: null
-        es: 2016-01-06T05:11:11.411773789181Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.716423 h
-        gsElapsed: 2.716423 h
-        ssVelocity: 59.35 km / h
-        gsVelocity: 59.35 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
   - - - '35'
       - Justinas Pleikys
-    - place: 18=
-      total: 745
+    - place: '17'
+      total: 772
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 15.2
-        time: 296.4
+        arrival: 0
+        time: 338.8
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -3974,18 +3916,76 @@ score:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '52'
-      - Len Paton
-    - place: '20'
-      total: 738
+  - - - '6'
+      - Jason Kath
+    - place: '18'
+      total: 767
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 20.5
-        time: 284.8
+        arrival: 0
+        time: 334.1
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:14:59.243621938154Z
+        gs: null
+        es: 2016-01-06T04:57:35.834063005202Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.710164 h
+        gsElapsed: 2.710164 h
+        ssVelocity: 59.49 km / h
+        gsVelocity: 59.49 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '39'
+      - Alexandra Serebrennikova
+    - place: '19'
+      total: 765
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 331.7
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:28:12.290092081488Z
+        gs: null
+        es: 2016-01-06T05:11:11.411773789181Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.716423 h
+        gsElapsed: 2.716423 h
+        ssVelocity: 59.35 km / h
+        gsVelocity: 59.35 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '52'
+      - Len Paton
+    - place: '20'
+      total: 758
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 325.4
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -4006,15 +4006,15 @@ score:
   - - - '7'
       - Gijs Wanders
     - place: '21'
-      total: 730
+      total: 750
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 19.4
-        time: 277.4
+        arrival: 0
+        time: 317
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -4035,15 +4035,15 @@ score:
   - - - '36'
       - Howard Jones
     - place: '22'
-      total: 693
+      total: 699
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 27.1
-        time: 233
+        arrival: 0
+        time: 266.3
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -4064,15 +4064,15 @@ score:
   - - - '57'
       - Mikhail Karmazin
     - place: '23'
-      total: 653
+      total: 668
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 14.6
-        time: 205.3
+        arrival: 0
+        time: 234.7
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -4093,15 +4093,15 @@ score:
   - - - '14'
       - Akiko Suzuki
     - place: '24'
-      total: 636
+      total: 648
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 14.9
-        time: 188.5
+        arrival: 0
+        time: 215.5
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -4122,15 +4122,15 @@ score:
   - - - '12'
       - Ryosuke Hattori
     - place: '25'
-      total: 632
+      total: 642
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 16.1
-        time: 182.6
+        arrival: 0
+        time: 208.7
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -4151,15 +4151,15 @@ score:
   - - - '55'
       - Simon West
     - place: '26'
-      total: 631
+      total: 639
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 18.3
-        time: 180.1
+        arrival: 0
+        time: 205.9
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -4180,15 +4180,15 @@ score:
   - - - '60'
       - Peter Adriaans
     - place: '27'
-      total: 615
+      total: 625
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 14.4
-        time: 167.7
+        arrival: 0
+        time: 191.7
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -4209,15 +4209,15 @@ score:
   - - - '3'
       - Nils Vesk
     - place: '28'
-      total: 562
+      total: 564
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 14.3
-        time: 114.9
+        arrival: 0
+        time: 131.3
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -5092,15 +5092,15 @@ score:
 - - - - '29'
       - Jonny Durand
     - place: '1'
-      total: 994
+      total: 1000
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 63.3
-        time: 482.4
+        arrival: 0
+        time: 551.3
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5121,15 +5121,15 @@ score:
   - - - '4'
       - Rohan Taylor
     - place: '2'
-      total: 932
+      total: 934
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 58.1
-        time: 425
+        arrival: 0
+        time: 485.8
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5150,15 +5150,15 @@ score:
   - - - '51'
       - Michael Jackson
     - place: '3'
-      total: 919
+      total: 926
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 53.2
-        time: 417.4
+        arrival: 0
+        time: 477
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5179,15 +5179,15 @@ score:
   - - - '52'
       - Len Paton
     - place: '4'
-      total: 909
+      total: 896
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 68.9
-        time: 391
+        arrival: 0
+        time: 446.8
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5208,15 +5208,15 @@ score:
   - - - '28'
       - Glen Mcfarlane
     - place: '5'
-      total: 878
+      total: 884
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 48.8
-        time: 380.7
+        arrival: 0
+        time: 435.1
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5234,18 +5234,47 @@ score:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '41'
-      - Simon Braithwaite
-    - place: 6=
-      total: 868
+  - - - '34'
+      - Phil Schroder
+    - place: '6'
+      total: 883
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 40.9
-        time: 378.8
+        arrival: 0
+        time: 434.3
+        reach: 224.348
+        distance: 448.696
+        leading: 0
+      velocity:
+        ss: 2016-01-07T02:10:10.5124535614Z
+        gs: null
+        es: 2016-01-07T08:05:43.134295071807Z
+        ssDistance: 358.110 km
+        ssElapsed: 5.925728 h
+        gsElapsed: 5.925728 h
+        ssVelocity: 60.43 km / h
+        gsVelocity: 60.43 km / h
+      reach:
+        extra: 367.610 km
+        flown: 367.610 km
+      landedMade: 367.610 km
+      stoppedAlt: null
+  - - - '41'
+      - Simon Braithwaite
+    - place: '7'
+      total: 882
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 224.348
+        arrival: 0
+        time: 432.9
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5265,16 +5294,16 @@ score:
       stoppedAlt: null
   - - - '56'
       - Tony Armstrong
-    - place: 6=
-      total: 868
+    - place: '8'
+      total: 877
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 44.7
-        time: 374.6
+        arrival: 0
+        time: 428.1
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5292,76 +5321,18 @@ score:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '34'
-      - Phil Schroder
-    - place: '8'
-      total: 866
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 224.348
-        arrival: 37.5
-        time: 380
-        reach: 224.348
-        distance: 448.696
-        leading: 0
-      velocity:
-        ss: 2016-01-07T02:10:10.5124535614Z
-        gs: null
-        es: 2016-01-07T08:05:43.134295071807Z
-        ssDistance: 358.110 km
-        ssElapsed: 5.925728 h
-        gsElapsed: 5.925728 h
-        ssVelocity: 60.43 km / h
-        gsVelocity: 60.43 km / h
-      reach:
-        extra: 367.610 km
-        flown: 367.610 km
-      landedMade: 367.610 km
-      stoppedAlt: null
-  - - - '38'
-      - Gerolf Heinrichs
-    - place: '9'
-      total: 851
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 224.348
-        arrival: 34.3
-        time: 368.4
-        reach: 224.348
-        distance: 448.696
-        leading: 0
-      velocity:
-        ss: 2016-01-07T02:08:10.157666944252Z
-        gs: null
-        es: 2016-01-07T08:06:09.778170030826Z
-        ssDistance: 358.110 km
-        ssElapsed: 5.966561 h
-        gsElapsed: 5.966561 h
-        ssVelocity: 60.02 km / h
-        gsVelocity: 60.02 km / h
-      reach:
-        extra: 367.610 km
-        flown: 367.610 km
-      landedMade: 367.610 km
-      stoppedAlt: null
   - - - '13'
       - Yasuhiro Noma
-    - place: '10'
-      total: 833
+    - place: '9'
+      total: 872
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 13.9
-        time: 370.1
+        arrival: 0
+        time: 423
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5379,18 +5350,47 @@ score:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '17'
-      - Tullio Gervasoni
-    - place: '11'
-      total: 830
+  - - - '38'
+      - Gerolf Heinrichs
+    - place: '10'
+      total: 870
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 26.6
-        time: 354.4
+        arrival: 0
+        time: 421
+        reach: 224.348
+        distance: 448.696
+        leading: 0
+      velocity:
+        ss: 2016-01-07T02:08:10.157666944252Z
+        gs: null
+        es: 2016-01-07T08:06:09.778170030826Z
+        ssDistance: 358.110 km
+        ssElapsed: 5.966561 h
+        gsElapsed: 5.966561 h
+        ssVelocity: 60.02 km / h
+        gsVelocity: 60.02 km / h
+      reach:
+        extra: 367.610 km
+        flown: 367.610 km
+      landedMade: 367.610 km
+      stoppedAlt: null
+  - - - '17'
+      - Tullio Gervasoni
+    - place: '11'
+      total: 854
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 224.348
+        arrival: 0
+        time: 405.1
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5411,15 +5411,15 @@ score:
   - - - '22'
       - Lukas Bader
     - place: '12'
-      total: 829
+      total: 848
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 31.5
-        time: 349.2
+        arrival: 0
+        time: 399.1
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5440,15 +5440,15 @@ score:
   - - - '6'
       - Jason Kath
     - place: '13'
-      total: 817
+      total: 846
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 21.2
-        time: 347.6
+        arrival: 0
+        time: 397.2
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5469,15 +5469,15 @@ score:
   - - - '57'
       - Mikhail Karmazin
     - place: '14'
-      total: 811
+      total: 837
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 22.7
-        time: 339.7
+        arrival: 0
+        time: 388.2
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5495,47 +5495,18 @@ score:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '8'
-      - Gordon Rigg
-    - place: '15'
-      total: 802
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 224.348
-        arrival: 19.8
-        time: 333
-        reach: 224.348
-        distance: 448.696
-        leading: 0
-      velocity:
-        ss: 2016-01-07T02:09:52.76685440047Z
-        gs: null
-        es: 2016-01-07T08:16:05.21265542291Z
-        ssDistance: 358.110 km
-        ssElapsed: 6.103457 h
-        gsElapsed: 6.103457 h
-        ssVelocity: 58.67 km / h
-        gsVelocity: 58.67 km / h
-      reach:
-        extra: 367.610 km
-        flown: 367.610 km
-      landedMade: 367.610 km
-      stoppedAlt: null
   - - - '31'
       - Gavin Myers
-    - place: '16'
-      total: 801
+    - place: '15'
+      total: 830
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 18.6
-        time: 333.6
+        arrival: 0
+        time: 381.3
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5553,18 +5524,47 @@ score:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '3'
-      - Nils Vesk
-    - place: '17'
-      total: 771
+  - - - '8'
+      - Gordon Rigg
+    - place: '16'
+      total: 829
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 17.5
-        time: 304.8
+        arrival: 0
+        time: 380.6
+        reach: 224.348
+        distance: 448.696
+        leading: 0
+      velocity:
+        ss: 2016-01-07T02:09:52.76685440047Z
+        gs: null
+        es: 2016-01-07T08:16:05.21265542291Z
+        ssDistance: 358.110 km
+        ssElapsed: 6.103457 h
+        gsElapsed: 6.103457 h
+        ssVelocity: 58.67 km / h
+        gsVelocity: 58.67 km / h
+      reach:
+        extra: 367.610 km
+        flown: 367.610 km
+      landedMade: 367.610 km
+      stoppedAlt: null
+  - - - '3'
+      - Nils Vesk
+    - place: '17'
+      total: 797
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 224.348
+        arrival: 0
+        time: 348.3
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5585,15 +5585,15 @@ score:
   - - - '46'
       - Steve Blenkinsop
     - place: '18'
-      total: 761
+      total: 789
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 14.3
-        time: 297.6
+        arrival: 0
+        time: 340.2
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5611,47 +5611,18 @@ score:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '1'
-      - Fredy Bircher
-    - place: '19'
-      total: 743
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 224.348
-        arrival: 28.9
-        time: 265.5
-        reach: 224.348
-        distance: 448.696
-        leading: 0
-      velocity:
-        ss: 2016-01-07T01:45:24.10530587079Z
-        gs: null
-        es: 2016-01-07T08:10:06.365188725208Z
-        ssDistance: 358.110 km
-        ssElapsed: 6.411739 h
-        gsElapsed: 6.411739 h
-        ssVelocity: 55.85 km / h
-        gsVelocity: 55.85 km / h
-      reach:
-        extra: 367.610 km
-        flown: 367.610 km
-      landedMade: 367.610 km
-      stoppedAlt: null
   - - - '54'
       - Josh Woods
-    - place: '20'
-      total: 738
+    - place: '19'
+      total: 762
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 15.4
-        time: 274.4
+        arrival: 0
+        time: 313.6
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5671,16 +5642,16 @@ score:
       stoppedAlt: null
   - - - '26'
       - Rod Flockhart
-    - place: '21'
-      total: 737
+    - place: '20'
+      total: 761
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 14.9
-        time: 273.4
+        arrival: 0
+        time: 312.5
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5700,16 +5671,16 @@ score:
       stoppedAlt: null
   - - - '42'
       - Guy Hubbard
-    - place: '22'
-      total: 735
+    - place: '21'
+      total: 758
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 16
-        time: 270.8
+        arrival: 0
+        time: 309.5
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5727,18 +5698,47 @@ score:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '2'
-      - Malcolm Brown
-    - place: '23'
-      total: 711
+  - - - '1'
+      - Fredy Bircher
+    - place: '22'
+      total: 752
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 14.5
-        time: 247.3
+        arrival: 0
+        time: 303.4
+        reach: 224.348
+        distance: 448.696
+        leading: 0
+      velocity:
+        ss: 2016-01-07T01:45:24.10530587079Z
+        gs: null
+        es: 2016-01-07T08:10:06.365188725208Z
+        ssDistance: 358.110 km
+        ssElapsed: 6.411739 h
+        gsElapsed: 6.411739 h
+        ssVelocity: 55.85 km / h
+        gsVelocity: 55.85 km / h
+      reach:
+        extra: 367.610 km
+        flown: 367.610 km
+      landedMade: 367.610 km
+      stoppedAlt: null
+  - - - '2'
+      - Malcolm Brown
+    - place: '23'
+      total: 731
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 224.348
+        arrival: 0
+        time: 282.7
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5759,15 +5759,15 @@ score:
   - - - '36'
       - Howard Jones
     - place: '24'
-      total: 695
+      total: 714
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 14.1
-        time: 232.3
+        arrival: 0
+        time: 265.5
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5788,15 +5788,15 @@ score:
   - - - '18'
       - Yoko Isomoto
     - place: '25'
-      total: 691
+      total: 697
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 24.6
-        time: 217.7
+        arrival: 0
+        time: 248.8
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -5817,15 +5817,15 @@ score:
   - - - '35'
       - Justinas Pleikys
     - place: '26'
-      total: 647
+      total: 656
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 16.7
-        time: 181.5
+        arrival: 0
+        time: 207.4
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -11142,15 +11142,15 @@ scoreDf:
 - - - - '29'
       - Jonny Durand
     - place: '1'
-      total: 979
+      total: 1000
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 58.4
-        time: 555.2
+        arrival: 0
+        time: 634.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11171,15 +11171,15 @@ scoreDf:
   - - - '51'
       - Michael Jackson
     - place: '2'
-      total: 881
+      total: 909
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 40.6
-        time: 475.3
+        arrival: 0
+        time: 543.2
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11197,76 +11197,18 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '38'
-      - Gerolf Heinrichs
-    - place: '3'
-      total: 875
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 68.2
-        time: 440.9
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:20:52.721814920152Z
-        gs: null
-        es: 2016-01-03T04:25:29.50970920244Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.076886 h
-        gsElapsed: 2.076886 h
-        ssVelocity: 49.44 km / h
-        gsVelocity: 49.44 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '1'
-      - Fredy Bircher
-    - place: '4'
-      total: 872
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 50
-        time: 456.1
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:32:45.16690362847Z
-        gs: null
-        es: 2016-01-03T04:35:51.379071756418Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.051726 h
-        gsElapsed: 2.051726 h
-        ssVelocity: 50.05 km / h
-        gsVelocity: 50.05 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '41'
       - Simon Braithwaite
-    - place: '5'
-      total: 857
+    - place: '3'
+      total: 903
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 21.4
-        time: 470.3
+        arrival: 0
+        time: 537.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11284,18 +11226,76 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '56'
-      - Tony Armstrong
-    - place: '6'
-      total: 810
+  - - - '1'
+      - Fredy Bircher
+    - place: '4'
+      total: 887
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 30.1
-        time: 414.9
+        arrival: 0
+        time: 521.3
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:32:45.16690362847Z
+        gs: null
+        es: 2016-01-03T04:35:51.379071756418Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.051726 h
+        gsElapsed: 2.051726 h
+        ssVelocity: 50.05 km / h
+        gsVelocity: 50.05 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '38'
+      - Gerolf Heinrichs
+    - place: '5'
+      total: 869
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 503.9
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:20:52.721814920152Z
+        gs: null
+        es: 2016-01-03T04:25:29.50970920244Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.076886 h
+        gsElapsed: 2.076886 h
+        ssVelocity: 49.44 km / h
+        gsVelocity: 49.44 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '56'
+      - Tony Armstrong
+    - place: '6'
+      total: 840
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 474.2
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11316,15 +11316,15 @@ scoreDf:
   - - - '31'
       - Gavin Myers
     - place: '7'
-      total: 802
+      total: 832
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 28.7
-        time: 407.8
+        arrival: 0
+        time: 466.1
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11342,38 +11342,67 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '8'
-      - Gordon Rigg
+  - - - '34'
+      - Phil Schroder
     - place: '8'
-      total: 801
+      total: 812
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 75.4
-        time: 359.7
+        arrival: 0
+        time: 446
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T02:04:03.13751334154Z
+        ss: 2016-01-03T03:27:19.10690052357Z
         gs: null
-        es: 2016-01-03T04:18:19.836375407617Z
+        es: 2016-01-03T05:37:39.731031081935Z
         ssDistance: 102.686 km
-        ssElapsed: 2.237972 h
-        gsElapsed: 2.237972 h
-        ssVelocity: 45.88 km / h
-        gsVelocity: 45.88 km / h
+        ssElapsed: 2.172396 h
+        gsElapsed: 2.172396 h
+        ssVelocity: 47.27 km / h
+        gsVelocity: 47.27 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '42'
-      - Guy Hubbard
+  - - - '46'
+      - Steve Blenkinsop
     - place: '9'
+      total: 805
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 439.1
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T03:03:08.890423122236Z
+        gs: null
+        es: 2016-01-03T05:14:14.565887178646Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.184910 h
+        gsElapsed: 2.184910 h
+        ssVelocity: 47.00 km / h
+        gsVelocity: 47.00 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '22'
+      - Lukas Bader
+    - place: '10'
       total: 800
       jump: null
       penaltiesJump: []
@@ -11381,8 +11410,37 @@ scoreDf:
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 61.5
-        time: 372.8
+        arrival: 0
+        time: 434.9
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T03:03:32.75945250518Z
+        gs: null
+        es: 2016-01-03T05:15:06.16094083208Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.192612 h
+        gsElapsed: 2.192612 h
+        ssVelocity: 46.83 km / h
+        gsVelocity: 46.83 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '42'
+      - Guy Hubbard
+    - place: '11'
+      total: 792
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 426
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11402,16 +11460,16 @@ scoreDf:
       stoppedAlt: null
   - - - '36'
       - Howard Jones
-    - place: '10'
-      total: 784
+    - place: '12'
+      total: 780
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 55.5
-        time: 362.6
+        arrival: 0
+        time: 414.4
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11429,175 +11487,30 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '46'
-      - Steve Blenkinsop
-    - place: 11=
-      total: 773
+  - - - '8'
+      - Gordon Rigg
+    - place: '13'
+      total: 777
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 23.1
-        time: 384.2
+        arrival: 0
+        time: 411.1
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T03:03:08.890423122236Z
+        ss: 2016-01-03T02:04:03.13751334154Z
         gs: null
-        es: 2016-01-03T05:14:14.565887178646Z
+        es: 2016-01-03T04:18:19.836375407617Z
         ssDistance: 102.686 km
-        ssElapsed: 2.184910 h
-        gsElapsed: 2.184910 h
-        ssVelocity: 47.00 km / h
-        gsVelocity: 47.00 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '34'
-      - Phil Schroder
-    - place: 11=
-      total: 773
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 17
-        time: 390.3
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T03:27:19.10690052357Z
-        gs: null
-        es: 2016-01-03T05:37:39.731031081935Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.172396 h
-        gsElapsed: 2.172396 h
-        ssVelocity: 47.27 km / h
-        gsVelocity: 47.27 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '22'
-      - Lukas Bader
-    - place: 13=
-      total: 768
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 22.2
-        time: 380.6
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T03:03:32.75945250518Z
-        gs: null
-        es: 2016-01-03T05:15:06.16094083208Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.192612 h
-        gsElapsed: 2.192612 h
-        ssVelocity: 46.83 km / h
-        gsVelocity: 46.83 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '2'
-      - Malcolm Brown
-    - place: 13=
-      total: 768
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 71.7
-        time: 330.9
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:04:50.36378570733Z
-        gs: null
-        es: 2016-01-03T04:23:07.916839213824Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.304876 h
-        gsElapsed: 2.304876 h
-        ssVelocity: 44.55 km / h
-        gsVelocity: 44.55 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '26'
-      - Rod Flockhart
-    - place: '15'
-      total: 764
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 79.3
-        time: 318.9
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T01:57:36.976625735693Z
-        gs: null
-        es: 2016-01-03T04:17:39.287580694423Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.333975 h
-        gsElapsed: 2.333975 h
-        ssVelocity: 44.00 km / h
-        gsVelocity: 44.00 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '54'
-      - Josh Woods
-    - place: '16'
-      total: 762
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 52.7
-        time: 344.3
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:17:35.41078103727Z
-        gs: null
-        es: 2016-01-03T04:33:58.489149913528Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.273077 h
-        gsElapsed: 2.273077 h
-        ssVelocity: 45.17 km / h
-        gsVelocity: 45.17 km / h
+        ssElapsed: 2.237972 h
+        gsElapsed: 2.237972 h
+        ssVelocity: 45.88 km / h
+        gsVelocity: 45.88 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
@@ -11605,16 +11518,16 @@ scoreDf:
       stoppedAlt: null
   - - - '25'
       - Gary Wright
-    - place: '17'
-      total: 753
+    - place: '14'
+      total: 770
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 33.1
-        time: 354.1
+        arrival: 0
+        time: 404.7
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11634,16 +11547,16 @@ scoreDf:
       stoppedAlt: null
   - - - '32'
       - Jon Durand Snr
-    - place: '18'
-      total: 739
+    - place: '15'
+      total: 762
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 26.2
-        time: 347.3
+        arrival: 0
+        time: 397
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11661,59 +11574,30 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '43'
-      - Neale Halsall
-    - place: '19'
-      total: 734
+  - - - '54'
+      - Josh Woods
+    - place: '16'
+      total: 759
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 47.5
-        time: 321.3
+        arrival: 0
+        time: 393.5
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T02:17:05.038620535015Z
+        ss: 2016-01-03T02:17:35.41078103727Z
         gs: null
-        es: 2016-01-03T04:36:45.652401425205Z
+        es: 2016-01-03T04:33:58.489149913528Z
         ssDistance: 102.686 km
-        ssElapsed: 2.327948 h
-        gsElapsed: 2.327948 h
-        ssVelocity: 44.11 km / h
-        gsVelocity: 44.11 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
-  - - - '28'
-      - Glen Mcfarlane
-    - place: '20'
-      total: 733
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 64.8
-        time: 302.6
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:03:30.36361026645Z
-        gs: null
-        es: 2016-01-03T04:25:59.159788753456Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.374666 h
-        gsElapsed: 2.374666 h
-        ssVelocity: 43.24 km / h
-        gsVelocity: 43.24 km / h
+        ssElapsed: 2.273077 h
+        gsElapsed: 2.273077 h
+        ssVelocity: 45.17 km / h
+        gsVelocity: 45.17 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
@@ -11721,16 +11605,16 @@ scoreDf:
       stoppedAlt: null
   - - - '6'
       - Jason Kath
-    - place: '21'
-      total: 715
+    - place: '17'
+      total: 745
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.6
-        time: 332.5
+        arrival: 0
+        time: 379.9
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11748,30 +11632,88 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '47'
-      - Olav Opsanger
-    - place: '22'
-      total: 711
+  - - - '2'
+      - Malcolm Brown
+    - place: '18'
+      total: 744
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 38.6
-        time: 306.6
+        arrival: 0
+        time: 378.1
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T02:17:36.002387761175Z
+        ss: 2016-01-03T02:04:50.36378570733Z
         gs: null
-        es: 2016-01-03T04:39:28.358695757488Z
+        es: 2016-01-03T04:23:07.916839213824Z
         ssDistance: 102.686 km
-        ssElapsed: 2.364543 h
-        gsElapsed: 2.364543 h
-        ssVelocity: 43.43 km / h
-        gsVelocity: 43.43 km / h
+        ssElapsed: 2.304876 h
+        gsElapsed: 2.304876 h
+        ssVelocity: 44.55 km / h
+        gsVelocity: 44.55 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '43'
+      - Neale Halsall
+    - place: '19'
+      total: 733
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 367.2
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:17:05.038620535015Z
+        gs: null
+        es: 2016-01-03T04:36:45.652401425205Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.327948 h
+        gsElapsed: 2.327948 h
+        ssVelocity: 44.11 km / h
+        gsVelocity: 44.11 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '26'
+      - Rod Flockhart
+    - place: '20'
+      total: 730
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 364.4
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T01:57:36.976625735693Z
+        gs: null
+        es: 2016-01-03T04:17:39.287580694423Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.333975 h
+        gsElapsed: 2.333975 h
+        ssVelocity: 44.00 km / h
+        gsVelocity: 44.00 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
@@ -11779,16 +11721,16 @@ scoreDf:
       stoppedAlt: null
   - - - '7'
       - Gijs Wanders
-    - place: '23'
-      total: 697
+    - place: '21'
+      total: 724
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 18
-        time: 313.5
+        arrival: 0
+        time: 358.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11806,47 +11748,18 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '12'
-      - Ryosuke Hattori
-    - place: '24'
-      total: 693
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 24
-        time: 303.4
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:36:26.626342160095Z
-        gs: null
-        es: 2016-01-03T04:58:48.322897369735Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.372693 h
-        gsElapsed: 2.372693 h
-        ssVelocity: 43.28 km / h
-        gsVelocity: 43.28 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '27'
       - Franko Chetcuti
-    - place: '25'
-      total: 690
+    - place: '22'
+      total: 718
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.8
-        time: 308
+        arrival: 0
+        time: 352
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11864,18 +11777,105 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '55'
-      - Simon West
-    - place: '26'
-      total: 686
+  - - - '47'
+      - Olav Opsanger
+    - place: '23'
+      total: 716
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 20.7
-        time: 300.1
+        arrival: 0
+        time: 350.4
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:17:36.002387761175Z
+        gs: null
+        es: 2016-01-03T04:39:28.358695757488Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.364543 h
+        gsElapsed: 2.364543 h
+        ssVelocity: 43.43 km / h
+        gsVelocity: 43.43 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '12'
+      - Ryosuke Hattori
+    - place: '24'
+      total: 712
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 346.7
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:36:26.626342160095Z
+        gs: null
+        es: 2016-01-03T04:58:48.322897369735Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.372693 h
+        gsElapsed: 2.372693 h
+        ssVelocity: 43.28 km / h
+        gsVelocity: 43.28 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '28'
+      - Glen Mcfarlane
+    - place: '25'
+      total: 711
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 345.8
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:03:30.36361026645Z
+        gs: null
+        es: 2016-01-03T04:25:59.159788753456Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.374666 h
+        gsElapsed: 2.374666 h
+        ssVelocity: 43.24 km / h
+        gsVelocity: 43.24 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '55'
+      - Simon West
+    - place: '26'
+      total: 708
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 343
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11893,47 +11893,18 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '52'
-      - Len Paton
-    - place: '27'
-      total: 673
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 31.6
-        time: 276
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:17:09.48820289573Z
-        gs: null
-        es: 2016-01-03T04:43:47.903728420072Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.444004 h
-        gsElapsed: 2.444004 h
-        ssVelocity: 42.02 km / h
-        gsVelocity: 42.02 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '37'
       - Andrew Barnes
-    - place: '28'
-      total: 667
+    - place: '27'
+      total: 689
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 18.4
-        time: 282.9
+        arrival: 0
+        time: 323.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11953,16 +11924,16 @@ scoreDf:
       stoppedAlt: null
   - - - '4'
       - Rohan Taylor
-    - place: '29'
-      total: 661
+    - place: 28=
+      total: 681
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 19.5
-        time: 276.1
+        arrival: 0
+        time: 315.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -11980,30 +11951,30 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '39'
-      - Alexandra Serebrennikova
-    - place: '30'
-      total: 655
+  - - - '52'
+      - Len Paton
+    - place: 28=
+      total: 681
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 27.4
-        time: 262
+        arrival: 0
+        time: 315.5
         reach: 182.733
         distance: 365.467
         leading: 0
       velocity:
-        ss: 2016-01-03T02:17:42.79789846648Z
+        ss: 2016-01-03T02:17:09.48820289573Z
         gs: null
-        es: 2016-01-03T04:46:38.146347393646Z
+        es: 2016-01-03T04:43:47.903728420072Z
         ssDistance: 102.686 km
-        ssElapsed: 2.482041 h
-        gsElapsed: 2.482041 h
-        ssVelocity: 41.37 km / h
-        gsVelocity: 41.37 km / h
+        ssElapsed: 2.444004 h
+        gsElapsed: 2.444004 h
+        ssVelocity: 42.02 km / h
+        gsVelocity: 42.02 km / h
       reach:
         extra: 112.186 km
         flown: 112.186 km
@@ -12011,16 +11982,16 @@ scoreDf:
       stoppedAlt: null
   - - - '35'
       - Justinas Pleikys
-    - place: 31=
-      total: 652
+    - place: '30'
+      total: 671
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 18.9
-        time: 267.2
+        arrival: 0
+        time: 305.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12038,47 +12009,18 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '49'
-      - Oyvind Ellefsen
-    - place: 31=
-      total: 652
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 45
-        time: 241
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:04:36.142588071209Z
-        gs: null
-        es: 2016-01-03T04:37:01.903827359546Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.540489 h
-        gsElapsed: 2.540489 h
-        ssVelocity: 40.42 km / h
-        gsVelocity: 40.42 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '40'
       - Vic Hare
-    - place: '33'
-      total: 648
+    - place: 31=
+      total: 665
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 20.1
-        time: 262.4
+        arrival: 0
+        time: 299.9
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12096,18 +12038,47 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '15'
-      - Elia Piccinini
-    - place: '34'
-      total: 640
+  - - - '39'
+      - Alexandra Serebrennikova
+    - place: 31=
+      total: 665
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 17.3
-        time: 257.7
+        arrival: 0
+        time: 299.4
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:17:42.79789846648Z
+        gs: null
+        es: 2016-01-03T04:46:38.146347393646Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.482041 h
+        gsElapsed: 2.482041 h
+        ssVelocity: 41.37 km / h
+        gsVelocity: 41.37 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '15'
+      - Elia Piccinini
+    - place: '33'
+      total: 660
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 294.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12127,16 +12098,16 @@ scoreDf:
       stoppedAlt: null
   - - - '62'
       - Craig Taylor
-    - place: '35'
-      total: 636
+    - place: '34'
+      total: 656
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.1
-        time: 254.3
+        arrival: 0
+        time: 290.7
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12154,47 +12125,18 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '17'
-      - Tullio Gervasoni
-    - place: '36'
-      total: 635
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 182.733
-        arrival: 42.8
-        time: 226.7
-        reach: 182.733
-        distance: 365.467
-        leading: 0
-      velocity:
-        ss: 2016-01-03T02:04:04.03711221128Z
-        gs: null
-        es: 2016-01-03T04:38:57.243986440688Z
-        ssDistance: 102.686 km
-        ssElapsed: 2.581446 h
-        gsElapsed: 2.581446 h
-        ssVelocity: 39.78 km / h
-        gsVelocity: 39.78 km / h
-      reach:
-        extra: 112.186 km
-        flown: 112.186 km
-      landedMade: 112.186 km
-      stoppedAlt: null
   - - - '10'
       - Dan Balla
-    - place: '37'
-      total: 633
+    - place: '35'
+      total: 653
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 15.9
-        time: 251.5
+        arrival: 0
+        time: 287.5
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12212,18 +12154,76 @@ scoreDf:
         flown: 112.186 km
       landedMade: 112.186 km
       stoppedAlt: null
-  - - - '48'
-      - Olav Lien Olsen
-    - place: '38'
-      total: 627
+  - - - '49'
+      - Oyvind Ellefsen
+    - place: '36'
+      total: 641
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 36.7
-        time: 225.1
+        arrival: 0
+        time: 275.4
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:04:36.142588071209Z
+        gs: null
+        es: 2016-01-03T04:37:01.903827359546Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.540489 h
+        gsElapsed: 2.540489 h
+        ssVelocity: 40.42 km / h
+        gsVelocity: 40.42 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '17'
+      - Tullio Gervasoni
+    - place: '37'
+      total: 625
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 259.1
+        reach: 182.733
+        distance: 365.467
+        leading: 0
+      velocity:
+        ss: 2016-01-03T02:04:04.03711221128Z
+        gs: null
+        es: 2016-01-03T04:38:57.243986440688Z
+        ssDistance: 102.686 km
+        ssElapsed: 2.581446 h
+        gsElapsed: 2.581446 h
+        ssVelocity: 39.78 km / h
+        gsVelocity: 39.78 km / h
+      reach:
+        extra: 112.186 km
+        flown: 112.186 km
+      landedMade: 112.186 km
+      stoppedAlt: null
+  - - - '48'
+      - Olav Lien Olsen
+    - place: '38'
+      total: 623
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 182.733
+        arrival: 0
+        time: 257.2
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12244,15 +12244,15 @@ scoreDf:
   - - - '3'
       - Nils Vesk
     - place: '39'
-      total: 616
+      total: 612
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 34.8
-        time: 215.6
+        arrival: 0
+        time: 246.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12273,15 +12273,15 @@ scoreDf:
   - - - '61'
       - Erland Åmot
     - place: '40'
-      total: 585
+      total: 596
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 17.7
-        time: 201.9
+        arrival: 0
+        time: 230.8
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12302,15 +12302,15 @@ scoreDf:
   - - - '57'
       - Mikhail Karmazin
     - place: '41'
-      total: 562
+      total: 572
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.4
-        time: 180.5
+        arrival: 0
+        time: 206.3
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12331,15 +12331,15 @@ scoreDf:
   - - - '50'
       - Thomas Lindal
     - place: '42'
-      total: 517
+      total: 510
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 25.1
-        time: 126.3
+        arrival: 0
+        time: 144.4
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12360,15 +12360,15 @@ scoreDf:
   - - - '11'
       - Wayne Thompson
     - place: '43'
-      total: 500
+      total: 501
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16
-        time: 118.3
+        arrival: 0
+        time: 135.2
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12389,15 +12389,15 @@ scoreDf:
   - - - '14'
       - Akiko Suzuki
     - place: '44'
-      total: 484
+      total: 482
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 182.733
-        arrival: 16.3
-        time: 102.3
+        arrival: 0
+        time: 117
         reach: 182.733
         distance: 365.467
         leading: 0
@@ -12795,15 +12795,15 @@ scoreDf:
 - - - - '47'
       - Olav Opsanger
     - place: '1'
-      total: 985
+      total: 1000
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 55.8
-        time: 496.2
+        arrival: 0
+        time: 567.1
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -12824,15 +12824,15 @@ scoreDf:
   - - - '29'
       - Jonny Durand
     - place: '2'
-      total: 946
+      total: 950
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 60.5
-        time: 452.1
+        arrival: 0
+        time: 516.7
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -12853,15 +12853,15 @@ scoreDf:
   - - - '28'
       - Glen Mcfarlane
     - place: '3'
-      total: 917
+      total: 912
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 65.5
-        time: 418.9
+        arrival: 0
+        time: 478.8
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -12882,15 +12882,15 @@ scoreDf:
   - - - '51'
       - Michael Jackson
     - place: '4'
-      total: 863
+      total: 891
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 29.2
-        time: 400.4
+        arrival: 0
+        time: 457.6
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -12911,15 +12911,15 @@ scoreDf:
   - - - '22'
       - Lukas Bader
     - place: '5'
-      total: 851
+      total: 852
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 51.5
-        time: 366.5
+        arrival: 0
+        time: 418.8
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -12937,134 +12937,18 @@ scoreDf:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '40'
-      - Vic Hare
-    - place: '6'
-      total: 827
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 47.4
-        time: 346.5
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:23:45.958735045209Z
-        gs: null
-        es: 2016-01-06T04:57:28.044418178233Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.561690 h
-        gsElapsed: 2.561690 h
-        ssVelocity: 62.94 km / h
-        gsVelocity: 62.94 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
-  - - - '32'
-      - Jon Durand Snr
-    - place: '7'
-      total: 825
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 70.9
-        time: 321
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:04:33.57401246349Z
-        gs: null
-        es: 2016-01-06T04:42:17.48330459078Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.628864 h
-        gsElapsed: 2.628864 h
-        ssVelocity: 61.33 km / h
-        gsVelocity: 61.33 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
-  - - - '54'
-      - Josh Woods
-    - place: '8'
-      total: 817
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 40.3
-        time: 343.6
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:23:32.13601447414Z
-        gs: null
-        es: 2016-01-06T04:57:40.642993953883Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.569030 h
-        gsElapsed: 2.569030 h
-        ssVelocity: 62.76 km / h
-        gsVelocity: 62.76 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
-  - - - '37'
-      - Andrew Barnes
-    - place: '9'
-      total: 814
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 37.1
-        time: 344.2
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:23:51.024864299595Z
-        gs: null
-        es: 2016-01-06T04:57:53.84782169735Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.567451 h
-        gsElapsed: 2.567451 h
-        ssVelocity: 62.80 km / h
-        gsVelocity: 62.80 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
   - - - '13'
       - Yasuhiro Noma
-    - place: '10'
-      total: 808
+    - place: '6'
+      total: 842
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 16.7
-        time: 358
+        arrival: 0
+        time: 409.2
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13084,16 +12968,16 @@ scoreDf:
       stoppedAlt: null
   - - - '33'
       - Trent Brown
-    - place: '11'
-      total: 804
+    - place: '7'
+      total: 831
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 23.4
-        time: 348.2
+        arrival: 0
+        time: 397.9
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13111,18 +12995,105 @@ scoreDf:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '41'
-      - Simon Braithwaite
-    - place: '12'
-      total: 801
+  - - - '40'
+      - Vic Hare
+    - place: '8'
+      total: 829
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 31.6
-        time: 336.9
+        arrival: 0
+        time: 396
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:23:45.958735045209Z
+        gs: null
+        es: 2016-01-06T04:57:28.044418178233Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.561690 h
+        gsElapsed: 2.561690 h
+        ssVelocity: 62.94 km / h
+        gsVelocity: 62.94 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '37'
+      - Andrew Barnes
+    - place: 9=
+      total: 826
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 393.4
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:23:51.024864299595Z
+        gs: null
+        es: 2016-01-06T04:57:53.84782169735Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.567451 h
+        gsElapsed: 2.567451 h
+        ssVelocity: 62.80 km / h
+        gsVelocity: 62.80 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '54'
+      - Josh Woods
+    - place: 9=
+      total: 826
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 392.7
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:23:32.13601447414Z
+        gs: null
+        es: 2016-01-06T04:57:40.642993953883Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.569030 h
+        gsElapsed: 2.569030 h
+        ssVelocity: 62.76 km / h
+        gsVelocity: 62.76 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '41'
+      - Simon Braithwaite
+    - place: '11'
+      total: 818
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 385
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13142,16 +13113,16 @@ scoreDf:
       stoppedAlt: null
   - - - '56'
       - Tony Armstrong
-    - place: '13'
-      total: 794
+    - place: '12'
+      total: 806
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 34.2
-        time: 326.7
+        arrival: 0
+        time: 373.3
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13171,16 +13142,16 @@ scoreDf:
       stoppedAlt: null
   - - - '2'
       - Malcolm Brown
-    - place: '14'
-      total: 779
+    - place: 13=
+      total: 800
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 25.1
-        time: 321.3
+        arrival: 0
+        time: 367.2
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13198,30 +13169,30 @@ scoreDf:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '6'
-      - Jason Kath
-    - place: '15'
-      total: 769
+  - - - '32'
+      - Jon Durand Snr
+    - place: 13=
+      total: 800
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 43.7
-        time: 292.3
+        arrival: 0
+        time: 366.8
         reach: 216.448
         distance: 432.895
         leading: 0
       velocity:
-        ss: 2016-01-06T02:14:59.243621938154Z
+        ss: 2016-01-06T02:04:33.57401246349Z
         gs: null
-        es: 2016-01-06T04:57:35.834063005202Z
+        es: 2016-01-06T04:42:17.48330459078Z
         ssDistance: 161.231 km
-        ssElapsed: 2.710164 h
-        gsElapsed: 2.710164 h
-        ssVelocity: 59.49 km / h
-        gsVelocity: 59.49 km / h
+        ssElapsed: 2.628864 h
+        gsElapsed: 2.628864 h
+        ssVelocity: 61.33 km / h
+        gsVelocity: 61.33 km / h
       reach:
         extra: 170.731 km
         flown: 170.731 km
@@ -13229,16 +13200,16 @@ scoreDf:
       stoppedAlt: null
   - - - '1'
       - Fredy Bircher
-    - place: '16'
-      total: 757
+    - place: '15'
+      total: 783
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 17.5
-        time: 306.2
+        arrival: 0
+        time: 349.9
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13258,16 +13229,16 @@ scoreDf:
       stoppedAlt: null
   - - - '9'
       - Peter Burkitt
-    - place: '17'
-      total: 752
+    - place: '16'
+      total: 780
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 15.6
-        time: 303.6
+        arrival: 0
+        time: 347
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13285,47 +13256,18 @@ scoreDf:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '39'
-      - Alexandra Serebrennikova
-    - place: 18=
-      total: 745
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 216.448
-        arrival: 21.9
-        time: 290.2
-        reach: 216.448
-        distance: 432.895
-        leading: 0
-      velocity:
-        ss: 2016-01-06T02:28:12.290092081488Z
-        gs: null
-        es: 2016-01-06T05:11:11.411773789181Z
-        ssDistance: 161.231 km
-        ssElapsed: 2.716423 h
-        gsElapsed: 2.716423 h
-        ssVelocity: 59.35 km / h
-        gsVelocity: 59.35 km / h
-      reach:
-        extra: 170.731 km
-        flown: 170.731 km
-      landedMade: 170.731 km
-      stoppedAlt: null
   - - - '35'
       - Justinas Pleikys
-    - place: 18=
-      total: 745
+    - place: '17'
+      total: 772
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 15.2
-        time: 296.4
+        arrival: 0
+        time: 338.8
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13343,18 +13285,76 @@ scoreDf:
         flown: 170.731 km
       landedMade: 170.731 km
       stoppedAlt: null
-  - - - '52'
-      - Len Paton
-    - place: '20'
-      total: 738
+  - - - '6'
+      - Jason Kath
+    - place: '18'
+      total: 767
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 20.5
-        time: 284.8
+        arrival: 0
+        time: 334.1
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:14:59.243621938154Z
+        gs: null
+        es: 2016-01-06T04:57:35.834063005202Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.710164 h
+        gsElapsed: 2.710164 h
+        ssVelocity: 59.49 km / h
+        gsVelocity: 59.49 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '39'
+      - Alexandra Serebrennikova
+    - place: '19'
+      total: 765
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 331.7
+        reach: 216.448
+        distance: 432.895
+        leading: 0
+      velocity:
+        ss: 2016-01-06T02:28:12.290092081488Z
+        gs: null
+        es: 2016-01-06T05:11:11.411773789181Z
+        ssDistance: 161.231 km
+        ssElapsed: 2.716423 h
+        gsElapsed: 2.716423 h
+        ssVelocity: 59.35 km / h
+        gsVelocity: 59.35 km / h
+      reach:
+        extra: 170.731 km
+        flown: 170.731 km
+      landedMade: 170.731 km
+      stoppedAlt: null
+  - - - '52'
+      - Len Paton
+    - place: '20'
+      total: 758
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 216.448
+        arrival: 0
+        time: 325.4
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13375,15 +13375,15 @@ scoreDf:
   - - - '7'
       - Gijs Wanders
     - place: '21'
-      total: 730
+      total: 750
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 19.4
-        time: 277.4
+        arrival: 0
+        time: 317
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13404,15 +13404,15 @@ scoreDf:
   - - - '36'
       - Howard Jones
     - place: '22'
-      total: 693
+      total: 699
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 27.1
-        time: 233
+        arrival: 0
+        time: 266.3
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13433,15 +13433,15 @@ scoreDf:
   - - - '57'
       - Mikhail Karmazin
     - place: '23'
-      total: 653
+      total: 668
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 14.6
-        time: 205.3
+        arrival: 0
+        time: 234.7
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13462,15 +13462,15 @@ scoreDf:
   - - - '14'
       - Akiko Suzuki
     - place: '24'
-      total: 636
+      total: 648
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 14.9
-        time: 188.5
+        arrival: 0
+        time: 215.5
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13491,15 +13491,15 @@ scoreDf:
   - - - '12'
       - Ryosuke Hattori
     - place: '25'
-      total: 632
+      total: 642
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 16.1
-        time: 182.6
+        arrival: 0
+        time: 208.7
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13520,15 +13520,15 @@ scoreDf:
   - - - '55'
       - Simon West
     - place: '26'
-      total: 631
+      total: 639
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 18.3
-        time: 180.1
+        arrival: 0
+        time: 205.9
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13549,15 +13549,15 @@ scoreDf:
   - - - '60'
       - Peter Adriaans
     - place: '27'
-      total: 615
+      total: 625
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 14.4
-        time: 167.7
+        arrival: 0
+        time: 191.7
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -13578,15 +13578,15 @@ scoreDf:
   - - - '3'
       - Nils Vesk
     - place: '28'
-      total: 562
+      total: 564
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 216.448
-        arrival: 14.3
-        time: 114.9
+        arrival: 0
+        time: 131.3
         reach: 216.448
         distance: 432.895
         leading: 0
@@ -14419,15 +14419,15 @@ scoreDf:
 - - - - '29'
       - Jonny Durand
     - place: '1'
-      total: 994
+      total: 1000
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 63.3
-        time: 482.4
+        arrival: 0
+        time: 551.3
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14448,15 +14448,15 @@ scoreDf:
   - - - '4'
       - Rohan Taylor
     - place: '2'
-      total: 932
+      total: 934
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 58.1
-        time: 425
+        arrival: 0
+        time: 485.8
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14477,15 +14477,15 @@ scoreDf:
   - - - '51'
       - Michael Jackson
     - place: '3'
-      total: 919
+      total: 926
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 53.2
-        time: 417.4
+        arrival: 0
+        time: 477
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14506,15 +14506,15 @@ scoreDf:
   - - - '52'
       - Len Paton
     - place: '4'
-      total: 909
+      total: 896
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 68.9
-        time: 391
+        arrival: 0
+        time: 446.8
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14535,15 +14535,15 @@ scoreDf:
   - - - '28'
       - Glen Mcfarlane
     - place: '5'
-      total: 878
+      total: 884
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 48.8
-        time: 380.7
+        arrival: 0
+        time: 435.1
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14561,18 +14561,47 @@ scoreDf:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '41'
-      - Simon Braithwaite
-    - place: 6=
-      total: 868
+  - - - '34'
+      - Phil Schroder
+    - place: '6'
+      total: 883
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 40.9
-        time: 378.8
+        arrival: 0
+        time: 434.3
+        reach: 224.348
+        distance: 448.696
+        leading: 0
+      velocity:
+        ss: 2016-01-07T02:10:10.5124535614Z
+        gs: null
+        es: 2016-01-07T08:05:43.134295071807Z
+        ssDistance: 358.110 km
+        ssElapsed: 5.925728 h
+        gsElapsed: 5.925728 h
+        ssVelocity: 60.43 km / h
+        gsVelocity: 60.43 km / h
+      reach:
+        extra: 367.610 km
+        flown: 367.610 km
+      landedMade: 367.610 km
+      stoppedAlt: null
+  - - - '41'
+      - Simon Braithwaite
+    - place: '7'
+      total: 882
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 224.348
+        arrival: 0
+        time: 432.9
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14592,16 +14621,16 @@ scoreDf:
       stoppedAlt: null
   - - - '56'
       - Tony Armstrong
-    - place: 6=
-      total: 868
+    - place: '8'
+      total: 877
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 44.7
-        time: 374.6
+        arrival: 0
+        time: 428.1
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14619,76 +14648,18 @@ scoreDf:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '34'
-      - Phil Schroder
-    - place: '8'
-      total: 866
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 224.348
-        arrival: 37.5
-        time: 380
-        reach: 224.348
-        distance: 448.696
-        leading: 0
-      velocity:
-        ss: 2016-01-07T02:10:10.5124535614Z
-        gs: null
-        es: 2016-01-07T08:05:43.134295071807Z
-        ssDistance: 358.110 km
-        ssElapsed: 5.925728 h
-        gsElapsed: 5.925728 h
-        ssVelocity: 60.43 km / h
-        gsVelocity: 60.43 km / h
-      reach:
-        extra: 367.610 km
-        flown: 367.610 km
-      landedMade: 367.610 km
-      stoppedAlt: null
-  - - - '38'
-      - Gerolf Heinrichs
-    - place: '9'
-      total: 851
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 224.348
-        arrival: 34.3
-        time: 368.4
-        reach: 224.348
-        distance: 448.696
-        leading: 0
-      velocity:
-        ss: 2016-01-07T02:08:10.157666944252Z
-        gs: null
-        es: 2016-01-07T08:06:09.778170030826Z
-        ssDistance: 358.110 km
-        ssElapsed: 5.966561 h
-        gsElapsed: 5.966561 h
-        ssVelocity: 60.02 km / h
-        gsVelocity: 60.02 km / h
-      reach:
-        extra: 367.610 km
-        flown: 367.610 km
-      landedMade: 367.610 km
-      stoppedAlt: null
   - - - '13'
       - Yasuhiro Noma
-    - place: '10'
-      total: 833
+    - place: '9'
+      total: 872
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 13.9
-        time: 370.1
+        arrival: 0
+        time: 423
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14706,18 +14677,47 @@ scoreDf:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '17'
-      - Tullio Gervasoni
-    - place: '11'
-      total: 830
+  - - - '38'
+      - Gerolf Heinrichs
+    - place: '10'
+      total: 870
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 26.6
-        time: 354.4
+        arrival: 0
+        time: 421
+        reach: 224.348
+        distance: 448.696
+        leading: 0
+      velocity:
+        ss: 2016-01-07T02:08:10.157666944252Z
+        gs: null
+        es: 2016-01-07T08:06:09.778170030826Z
+        ssDistance: 358.110 km
+        ssElapsed: 5.966561 h
+        gsElapsed: 5.966561 h
+        ssVelocity: 60.02 km / h
+        gsVelocity: 60.02 km / h
+      reach:
+        extra: 367.610 km
+        flown: 367.610 km
+      landedMade: 367.610 km
+      stoppedAlt: null
+  - - - '17'
+      - Tullio Gervasoni
+    - place: '11'
+      total: 854
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 224.348
+        arrival: 0
+        time: 405.1
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14738,15 +14738,15 @@ scoreDf:
   - - - '22'
       - Lukas Bader
     - place: '12'
-      total: 829
+      total: 848
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 31.5
-        time: 349.2
+        arrival: 0
+        time: 399.1
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14767,15 +14767,15 @@ scoreDf:
   - - - '6'
       - Jason Kath
     - place: '13'
-      total: 817
+      total: 846
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 21.2
-        time: 347.6
+        arrival: 0
+        time: 397.2
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14796,15 +14796,15 @@ scoreDf:
   - - - '57'
       - Mikhail Karmazin
     - place: '14'
-      total: 811
+      total: 837
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 22.7
-        time: 339.7
+        arrival: 0
+        time: 388.2
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14822,47 +14822,18 @@ scoreDf:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '8'
-      - Gordon Rigg
-    - place: '15'
-      total: 802
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 224.348
-        arrival: 19.8
-        time: 333
-        reach: 224.348
-        distance: 448.696
-        leading: 0
-      velocity:
-        ss: 2016-01-07T02:09:52.76685440047Z
-        gs: null
-        es: 2016-01-07T08:16:05.21265542291Z
-        ssDistance: 358.110 km
-        ssElapsed: 6.103457 h
-        gsElapsed: 6.103457 h
-        ssVelocity: 58.67 km / h
-        gsVelocity: 58.67 km / h
-      reach:
-        extra: 367.610 km
-        flown: 367.610 km
-      landedMade: 367.610 km
-      stoppedAlt: null
   - - - '31'
       - Gavin Myers
-    - place: '16'
-      total: 801
+    - place: '15'
+      total: 830
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 18.6
-        time: 333.6
+        arrival: 0
+        time: 381.3
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14880,18 +14851,47 @@ scoreDf:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '3'
-      - Nils Vesk
-    - place: '17'
-      total: 771
+  - - - '8'
+      - Gordon Rigg
+    - place: '16'
+      total: 829
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 17.5
-        time: 304.8
+        arrival: 0
+        time: 380.6
+        reach: 224.348
+        distance: 448.696
+        leading: 0
+      velocity:
+        ss: 2016-01-07T02:09:52.76685440047Z
+        gs: null
+        es: 2016-01-07T08:16:05.21265542291Z
+        ssDistance: 358.110 km
+        ssElapsed: 6.103457 h
+        gsElapsed: 6.103457 h
+        ssVelocity: 58.67 km / h
+        gsVelocity: 58.67 km / h
+      reach:
+        extra: 367.610 km
+        flown: 367.610 km
+      landedMade: 367.610 km
+      stoppedAlt: null
+  - - - '3'
+      - Nils Vesk
+    - place: '17'
+      total: 797
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 224.348
+        arrival: 0
+        time: 348.3
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14912,15 +14912,15 @@ scoreDf:
   - - - '46'
       - Steve Blenkinsop
     - place: '18'
-      total: 761
+      total: 789
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 14.3
-        time: 297.6
+        arrival: 0
+        time: 340.2
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14938,47 +14938,18 @@ scoreDf:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '1'
-      - Fredy Bircher
-    - place: '19'
-      total: 743
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 224.348
-        arrival: 28.9
-        time: 265.5
-        reach: 224.348
-        distance: 448.696
-        leading: 0
-      velocity:
-        ss: 2016-01-07T01:45:24.10530587079Z
-        gs: null
-        es: 2016-01-07T08:10:06.365188725208Z
-        ssDistance: 358.110 km
-        ssElapsed: 6.411739 h
-        gsElapsed: 6.411739 h
-        ssVelocity: 55.85 km / h
-        gsVelocity: 55.85 km / h
-      reach:
-        extra: 367.610 km
-        flown: 367.610 km
-      landedMade: 367.610 km
-      stoppedAlt: null
   - - - '54'
       - Josh Woods
-    - place: '20'
-      total: 738
+    - place: '19'
+      total: 762
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 15.4
-        time: 274.4
+        arrival: 0
+        time: 313.6
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -14998,16 +14969,16 @@ scoreDf:
       stoppedAlt: null
   - - - '26'
       - Rod Flockhart
-    - place: '21'
-      total: 737
+    - place: '20'
+      total: 761
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 14.9
-        time: 273.4
+        arrival: 0
+        time: 312.5
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -15027,16 +14998,16 @@ scoreDf:
       stoppedAlt: null
   - - - '42'
       - Guy Hubbard
-    - place: '22'
-      total: 735
+    - place: '21'
+      total: 758
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 16
-        time: 270.8
+        arrival: 0
+        time: 309.5
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -15054,18 +15025,47 @@ scoreDf:
         flown: 367.610 km
       landedMade: 367.610 km
       stoppedAlt: null
-  - - - '2'
-      - Malcolm Brown
-    - place: '23'
-      total: 711
+  - - - '1'
+      - Fredy Bircher
+    - place: '22'
+      total: 752
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 14.5
-        time: 247.3
+        arrival: 0
+        time: 303.4
+        reach: 224.348
+        distance: 448.696
+        leading: 0
+      velocity:
+        ss: 2016-01-07T01:45:24.10530587079Z
+        gs: null
+        es: 2016-01-07T08:10:06.365188725208Z
+        ssDistance: 358.110 km
+        ssElapsed: 6.411739 h
+        gsElapsed: 6.411739 h
+        ssVelocity: 55.85 km / h
+        gsVelocity: 55.85 km / h
+      reach:
+        extra: 367.610 km
+        flown: 367.610 km
+      landedMade: 367.610 km
+      stoppedAlt: null
+  - - - '2'
+      - Malcolm Brown
+    - place: '23'
+      total: 731
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 224.348
+        arrival: 0
+        time: 282.7
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -15086,15 +15086,15 @@ scoreDf:
   - - - '36'
       - Howard Jones
     - place: '24'
-      total: 695
+      total: 714
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 14.1
-        time: 232.3
+        arrival: 0
+        time: 265.5
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -15115,15 +15115,15 @@ scoreDf:
   - - - '18'
       - Yoko Isomoto
     - place: '25'
-      total: 691
+      total: 697
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 24.6
-        time: 217.7
+        arrival: 0
+        time: 248.8
         reach: 224.348
         distance: 448.696
         leading: 0
@@ -15144,15 +15144,15 @@ scoreDf:
   - - - '35'
       - Justinas Pleikys
     - place: '26'
-      total: 647
+      total: 656
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
         effort: 224.348
-        arrival: 16.7
-        time: 181.5
+        arrival: 0
+        time: 207.4
         reach: 224.348
         distance: 448.696
         leading: 0

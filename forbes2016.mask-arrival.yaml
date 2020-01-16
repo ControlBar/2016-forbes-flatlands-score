@@ -11,492 +11,492 @@ arrivalRank:
       - Rod Flockhart
     - lag: 0.000000 h
       rank: '1'
-      frac: 1
+      frac: 0
   - - - '8'
       - Gordon Rigg
     - lag: 0.011264 h
       rank: '2'
-      frac: 0.95113152
+      frac: 0
   - - - '2'
       - Malcolm Brown
     - lag: 0.091286 h
       rank: '3'
-      frac: 0.90431452
+      frac: 0
   - - - '38'
       - Gerolf Heinrichs
     - lag: 0.130617 h
       rank: '4'
-      frac: 0.85950443
+      frac: 0
   - - - '28'
       - Glen Mcfarlane
     - lag: 0.138853 h
       rank: '5'
-      frac: 0.81665665
+      frac: 0
   - - - '42'
       - Guy Hubbard
     - lag: 0.201467 h
       rank: '6'
-      frac: 0.7757266
+      frac: 0
   - - - '29'
       - Jonny Durand
     - lag: 0.215735 h
       rank: '7'
-      frac: 0.7366697
+      frac: 0
   - - - '36'
       - Howard Jones
     - lag: 0.231510 h
       rank: '8'
-      frac: 0.69944136
+      frac: 0
   - - - '54'
       - Josh Woods
     - lag: 0.272000 h
       rank: '9'
-      frac: 0.66399699
+      frac: 0
   - - - '1'
       - Fredy Bircher
     - lag: 0.303359 h
       rank: '10'
-      frac: 0.63029201
+      frac: 0
   - - - '43'
       - Neale Halsall
     - lag: 0.318435 h
       rank: '11'
-      frac: 0.59828184
+      frac: 0
   - - - '49'
       - Oyvind Ellefsen
     - lag: 0.322949 h
       rank: '12'
-      frac: 0.56792188
+      frac: 0
   - - - '17'
       - Tullio Gervasoni
     - lag: 0.354988 h
       rank: '13'
-      frac: 0.53916754
+      frac: 0
   - - - '51'
       - Michael Jackson
     - lag: 0.358429 h
       rank: '14'
-      frac: 0.51197426
+      frac: 0
   - - - '47'
       - Olav Opsanger
     - lag: 0.363631 h
       rank: '15'
-      frac: 0.48629743
+      frac: 0
   - - - '48'
       - Olav Lien Olsen
     - lag: 0.367875 h
       rank: '16'
-      frac: 0.46209247
+      frac: 0
   - - - '3'
       - Nils Vesk
     - lag: 0.402717 h
       rank: '17'
-      frac: 0.4393148
+      frac: 0
   - - - '25'
       - Gary Wright
     - lag: 0.407970 h
       rank: '18'
-      frac: 0.41791983
+      frac: 0
   - - - '52'
       - Len Paton
     - lag: 0.435727 h
       rank: '19'
-      frac: 0.39786298
+      frac: 0
   - - - '56'
       - Tony Armstrong
     - lag: 0.437294 h
       rank: '20'
-      frac: 0.37909965
+      frac: 0
   - - - '31'
       - Gavin Myers
     - lag: 0.445954 h
       rank: '21'
-      frac: 0.36158527
+      frac: 0
   - - - '39'
       - Alexandra Serebrennikova
     - lag: 0.483016 h
       rank: '22'
-      frac: 0.34527525
+      frac: 0
   - - - '32'
       - Jon Durand Snr
     - lag: 0.578155 h
       rank: '23'
-      frac: 0.330125
+      frac: 0
   - - - '50'
       - Thomas Lindal
     - lag: 0.665901 h
       rank: '24'
-      frac: 0.31608993
+      frac: 0
   - - - '12'
       - Ryosuke Hattori
     - lag: 0.685843 h
       rank: '25'
-      frac: 0.30312547
+      frac: 0
   - - - '46'
       - Steve Blenkinsop
     - lag: 0.943133 h
       rank: '26'
-      frac: 0.29118702
+      frac: 0
   - - - '22'
       - Lukas Bader
     - lag: 0.957465 h
       rank: '27'
-      frac: 0.28023
+      frac: 0
   - - - '41'
       - Simon Braithwaite
     - lag: 0.978991 h
       rank: '28'
-      frac: 0.27020982
+      frac: 0
   - - - '55'
       - Simon West
     - lag: 0.990402 h
       rank: '29'
-      frac: 0.26108189
+      frac: 0
   - - - '40'
       - Vic Hare
     - lag: 1.004118 h
       rank: '30'
-      frac: 0.25280164
+      frac: 0
   - - - '4'
       - Rohan Taylor
     - lag: 1.014716 h
       rank: '31'
-      frac: 0.24532447
+      frac: 0
   - - - '35'
       - Justinas Pleikys
     - lag: 1.035242 h
       rank: '32'
-      frac: 0.23860581
+      frac: 0
   - - - '37'
       - Andrew Barnes
     - lag: 1.044707 h
       rank: '33'
-      frac: 0.23260105
+      frac: 0
   - - - '7'
       - Gijs Wanders
     - lag: 1.111930 h
       rank: '34'
-      frac: 0.22726562
+      frac: 0
   - - - '61'
       - Erland Åmot
     - lag: 1.219887 h
       rank: '35'
-      frac: 0.22255494
+      frac: 0
   - - - '15'
       - Elia Piccinini
     - lag: 1.262392 h
       rank: '36'
-      frac: 0.21842441
+      frac: 0
   - - - '34'
       - Phil Schroder
     - lag: 1.333457 h
       rank: '37'
-      frac: 0.21482945
+      frac: 0
   - - - '27'
       - Franko Chetcuti
     - lag: 1.350181 h
       rank: '38'
-      frac: 0.21172548
+      frac: 0
   - - - '6'
       - Jason Kath
     - lag: 1.407355 h
       rank: '39'
-      frac: 0.2090679
+      frac: 0
   - - - '57'
       - Mikhail Karmazin
     - lag: 1.423787 h
       rank: '40'
-      frac: 0.20681214
+      frac: 0
   - - - '14'
       - Akiko Suzuki
     - lag: 1.746786 h
       rank: '41'
-      frac: 0.2049136
+      frac: 0
   - - - '62'
       - Craig Taylor
     - lag: 1.861939 h
       rank: '42'
-      frac: 0.2033277
+      frac: 0
   - - - '11'
       - Wayne Thompson
     - lag: 1.862507 h
       rank: '43'
-      frac: 0.20200986
+      frac: 0
   - - - '10'
       - Dan Balla
     - lag: 2.584042 h
       rank: '44'
-      frac: 0.20091549
+      frac: 0
 - - - - '32'
       - Jon Durand Snr
     - lag: 0.000000 h
       rank: '1'
-      frac: 1
+      frac: 0
   - - - '28'
       - Glen Mcfarlane
     - lag: 0.036539 h
       rank: '2'
-      frac: 0.9241306
+      frac: 0
   - - - '29'
       - Jonny Durand
     - lag: 0.040506 h
       rank: '3'
-      frac: 0.85326421
+      frac: 0
   - - - '47'
       - Olav Opsanger
     - lag: 0.045353 h
       rank: '4'
-      frac: 0.78722782
+      frac: 0
   - - - '22'
       - Lukas Bader
     - lag: 0.246352 h
       rank: '5'
-      frac: 0.7258484
+      frac: 0
   - - - '40'
       - Vic Hare
     - lag: 0.252934 h
       rank: '6'
-      frac: 0.66895294
+      frac: 0
   - - - '6'
       - Jason Kath
     - lag: 0.255097 h
       rank: '7'
-      frac: 0.61636844
+      frac: 0
   - - - '54'
       - Josh Woods
     - lag: 0.256433 h
       rank: '8'
-      frac: 0.56792188
+      frac: 0
   - - - '37'
       - Andrew Barnes
     - lag: 0.260101 h
       rank: '9'
-      frac: 0.52344023
+      frac: 0
   - - - '56'
       - Tony Armstrong
     - lag: 0.263238 h
       rank: '10'
-      frac: 0.4827505
+      frac: 0
   - - - '41'
       - Simon Braithwaite
     - lag: 0.263413 h
       rank: '11'
-      frac: 0.44567966
+      frac: 0
   - - - '51'
       - Michael Jackson
     - lag: 0.280072 h
       rank: '12'
-      frac: 0.41205471
+      frac: 0
   - - - '36'
       - Howard Jones
     - lag: 0.310592 h
       rank: '13'
-      frac: 0.38170262
+      frac: 0
   - - - '2'
       - Malcolm Brown
     - lag: 0.410126 h
       rank: '14'
-      frac: 0.35445039
+      frac: 0
   - - - '33'
       - Trent Brown
     - lag: 0.460139 h
       rank: '15'
-      frac: 0.330125
+      frac: 0
   - - - '39'
       - Alexandra Serebrennikova
     - lag: 0.481647 h
       rank: '16'
-      frac: 0.30855343
+      frac: 0
   - - - '52'
       - Len Paton
     - lag: 0.520305 h
       rank: '17'
-      frac: 0.28956268
+      frac: 0
   - - - '7'
       - Gijs Wanders
     - lag: 0.523654 h
       rank: '18'
-      frac: 0.27297973
+      frac: 0
   - - - '55'
       - Simon West
     - lag: 0.717817 h
       rank: '19'
-      frac: 0.25863156
+      frac: 0
   - - - '1'
       - Fredy Bircher
     - lag: 0.725745 h
       rank: '20'
-      frac: 0.24634516
+      frac: 0
   - - - '13'
       - Yasuhiro Noma
     - lag: 0.742645 h
       rank: '21'
-      frac: 0.23594752
+      frac: 0
   - - - '12'
       - Ryosuke Hattori
     - lag: 0.852066 h
       rank: '22'
-      frac: 0.22726562
+      frac: 0
   - - - '9'
       - Peter Burkitt
     - lag: 1.096491 h
       rank: '23'
-      frac: 0.22012646
+      frac: 0
   - - - '35'
       - Justinas Pleikys
     - lag: 1.103780 h
       rank: '24'
-      frac: 0.21435701
+      frac: 0
   - - - '14'
       - Akiko Suzuki
     - lag: 1.194922 h
       rank: '25'
-      frac: 0.20978426
+      frac: 0
   - - - '57'
       - Mikhail Karmazin
     - lag: 1.288782 h
       rank: '26'
-      frac: 0.20623519
+      frac: 0
   - - - '60'
       - Peter Adriaans
     - lag: 1.663727 h
       rank: '27'
-      frac: 0.20353681
+      frac: 0
   - - - '3'
       - Nils Vesk
     - lag: 1.775074 h
       rank: '28'
-      frac: 0.20151608
+      frac: 0
 - - - - '52'
       - Len Paton
     - lag: 0.000000 h
       rank: '1'
-      frac: 1
+      frac: 0
   - - - '29'
       - Jonny Durand
     - lag: 0.260443 h
       rank: '2'
-      frac: 0.91850393
+      frac: 0
   - - - '4'
       - Rohan Taylor
     - lag: 0.326529 h
       rank: '3'
-      frac: 0.84279472
+      frac: 0
   - - - '51'
       - Michael Jackson
     - lag: 0.334627 h
       rank: '4'
-      frac: 0.77265629
+      frac: 0
   - - - '28'
       - Glen Mcfarlane
     - lag: 0.465810 h
       rank: '5'
-      frac: 0.70787255
+      frac: 0
   - - - '56'
       - Tony Armstrong
     - lag: 0.466811 h
       rank: '6'
-      frac: 0.64822741
+      frac: 0
   - - - '41'
       - Simon Braithwaite
     - lag: 0.470802 h
       rank: '7'
-      frac: 0.59350478
+      frac: 0
   - - - '34'
       - Phil Schroder
     - lag: 0.500044 h
       rank: '8'
-      frac: 0.54348856
+      frac: 0
   - - - '38'
       - Gerolf Heinrichs
     - lag: 0.507445 h
       rank: '9'
-      frac: 0.49796268
+      frac: 0
   - - - '22'
       - Lukas Bader
     - lag: 0.565124 h
       rank: '10'
-      frac: 0.45671103
+      frac: 0
   - - - '1'
       - Fredy Bircher
     - lag: 0.573163 h
       rank: '11'
-      frac: 0.41951752
+      frac: 0
   - - - '17'
       - Tullio Gervasoni
     - lag: 0.595694 h
       rank: '12'
-      frac: 0.38616608
+      frac: 0
   - - - '18'
       - Yoko Isomoto
     - lag: 0.609974 h
       rank: '13'
-      frac: 0.3564406
+      frac: 0
   - - - '57'
       - Mikhail Karmazin
     - lag: 0.622054 h
       rank: '14'
-      frac: 0.330125
+      frac: 0
   - - - '6'
       - Jason Kath
     - lag: 0.629227 h
       rank: '15'
-      frac: 0.30700319
+      frac: 0
   - - - '8'
       - Gordon Rigg
     - lag: 0.672843 h
       rank: '16'
-      frac: 0.28685907
+      frac: 0
   - - - '31'
       - Gavin Myers
     - lag: 0.682065 h
       rank: '17'
-      frac: 0.26947656
+      frac: 0
   - - - '3'
       - Nils Vesk
     - lag: 0.757824 h
       rank: '18'
-      frac: 0.25463957
+      frac: 0
   - - - '35'
       - Justinas Pleikys
     - lag: 0.864180 h
       rank: '19'
-      frac: 0.242132
+      frac: 0
   - - - '42'
       - Guy Hubbard
     - lag: 0.934796 h
       rank: '20'
-      frac: 0.23173777
+      frac: 0
   - - - '54'
       - Josh Woods
     - lag: 0.935622 h
       rank: '21'
-      frac: 0.22324078
+      frac: 0
   - - - '26'
       - Rod Flockhart
     - lag: 0.940985 h
       rank: '22'
-      frac: 0.21642495
+      frac: 0
   - - - '2'
       - Malcolm Brown
     - lag: 1.027976 h
       rank: '23'
-      frac: 0.21107419
+      frac: 0
   - - - '46'
       - Steve Blenkinsop
     - lag: 1.054727 h
       rank: '24'
-      frac: 0.20697241
+      frac: 0
   - - - '36'
       - Howard Jones
     - lag: 1.127333 h
       rank: '25'
-      frac: 0.2039035
+      frac: 0
   - - - '13'
       - Yasuhiro Noma
     - lag: 1.214700 h
       rank: '26'
-      frac: 0.2016514
+      frac: 0
 - - - - '38'
       - Gerolf Heinrichs
     - lag: 0.000000 h
