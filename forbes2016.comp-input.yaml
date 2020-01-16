@@ -22,7 +22,8 @@ nominal:
   free: 10.000 km
   time: 1.500000 h
 compTweak:
-  arrivalWeightScaling: null
+  arrivalRank: true
+  arrivalTime: false
   leadingWeightScaling: null
 tasks:
 - taskName: Missing in action
@@ -127,11 +128,13 @@ tasks:
   - 2016-01-02T03:10:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: 0
+    arrivalRank: false
+    arrivalTime: false
     leadingWeightScaling: 0
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+  penalsAuto: []
   penals: []
 - taskName: via SUCKS
   zones:
@@ -204,11 +207,13 @@ tasks:
   startGates: []
   stopped: null
   taskTweak:
-    arrivalWeightScaling: 0
+    arrivalRank: false
+    arrivalTime: false
     leadingWeightScaling: 0
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+  penalsAuto: []
   penals: []
 - taskName: TTT to goal
   zones:
@@ -267,11 +272,13 @@ tasks:
   startGates: []
   stopped: null
   taskTweak:
-    arrivalWeightScaling: 0
+    arrivalRank: false
+    arrivalTime: false
     leadingWeightScaling: 0
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+  penalsAuto: []
   penals: []
 - taskName: Where is wallygett
   zones:
@@ -326,11 +333,13 @@ tasks:
   startGates: []
   stopped: null
   taskTweak:
-    arrivalWeightScaling: 0
+    arrivalRank: false
+    arrivalTime: false
     leadingWeightScaling: 0
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+  penalsAuto: []
   penals: []
 - taskName: racing? confused
   zones:
@@ -407,11 +416,13 @@ tasks:
   - 2016-01-08T04:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
     leadingWeightScaling: null
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+  penalsAuto: []
   penals: []
 - taskName: gunning for goal
   zones:
@@ -516,11 +527,13 @@ tasks:
   - 2016-01-09T03:15:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: true
+    arrivalTime: false
     leadingWeightScaling: null
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+  penalsAuto: []
   penals: []
 taskFolders:
 - - day 1
