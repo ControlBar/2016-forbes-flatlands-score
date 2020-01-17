@@ -220,30 +220,30 @@ difficulty:
     - 10.000 km
     - 10.000 km
     downers:
-    - - '13'
-      - Yasuhiro Noma
-    - - '53'
-      - Stuart Cathcart
-    - - '12'
-      - Ryosuke Hattori
-    - - '34'
-      - Phil Schroder
-    - - '60'
-      - Peter Adriaans
-    - - '16'
-      - Michael Williams
-    - - '24'
-      - Michael Hogan
-    - - '22'
-      - Lukas Bader
-    - - '6'
-      - Jason Kath
-    - - '58'
-      - Hossain Tefaili
-    - - '8'
-      - Gordon Rigg
     - - '14'
       - Akiko Suzuki
+    - - '8'
+      - Gordon Rigg
+    - - '58'
+      - Hossain Tefaili
+    - - '6'
+      - Jason Kath
+    - - '22'
+      - Lukas Bader
+    - - '24'
+      - Michael Hogan
+    - - '16'
+      - Michael Williams
+    - - '60'
+      - Peter Adriaans
+    - - '34'
+      - Phil Schroder
+    - - '12'
+      - Ryosuke Hattori
+    - - '53'
+      - Stuart Cathcart
+    - - '13'
+      - Yasuhiro Noma
     downward: 24
     rel: 8.86263e-3
     frac: 0.31499261
@@ -683,10 +683,10 @@ difficulty:
     - 10.000 km
     - 10.000 km
     downers:
-    - - '23'
-      - Steve Hogan
     - - '16'
       - Michael Williams
+    - - '23'
+      - Steve Hogan
     downward: 8
     rel: 8.7013e-4
     frac: 8.048727e-2
@@ -1038,12 +1038,12 @@ difficulty:
     - 10.000 km
     - 10.000 km
     downers:
-    - - '53'
-      - Stuart Cathcart
-    - - '23'
-      - Steve Hogan
     - - '24'
       - Michael Hogan
+    - - '23'
+      - Steve Hogan
+    - - '53'
+      - Stuart Cathcart
     downward: 5
     rel: 2.4438e-4
     frac: 2.228739e-2
@@ -1436,16 +1436,16 @@ difficulty:
     - 10.000 km
     - 10.000 km
     downers:
-    - - '23'
-      - Steve Hogan
-    - - '30'
-      - Peter Ebeling
-    - - '16'
-      - Michael Williams
-    - - '15'
-      - Elia Piccinini
     - - '10'
       - Dan Balla
+    - - '15'
+      - Elia Piccinini
+    - - '16'
+      - Michael Williams
+    - - '30'
+      - Peter Ebeling
+    - - '23'
+      - Steve Hogan
     downward: 5
     rel: 7.8889e-4
     frac: 7.967813e-2
@@ -1592,18 +1592,18 @@ difficulty:
     - 10.000 km
     - 10.000 km
     downers:
-    - - '23'
-      - Steve Hogan
-    - - '24'
-      - Michael Hogan
-    - - '58'
-      - Hossain Tefaili
-    - - '38'
-      - Gerolf Heinrichs
-    - - '20'
-      - Anatoly Reyter
     - - '39'
       - Alexandra Serebrennikova
+    - - '20'
+      - Anatoly Reyter
+    - - '38'
+      - Gerolf Heinrichs
+    - - '58'
+      - Hossain Tefaili
+    - - '24'
+      - Michael Hogan
+    - - '23'
+      - Steve Hogan
     downward: 6
     rel: 9.1047e-4
     frac: 9.210926e-2

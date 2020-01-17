@@ -967,9 +967,261 @@ score:
         flown: 10.230 km
       landedMade: 10.130 km
       stoppedAlt: 268.000 m
+  - - - '14'
+      - Akiko Suzuki
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '8'
+      - Gordon Rigg
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '58'
+      - Hossain Tefaili
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '6'
+      - Jason Kath
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '22'
+      - Lukas Bader
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '24'
+      - Michael Hogan
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '16'
+      - Michael Williams
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '60'
+      - Peter Adriaans
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '34'
+      - Phil Schroder
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '12'
+      - Ryosuke Hattori
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '53'
+      - Stuart Cathcart
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '13'
+      - Yasuhiro Noma
+    - place: 26=
+      total: 10
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 7.295
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 10.385
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
   - - - '61'
       - Erland Åmot
-    - place: '26'
+    - place: 26=
       total: 10
       jump: null
       penaltiesJump: []
@@ -998,7 +1250,7 @@ score:
       stoppedAlt: 254.000 m
   - - - '31'
       - Gavin Myers
-    - place: '27'
+    - place: '39'
       total: 9
       jump: null
       penaltiesJump: []
@@ -1027,7 +1279,7 @@ score:
       stoppedAlt: 267.000 m
   - - - '46'
       - Steve Blenkinsop
-    - place: '28'
+    - place: '40'
       total: 7
       jump: null
       penaltiesJump: []
@@ -1056,7 +1308,7 @@ score:
       stoppedAlt: 281.000 m
   - - - '37'
       - Andrew Barnes
-    - place: 29=
+    - place: 41=
       total: 5
       jump: null
       penaltiesJump: []
@@ -1085,7 +1337,7 @@ score:
       stoppedAlt: 288.000 m
   - - - '33'
       - Trent Brown
-    - place: 29=
+    - place: 41=
       total: 5
       jump: null
       penaltiesJump: []
@@ -1114,7 +1366,7 @@ score:
       stoppedAlt: 285.000 m
   - - - '7'
       - Gijs Wanders
-    - place: 29=
+    - place: 41=
       total: 5
       jump: null
       penaltiesJump: []
@@ -1143,7 +1395,7 @@ score:
       stoppedAlt: 276.000 m
   - - - '27'
       - Franko Chetcuti
-    - place: 32=
+    - place: 44=
       total: 4
       jump: null
       penaltiesJump: []
@@ -1172,7 +1424,7 @@ score:
       stoppedAlt: 0.000 m
   - - - '59'
       - Tony Giammichele
-    - place: 32=
+    - place: 44=
       total: 4
       jump: null
       penaltiesJump: []
@@ -1201,7 +1453,7 @@ score:
       stoppedAlt: 256.000 m
   - - - '10'
       - Dan Balla
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1230,7 +1482,7 @@ score:
       stoppedAlt: 0.000 m
   - - - '15'
       - Elia Piccinini
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1259,7 +1511,7 @@ score:
       stoppedAlt: 243.000 m
   - - - '35'
       - Justinas Pleikys
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1288,7 +1540,7 @@ score:
       stoppedAlt: 263.000 m
   - - - '57'
       - Mikhail Karmazin
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1317,7 +1569,7 @@ score:
       stoppedAlt: 286.000 m
   - - - '30'
       - Peter Ebeling
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1346,7 +1598,7 @@ score:
       stoppedAlt: 312.000 m
   - - - '55'
       - Simon West
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1375,7 +1627,7 @@ score:
       stoppedAlt: 284.000 m
   - - - '23'
       - Steve Hogan
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1404,7 +1656,7 @@ score:
       stoppedAlt: 0.000 m
   - - - '50'
       - Thomas Lindal
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1433,7 +1685,7 @@ score:
       stoppedAlt: 235.000 m
   - - - '17'
       - Tullio Gervasoni
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1462,7 +1714,7 @@ score:
       stoppedAlt: 268.000 m
   - - - '11'
       - Wayne Thompson
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1491,7 +1743,7 @@ score:
       stoppedAlt: 267.000 m
   - - - '18'
       - Yoko Isomoto
-    - place: 34=
+    - place: 46=
       total: 3
       jump: null
       penaltiesJump: []
@@ -1518,258 +1770,6 @@ score:
         flown: 1.470 km
       landedMade: -0.527 km
       stoppedAlt: 270.000 m
-  - - - '14'
-      - Akiko Suzuki
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '8'
-      - Gordon Rigg
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '58'
-      - Hossain Tefaili
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '6'
-      - Jason Kath
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '22'
-      - Lukas Bader
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '24'
-      - Michael Hogan
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '16'
-      - Michael Williams
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '60'
-      - Peter Adriaans
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '34'
-      - Phil Schroder
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '12'
-      - Ryosuke Hattori
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '53'
-      - Stuart Cathcart
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '13'
-      - Yasuhiro Noma
-    - place: 34=
-      total: 3
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.103
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.192
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
 - - - - '29'
       - Jonny Durand
     - place: '1'
@@ -4989,9 +4989,51 @@ score:
         flown: 10.805 km
       landedMade: 10.568 km
       stoppedAlt: 0.000 m
+  - - - '16'
+      - Michael Williams
+    - place: 55=
+      total: 48
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 34.843
+        arrival: 0
+        time: 0
+        reach: 12.678
+        distance: 47.52
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '23'
+      - Steve Hogan
+    - place: 55=
+      total: 48
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 34.843
+        arrival: 0
+        time: 0
+        reach: 12.678
+        distance: 47.52
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
   - - - '58'
       - Hossain Tefaili
-    - place: '55'
+    - place: '57'
       total: 31
       jump: null
       penaltiesJump: []
@@ -5020,7 +5062,7 @@ score:
       stoppedAlt: 264.000 m
   - - - '24'
       - Michael Hogan
-    - place: '56'
+    - place: '58'
       total: 16
       jump: null
       penaltiesJump: []
@@ -5047,48 +5089,6 @@ score:
         flown: 2.246 km
       landedMade: 0.909 km
       stoppedAlt: 240.000 m
-  - - - '16'
-      - Michael Williams
-    - place: 57=
-      total: 13
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0
-        arrival: 0
-        time: 0
-        reach: 12.678
-        distance: 12.678
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '23'
-      - Steve Hogan
-    - place: 57=
-      total: 13
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0
-        arrival: 0
-        time: 0
-        reach: 12.678
-        distance: 12.678
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
 - - - - '29'
       - Jonny Durand
     - place: '1'
@@ -6679,17 +6679,17 @@ score:
   - - - '24'
       - Michael Hogan
     - place: 56=
-      total: 6
+      total: 16
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 10
         arrival: 0
         time: 0
         reach: 6.103
-        distance: 6.103
+        distance: 16.103
         leading: 0
       velocity: null
       reach:
@@ -6700,17 +6700,17 @@ score:
   - - - '23'
       - Steve Hogan
     - place: 56=
-      total: 6
+      total: 16
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 10
         arrival: 0
         time: 0
         reach: 6.103
-        distance: 6.103
+        distance: 16.103
         leading: 0
       velocity: null
       reach:
@@ -6721,17 +6721,17 @@ score:
   - - - '53'
       - Stuart Cathcart
     - place: 56=
-      total: 6
+      total: 16
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 10
         arrival: 0
         time: 0
         reach: 6.103
-        distance: 6.103
+        distance: 16.103
         leading: 0
       velocity: null
       reach:
@@ -8242,17 +8242,17 @@ score:
   - - - '10'
       - Dan Balla
     - place: 53=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -8263,17 +8263,17 @@ score:
   - - - '15'
       - Elia Piccinini
     - place: 53=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -8284,17 +8284,17 @@ score:
   - - - '16'
       - Michael Williams
     - place: 53=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -8305,17 +8305,17 @@ score:
   - - - '30'
       - Peter Ebeling
     - place: 53=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -8326,17 +8326,17 @@ score:
   - - - '23'
       - Steve Hogan
     - place: 53=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -9794,9 +9794,135 @@ score:
         flown: 47.426 km
       landedMade: 47.413 km
       stoppedAlt: 225.000 m
+  - - - '39'
+      - Alexandra Serebrennikova
+    - place: 51=
+      total: 50
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 35.355
+        arrival: 0
+        time: 0
+        reach: 14.288
+        distance: 49.643
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '20'
+      - Anatoly Reyter
+    - place: 51=
+      total: 50
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 35.355
+        arrival: 0
+        time: 0
+        reach: 14.288
+        distance: 49.643
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '38'
+      - Gerolf Heinrichs
+    - place: 51=
+      total: 50
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 35.355
+        arrival: 0
+        time: 0
+        reach: 14.288
+        distance: 49.643
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '58'
+      - Hossain Tefaili
+    - place: 51=
+      total: 50
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 35.355
+        arrival: 0
+        time: 0
+        reach: 14.288
+        distance: 49.643
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '24'
+      - Michael Hogan
+    - place: 51=
+      total: 50
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 35.355
+        arrival: 0
+        time: 0
+        reach: 14.288
+        distance: 49.643
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
+  - - - '23'
+      - Steve Hogan
+    - place: 51=
+      total: 50
+      jump: null
+      penaltiesJump: []
+      penalties: []
+      penaltyReason: ''
+      breakdown:
+        effort: 35.355
+        arrival: 0
+        time: 0
+        reach: 14.288
+        distance: 49.643
+        leading: 0
+      velocity: null
+      reach:
+        extra: 0.000 km
+        flown: 0.000 km
+      landedMade: 0.000 km
+      stoppedAlt: null
   - - - '35'
       - Justinas Pleikys
-    - place: 51=
+    - place: '57'
       total: 15
       jump: null
       penaltiesJump: []
@@ -9823,132 +9949,6 @@ score:
         flown: -0.156 km
       landedMade: -0.493 km
       stoppedAlt: 197.000 m
-  - - - '39'
-      - Alexandra Serebrennikova
-    - place: 51=
-      total: 15
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.408
-        arrival: 0
-        time: 0
-        reach: 14.288
-        distance: 14.695
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '20'
-      - Anatoly Reyter
-    - place: 51=
-      total: 15
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.408
-        arrival: 0
-        time: 0
-        reach: 14.288
-        distance: 14.695
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '38'
-      - Gerolf Heinrichs
-    - place: 51=
-      total: 15
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.408
-        arrival: 0
-        time: 0
-        reach: 14.288
-        distance: 14.695
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '58'
-      - Hossain Tefaili
-    - place: 51=
-      total: 15
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.408
-        arrival: 0
-        time: 0
-        reach: 14.288
-        distance: 14.695
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '24'
-      - Michael Hogan
-    - place: 51=
-      total: 15
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.408
-        arrival: 0
-        time: 0
-        reach: 14.288
-        distance: 14.695
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
-  - - - '23'
-      - Steve Hogan
-    - place: 51=
-      total: 15
-      jump: null
-      penaltiesJump: []
-      penalties: []
-      penaltyReason: ''
-      breakdown:
-        effort: 0.408
-        arrival: 0
-        time: 0
-        reach: 14.288
-        distance: 14.695
-        leading: 0
-      velocity: null
-      reach:
-        extra: 0.000 km
-        flown: 0.000 km
-      landedMade: 0.000 km
-      stoppedAlt: null
 scoreDf:
 - - - - '29'
       - Jonny Durand
@@ -19007,17 +19007,17 @@ scoreDfNoTrack:
   - - - '14'
       - Akiko Suzuki
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19028,17 +19028,17 @@ scoreDfNoTrack:
   - - - '8'
       - Gordon Rigg
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19049,17 +19049,17 @@ scoreDfNoTrack:
   - - - '58'
       - Hossain Tefaili
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19070,17 +19070,17 @@ scoreDfNoTrack:
   - - - '6'
       - Jason Kath
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19091,17 +19091,17 @@ scoreDfNoTrack:
   - - - '22'
       - Lukas Bader
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19112,17 +19112,17 @@ scoreDfNoTrack:
   - - - '24'
       - Michael Hogan
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19133,17 +19133,17 @@ scoreDfNoTrack:
   - - - '16'
       - Michael Williams
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19154,17 +19154,17 @@ scoreDfNoTrack:
   - - - '60'
       - Peter Adriaans
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19175,17 +19175,17 @@ scoreDfNoTrack:
   - - - '34'
       - Phil Schroder
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19196,17 +19196,17 @@ scoreDfNoTrack:
   - - - '12'
       - Ryosuke Hattori
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19217,17 +19217,17 @@ scoreDfNoTrack:
   - - - '53'
       - Stuart Cathcart
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19238,17 +19238,17 @@ scoreDfNoTrack:
   - - - '13'
       - Yasuhiro Noma
     - place: 4=
-      total: 3
+      total: 10
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.103
+        effort: 7.295
         arrival: 0
         time: 0
         reach: 3.089
-        distance: 3.192
+        distance: 10.385
         leading: 0
       velocity: null
       reach:
@@ -19260,17 +19260,17 @@ scoreDfNoTrack:
 - - - - '16'
       - Michael Williams
     - place: 1=
-      total: 13
+      total: 48
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 34.843
         arrival: 0
         time: 0
         reach: 12.678
-        distance: 12.678
+        distance: 47.52
         leading: 0
       velocity: null
       reach:
@@ -19281,17 +19281,17 @@ scoreDfNoTrack:
   - - - '23'
       - Steve Hogan
     - place: 1=
-      total: 13
+      total: 48
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 34.843
         arrival: 0
         time: 0
         reach: 12.678
-        distance: 12.678
+        distance: 47.52
         leading: 0
       velocity: null
       reach:
@@ -19323,17 +19323,17 @@ scoreDfNoTrack:
   - - - '24'
       - Michael Hogan
     - place: 2=
-      total: 6
+      total: 16
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 10
         arrival: 0
         time: 0
         reach: 6.103
-        distance: 6.103
+        distance: 16.103
         leading: 0
       velocity: null
       reach:
@@ -19344,17 +19344,17 @@ scoreDfNoTrack:
   - - - '23'
       - Steve Hogan
     - place: 2=
-      total: 6
+      total: 16
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 10
         arrival: 0
         time: 0
         reach: 6.103
-        distance: 6.103
+        distance: 16.103
         leading: 0
       velocity: null
       reach:
@@ -19365,17 +19365,17 @@ scoreDfNoTrack:
   - - - '53'
       - Stuart Cathcart
     - place: 2=
-      total: 6
+      total: 16
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 10
         arrival: 0
         time: 0
         reach: 6.103
-        distance: 6.103
+        distance: 16.103
         leading: 0
       velocity: null
       reach:
@@ -19407,17 +19407,17 @@ scoreDfNoTrack:
   - - - '10'
       - Dan Balla
     - place: 2=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -19428,17 +19428,17 @@ scoreDfNoTrack:
   - - - '15'
       - Elia Piccinini
     - place: 2=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -19449,17 +19449,17 @@ scoreDfNoTrack:
   - - - '16'
       - Michael Williams
     - place: 2=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -19470,17 +19470,17 @@ scoreDfNoTrack:
   - - - '30'
       - Peter Ebeling
     - place: 2=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -19491,17 +19491,17 @@ scoreDfNoTrack:
   - - - '23'
       - Steve Hogan
     - place: 2=
-      total: 13
+      total: 43
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0
+        effort: 29.317
         arrival: 0
         time: 0
         reach: 13.333
-        distance: 13.333
+        distance: 42.65
         leading: 0
       velocity: null
       reach:
@@ -19512,17 +19512,17 @@ scoreDfNoTrack:
 - - - - '39'
       - Alexandra Serebrennikova
     - place: 1=
-      total: 15
+      total: 50
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.408
+        effort: 35.355
         arrival: 0
         time: 0
         reach: 14.288
-        distance: 14.695
+        distance: 49.643
         leading: 0
       velocity: null
       reach:
@@ -19533,17 +19533,17 @@ scoreDfNoTrack:
   - - - '20'
       - Anatoly Reyter
     - place: 1=
-      total: 15
+      total: 50
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.408
+        effort: 35.355
         arrival: 0
         time: 0
         reach: 14.288
-        distance: 14.695
+        distance: 49.643
         leading: 0
       velocity: null
       reach:
@@ -19554,17 +19554,17 @@ scoreDfNoTrack:
   - - - '38'
       - Gerolf Heinrichs
     - place: 1=
-      total: 15
+      total: 50
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.408
+        effort: 35.355
         arrival: 0
         time: 0
         reach: 14.288
-        distance: 14.695
+        distance: 49.643
         leading: 0
       velocity: null
       reach:
@@ -19575,17 +19575,17 @@ scoreDfNoTrack:
   - - - '58'
       - Hossain Tefaili
     - place: 1=
-      total: 15
+      total: 50
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.408
+        effort: 35.355
         arrival: 0
         time: 0
         reach: 14.288
-        distance: 14.695
+        distance: 49.643
         leading: 0
       velocity: null
       reach:
@@ -19596,17 +19596,17 @@ scoreDfNoTrack:
   - - - '24'
       - Michael Hogan
     - place: 1=
-      total: 15
+      total: 50
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.408
+        effort: 35.355
         arrival: 0
         time: 0
         reach: 14.288
-        distance: 14.695
+        distance: 49.643
         leading: 0
       velocity: null
       reach:
@@ -19617,17 +19617,17 @@ scoreDfNoTrack:
   - - - '23'
       - Steve Hogan
     - place: 1=
-      total: 15
+      total: 50
       jump: null
       penaltiesJump: []
       penalties: []
       penaltyReason: ''
       breakdown:
-        effort: 0.408
+        effort: 35.355
         arrival: 0
         time: 0
         reach: 14.288
-        distance: 14.695
+        distance: 49.643
         leading: 0
       velocity: null
       reach:
