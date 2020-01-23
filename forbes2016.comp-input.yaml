@@ -134,6 +134,7 @@ tasks:
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
   penalsAuto: []
   penals: []
 - taskName: via SUCKS
@@ -213,6 +214,7 @@ tasks:
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
   penalsAuto: []
   penals: []
 - taskName: TTT to goal
@@ -278,6 +280,7 @@ tasks:
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
   penalsAuto: []
   penals: []
 - taskName: Where is wallygett
@@ -339,6 +342,7 @@ tasks:
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
   penalsAuto: []
   penals: []
 - taskName: racing? confused
@@ -422,6 +426,7 @@ tasks:
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
   penalsAuto: []
   penals: []
 - taskName: gunning for goal
@@ -533,6 +538,7 @@ tasks:
   earlyStart:
     earliest: 600 s
     earlyPenalty: 2 s
+    tooEarlyReset: 0
   penalsAuto: []
   penals: []
 taskFolders:
