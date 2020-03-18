@@ -24,6 +24,7 @@ nominal:
 compTweak:
   arrivalRank: true
   arrivalTime: false
+  leadingAreaDistanceSquared: true
   leadingWeightScaling: null
 tasks:
 - taskName: Missing in action
@@ -130,6 +131,7 @@ tasks:
   taskTweak:
     arrivalRank: false
     arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: 0
   earlyStart:
     earliest: 600 s
@@ -210,6 +212,7 @@ tasks:
   taskTweak:
     arrivalRank: false
     arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: 0
   earlyStart:
     earliest: 600 s
@@ -276,6 +279,7 @@ tasks:
   taskTweak:
     arrivalRank: false
     arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: 0
   earlyStart:
     earliest: 600 s
@@ -338,6 +342,7 @@ tasks:
   taskTweak:
     arrivalRank: false
     arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: 0
   earlyStart:
     earliest: 600 s
@@ -422,6 +427,7 @@ tasks:
   taskTweak:
     arrivalRank: true
     arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 600 s
@@ -534,6 +540,7 @@ tasks:
   taskTweak:
     arrivalRank: true
     arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 600 s

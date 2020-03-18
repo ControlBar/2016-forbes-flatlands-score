@@ -1,3 +1,2 @@
-fixIdx,time,lat,lng,alt,tickLead,tickRace,zoneIdx,legIdx,togo,area
-1,,,,0.0,-6989.84445323761,,1,0,431.686,0.0
-1,,,,0.0,-6989.84445323761,,1,0,431.686,1.5545840658309379e9
+fixIdx,legIdx,zoneIdx,tickLead,tickRace,time,lat,lng,alt,togo
+1,0,1,-6989.84445323761,,,,,0.0,431.686

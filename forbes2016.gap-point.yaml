@@ -8982,7 +8982,7 @@ score:
   - - - '43'
       - Neale Halsall
     - place: '41'
-      total: 443.481
+      total: 442.548
       jump: null
       penalties: []
       breakdown:
@@ -8991,7 +8991,7 @@ score:
         time: 0
         reach: 181.013
         distance: 362.546
-        leading: 80.9
+        leading: 80
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -9009,13 +9009,13 @@ score:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 443.481
+      subtotal: 442.548
       landedMade: 135.684 km
       stoppedAlt: 534.000 m
   - - - '41'
       - Simon Braithwaite
     - place: '42'
-      total: 439.834
+      total: 439.832
       jump: null
       penalties: []
       breakdown:
@@ -9042,7 +9042,7 @@ score:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 439.834
+      subtotal: 439.832
       landedMade: 137.883 km
       stoppedAlt: 536.000 m
   - - - '27'
@@ -9081,7 +9081,7 @@ score:
   - - - '13'
       - Yasuhiro Noma
     - place: '44'
-      total: 435.962
+      total: 423.412
       jump: null
       penalties: []
       breakdown:
@@ -9090,7 +9090,7 @@ score:
         time: 0
         reach: 173.649
         distance: 343.92
-        leading: 92
+        leading: 79.5
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -9108,7 +9108,7 @@ score:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 435.962
+      subtotal: 423.412
       landedMade: 130.238 km
       stoppedAlt: 0.000 m
   - - - '14'
@@ -10683,7 +10683,7 @@ score:
   - - - '43'
       - Neale Halsall
     - place: '37'
-      total: 392.966
+      total: 392.882
       jump: null
       penalties: []
       breakdown:
@@ -10692,7 +10692,7 @@ score:
         time: 0
         reach: 168.654
         distance: 358.185
-        leading: 34.8
+        leading: 34.7
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -10710,13 +10710,13 @@ score:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 392.966
+      subtotal: 392.882
       landedMade: 116.816 km
       stoppedAlt: 217.000 m
   - - - '33'
       - Trent Brown
     - place: '38'
-      total: 372.76
+      total: 372.718
       jump: null
       penalties: []
       breakdown:
@@ -10743,13 +10743,13 @@ score:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 372.76
+      subtotal: 372.718
       landedMade: 120.962 km
       stoppedAlt: 238.000 m
   - - - '50'
       - Thomas Lindal
     - place: '39'
-      total: 351.238
+      total: 351.113
       jump: null
       penalties: []
       breakdown:
@@ -10758,7 +10758,7 @@ score:
         time: 0
         reach: 161.006
         distance: 345.411
-        leading: 5.8
+        leading: 5.7
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -10776,13 +10776,13 @@ score:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 351.238
+      subtotal: 351.113
       landedMade: 112.478 km
       stoppedAlt: 267.000 m
   - - - '27'
       - Franko Chetcuti
     - place: '40'
-      total: 340.626
+      total: 340.484
       jump: null
       penalties: []
       breakdown:
@@ -10791,7 +10791,7 @@ score:
         time: 0
         reach: 158.567
         distance: 340.352
-        leading: 0.3
+        leading: 0.1
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -10809,7 +10809,7 @@ score:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 340.626
+      subtotal: 340.484
       landedMade: 110.983 km
       stoppedAlt: 0.000 m
   - - - '10'
@@ -19517,7 +19517,7 @@ scoreDf:
   - - - '43'
       - Neale Halsall
     - place: '41'
-      total: 443.481
+      total: 442.548
       jump: null
       penalties: []
       breakdown:
@@ -19526,7 +19526,7 @@ scoreDf:
         time: 0
         reach: 181.013
         distance: 362.546
-        leading: 80.9
+        leading: 80
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -19544,13 +19544,13 @@ scoreDf:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 443.481
+      subtotal: 442.548
       landedMade: 135.684 km
       stoppedAlt: 534.000 m
   - - - '41'
       - Simon Braithwaite
     - place: '42'
-      total: 439.834
+      total: 439.832
       jump: null
       penalties: []
       breakdown:
@@ -19577,7 +19577,7 @@ scoreDf:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 439.834
+      subtotal: 439.832
       landedMade: 137.883 km
       stoppedAlt: 536.000 m
   - - - '27'
@@ -19616,7 +19616,7 @@ scoreDf:
   - - - '13'
       - Yasuhiro Noma
     - place: '44'
-      total: 435.962
+      total: 423.412
       jump: null
       penalties: []
       breakdown:
@@ -19625,7 +19625,7 @@ scoreDf:
         time: 0
         reach: 173.649
         distance: 343.92
-        leading: 92
+        leading: 79.5
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -19643,7 +19643,7 @@ scoreDf:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 435.962
+      subtotal: 423.412
       landedMade: 130.238 km
       stoppedAlt: 0.000 m
   - - - '14'
@@ -21068,7 +21068,7 @@ scoreDf:
   - - - '43'
       - Neale Halsall
     - place: '37'
-      total: 392.966
+      total: 392.882
       jump: null
       penalties: []
       breakdown:
@@ -21077,7 +21077,7 @@ scoreDf:
         time: 0
         reach: 168.654
         distance: 358.185
-        leading: 34.8
+        leading: 34.7
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -21095,13 +21095,13 @@ scoreDf:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 392.966
+      subtotal: 392.882
       landedMade: 116.816 km
       stoppedAlt: 217.000 m
   - - - '33'
       - Trent Brown
     - place: '38'
-      total: 372.76
+      total: 372.718
       jump: null
       penalties: []
       breakdown:
@@ -21128,13 +21128,13 @@ scoreDf:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 372.76
+      subtotal: 372.718
       landedMade: 120.962 km
       stoppedAlt: 238.000 m
   - - - '50'
       - Thomas Lindal
     - place: '39'
-      total: 351.238
+      total: 351.113
       jump: null
       penalties: []
       breakdown:
@@ -21143,7 +21143,7 @@ scoreDf:
         time: 0
         reach: 161.006
         distance: 345.411
-        leading: 5.8
+        leading: 5.7
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -21161,13 +21161,13 @@ scoreDf:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 351.238
+      subtotal: 351.113
       landedMade: 112.478 km
       stoppedAlt: 267.000 m
   - - - '27'
       - Franko Chetcuti
     - place: '40'
-      total: 340.626
+      total: 340.484
       jump: null
       penalties: []
       breakdown:
@@ -21176,7 +21176,7 @@ scoreDf:
         time: 0
         reach: 158.567
         distance: 340.352
-        leading: 0.3
+        leading: 0.1
       demeritFrac: 0
       demeritPoint: 0
       velocity:
@@ -21194,7 +21194,7 @@ scoreDf:
       demeritReset: 0
       penaltiesJump: []
       penaltyReason: ''
-      subtotal: 340.626
+      subtotal: 340.484
       landedMade: 110.983 km
       stoppedAlt: 0.000 m
   - - - '10'
