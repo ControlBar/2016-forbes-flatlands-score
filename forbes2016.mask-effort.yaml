@@ -606,10 +606,6 @@ land:
       - Vic Hare
     - togo: 42.385924 km
       made: 91.940858 km
-  - - - '30'
-      - Peter Ebeling
-    - togo: 43.077068 km
-      made: 91.249714 km
   - - - '10'
       - Dan Balla
     - togo: 43.104216 km
@@ -630,10 +626,6 @@ land:
       - Akiko Suzuki
     - togo: 80.902635 km
       made: 53.424147 km
-  - - - '56'
-      - Tony Armstrong
-    - togo: 81.123500 km
-      made: 53.203282 km
   - - - '60'
       - Peter Adriaans
     - togo: 84.054267 km
@@ -666,7 +658,39 @@ land:
       - Steve Hogan
     - togo: 124.326782 km
       made: 10.000000 km
+  - - - '28'
+      - Glen Mcfarlane
+    - togo: 134.688438 km
+      made: -0.361656 km
+  - - - '47'
+      - Olav Opsanger
+    - togo: 134.714314 km
+      made: -0.387532 km
+  - - - '56'
+      - Tony Armstrong
+    - togo: 134.764019 km
+      made: -0.437237 km
+  - - - '30'
+      - Peter Ebeling
+    - togo: 134.771464 km
+      made: -0.444682 km
+  - - - '62'
+      - Craig Taylor
+    - togo: 134.810656 km
+      made: -0.483874 km
   - - - '35'
       - Justinas Pleikys
     - togo: 134.820166 km
       made: -0.493384 km
+  - - - '16'
+      - Michael Williams
+    - togo: 134.832566 km
+      made: -0.505784 km
+  - - - '32'
+      - Jon Durand Snr
+    - togo: 134.864851 km
+      made: -0.538069 km
+  - - - '29'
+      - Jonny Durand
+    - togo: 134.874710 km
+      made: -0.547928 km

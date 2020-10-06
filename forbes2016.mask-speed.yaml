@@ -4,14 +4,14 @@ ssBestTime:
 - 2.309847 h
 - 5.692425 h
 - 2.343158 h
-- 3.080760 h
+- 0.689958 h
 gsBestTime:
 - null
 - 1.946500 h
 - 2.309847 h
 - 5.692425 h
 - 2.350236 h
-- 3.096244 h
+- 2.436448 h
 taskDistance:
 - 124.303755 km
 - 112.185839 km
@@ -558,8 +558,8 @@ ssSpeed:
       frac: 0.44743043
   - - - '60'
       - Peter Adriaans
-    - time: 3.063208 h
-      frac: 0.39515887
+    - time: 3.068223 h
+      frac: 0.39235376
   - - - '55'
       - Simon West
     - time: 3.099500 h
@@ -570,8 +570,8 @@ ssSpeed:
       frac: 0.30678623
   - - - '57'
       - Mikhail Karmazin
-    - time: 3.248922 h
-      frac: 0.2951833
+    - time: 3.266037 h
+      frac: 0.28633219
   - - - '3'
       - Nils Vesk
     - time: 3.360276 h
@@ -586,155 +586,131 @@ ssSpeed:
       frac: 0.15371913
   - - - '14'
       - Akiko Suzuki
-    - time: 4.062544 h
+    - time: 4.067682 h
       frac: 0
   - - - '20'
       - Anatoly Reyter
     - time: 4.694706 h
       frac: 0
-- - - - '52'
+- - - - '13'
+      - Yasuhiro Noma
+    - time: 0.689958 h
+      frac: 1
+  - - - '48'
+      - Olav Lien Olsen
+    - time: 0.778976 h
+      frac: 0.7743811
+  - - - '1'
+      - Fredy Bircher
+    - time: 0.780957 h
+      frac: 0.77104636
+  - - - '37'
+      - Andrew Barnes
+    - time: 0.783255 h
+      frac: 0.767207
+  - - - '51'
+      - Michael Jackson
+    - time: 0.814846 h
+      frac: 0.71724793
+  - - - '17'
+      - Tullio Gervasoni
+    - time: 0.856773 h
+      frac: 0.65706225
+  - - - '19'
+      - Federico Martini
+    - time: 0.860543 h
+      frac: 0.65191542
+  - - - '8'
+      - Gordon Rigg
+    - time: 0.881491 h
+      frac: 0.62397124
+  - - - '4'
+      - Rohan Taylor
+    - time: 0.911149 h
+      frac: 0.58609178
+  - - - '34'
+      - Phil Schroder
+    - time: 1.001917 h
+      frac: 0.47945699
+  - - - '54'
+      - Josh Woods
+    - time: 1.017480 h
+      frac: 0.46228487
+  - - - '2'
+      - Malcolm Brown
+    - time: 1.071924 h
+      frac: 0.40423448
+  - - - '55'
+      - Simon West
+    - time: 1.078409 h
+      frac: 0.39751025
+  - - - '18'
+      - Yoko Isomoto
+    - time: 1.316199 h
+      frac: 0.17163859
+  - - - '57'
+      - Mikhail Karmazin
+    - time: 1.409424 h
+      frac: 9.134534e-2
+  - - - '12'
+      - Ryosuke Hattori
+    - time: 1.711257 h
+      frac: 0
+  - - - '52'
       - Len Paton
     - time: 3.080760 h
-      frac: 1
+      frac: 0
   - - - '46'
       - Steve Blenkinsop
     - time: 3.085628 h
-      frac: 0.98026087
+      frac: 0
   - - - '31'
       - Gavin Myers
     - time: 3.126910 h
-      frac: 0.91157739
-  - - - '37'
-      - Andrew Barnes
-    - time: 3.171312 h
-      frac: 0.86141606
+      frac: 0
   - - - '6'
       - Jason Kath
     - time: 3.174551 h
-      frac: 0.85813085
+      frac: 0
   - - - '49'
       - Oyvind Ellefsen
     - time: 3.203697 h
-      frac: 0.83008382
-  - - - '28'
-      - Glen Mcfarlane
-    - time: 3.292046 h
-      frac: 0.75620345
-  - - - '47'
-      - Olav Opsanger
-    - time: 3.301934 h
-      frac: 0.74865496
-  - - - '29'
-      - Jonny Durand
-    - time: 3.329579 h
-      frac: 0.7281245
-  - - - '4'
-      - Rohan Taylor
-    - time: 3.334541 h
-      frac: 0.72452217
-  - - - '1'
-      - Fredy Bircher
-    - time: 3.337536 h
-      frac: 0.72235887
-  - - - '51'
-      - Michael Jackson
-    - time: 3.357637 h
-      frac: 0.70805262
-  - - - '48'
-      - Olav Lien Olsen
-    - time: 3.366169 h
-      frac: 0.7020851
-  - - - '54'
-      - Josh Woods
-    - time: 3.374582 h
-      frac: 0.69625869
-  - - - '55'
-      - Simon West
-    - time: 3.409666 h
-      frac: 0.67253766
-  - - - '32'
-      - Jon Durand Snr
-    - time: 3.432778 h
-      frac: 0.65737116
-  - - - '19'
-      - Federico Martini
-    - time: 3.446116 h
-      frac: 0.64877016
-  - - - '17'
-      - Tullio Gervasoni
-    - time: 3.461619 h
-      frac: 0.6389036
-  - - - '8'
-      - Gordon Rigg
-    - time: 3.468069 h
-      frac: 0.63483771
-  - - - '13'
-      - Yasuhiro Noma
-    - time: 3.551410 h
-      frac: 0.58417308
+      frac: 0
   - - - '25'
       - Gary Wright
     - time: 3.563851 h
-      frac: 0.57687737
+      frac: 0
   - - - '22'
       - Lukas Bader
     - time: 3.803073 h
-      frac: 0.44673795
-  - - - '34'
-      - Phil Schroder
-    - time: 3.890335 h
-      frac: 0.40303076
-  - - - '2'
-      - Malcolm Brown
-    - time: 3.933333 h
-      frac: 0.38207605
-  - - - '16'
-      - Michael Williams
-    - time: 3.939048 h
-      frac: 0.37931785
+      frac: 0
   - - - '7'
       - Gijs Wanders
     - time: 3.982696 h
-      frac: 0.35844908
+      frac: 0
   - - - '61'
       - Erland Åmot
     - time: 4.061556 h
-      frac: 0.32157813
+      frac: 0
   - - - '26'
       - Rod Flockhart
     - time: 4.235405 h
-      frac: 0.24360889
-  - - - '62'
-      - Craig Taylor
-    - time: 4.263643 h
-      frac: 0.23132645
+      frac: 0
   - - - '36'
       - Howard Jones
     - time: 4.277810 h
-      frac: 0.22520138
+      frac: 0
   - - - '42'
       - Guy Hubbard
     - time: 4.459779 h
-      frac: 0.14854657
+      frac: 0
   - - - '3'
       - Nils Vesk
     - time: 4.635606 h
-      frac: 7.762931e-2
-  - - - '18'
-      - Yoko Isomoto
-    - time: 4.639982 h
-      frac: 7.589912e-2
-  - - - '57'
-      - Mikhail Karmazin
-    - time: 4.780541 h
-      frac: 2.116523e-2
+      frac: 0
   - - - '59'
       - Tony Giammichele
-    - time: 4.809115 h
-      frac: 1.022625e-2
-  - - - '12'
-      - Ryosuke Hattori
-    - time: 5.060755 h
+    - time: 4.812556 h
       frac: 0
 gsSpeed:
 - []
@@ -1302,149 +1278,125 @@ gsSpeed:
       - Anatoly Reyter
     - time: 4.899597 h
       frac: 0
-- - - - '46'
+- - - - '37'
+      - Andrew Barnes
+    - time: 2.436448 h
+      frac: 1
+  - - - '4'
+      - Rohan Taylor
+    - time: 2.586973 h
+      frac: 0.78970934
+  - - - '55'
+      - Simon West
+    - time: 2.664858 h
+      frac: 0.72231188
+  - - - '1'
+      - Fredy Bircher
+    - time: 2.857382 h
+      frac: 0.58259598
+  - - - '51'
+      - Michael Jackson
+    - time: 2.865378 h
+      frac: 0.57732647
+  - - - '48'
+      - Olav Lien Olsen
+    - time: 2.868439 h
+      frac: 0.57531802
+  - - - '54'
+      - Josh Woods
+    - time: 2.879309 h
+      frac: 0.56822373
+  - - - '19'
+      - Federico Martini
+    - time: 2.956014 h
+      frac: 0.51970505
+  - - - '17'
+      - Tullio Gervasoni
+    - time: 2.969999 h
+      frac: 0.51112477
+  - - - '8'
+      - Gordon Rigg
+    - time: 2.974273 h
+      frac: 0.50851751
+  - - - '46'
       - Steve Blenkinsop
     - time: 3.096244 h
-      frac: 1
+      frac: 0.43676841
   - - - '52'
       - Len Paton
     - time: 3.133320 h
-      frac: 0.92371216
+      frac: 0.41586102
   - - - '31'
       - Gavin Myers
     - time: 3.135225 h
-      frac: 0.92112131
+      frac: 0.41479711
   - - - '6'
       - Jason Kath
     - time: 3.180130 h
-      frac: 0.86852357
-  - - - '37'
-      - Andrew Barnes
-    - time: 3.186448 h
-      frac: 0.86200133
+      frac: 0.38998746
+  - - - '34'
+      - Phil Schroder
+    - time: 3.200455 h
+      frac: 0.37892272
   - - - '49'
       - Oyvind Ellefsen
     - time: 3.217585 h
-      frac: 0.83183836
-  - - - '47'
-      - Olav Opsanger
-    - time: 3.313313 h
-      frac: 0.75218917
-  - - - '28'
-      - Glen Mcfarlane
-    - time: 3.313328 h
-      frac: 0.75217773
-  - - - '29'
-      - Jonny Durand
-    - time: 3.332512 h
-      frac: 0.73778457
-  - - - '4'
-      - Rohan Taylor
-    - time: 3.336973 h
-      frac: 0.73449365
-  - - - '1'
-      - Fredy Bircher
-    - time: 3.357382 h
-      frac: 0.71969202
-  - - - '51'
-      - Michael Jackson
-    - time: 3.365378 h
-      frac: 0.7139987
-  - - - '48'
-      - Olav Lien Olsen
-    - time: 3.368439 h
-      frac: 0.71183431
-  - - - '54'
-      - Josh Woods
-    - time: 3.379309 h
-      frac: 0.70421289
-  - - - '55'
-      - Simon West
-    - time: 3.414858 h
-      frac: 0.67993953
-  - - - '32'
-      - Jon Durand Snr
-    - time: 3.437275 h
-      frac: 0.66509796
-  - - - '19'
-      - Federico Martini
-    - time: 3.456014 h
-      frac: 0.65293922
-  - - - '17'
-      - Tullio Gervasoni
-    - time: 3.469999 h
-      frac: 0.64400271
-  - - - '8'
-      - Gordon Rigg
-    - time: 3.474273 h
-      frac: 0.64129392
+      frac: 0.36967366
   - - - '13'
       - Yasuhiro Noma
-    - time: 3.586303 h
-      frac: 0.57353111
+    - time: 3.336303 h
+      frac: 0.30732567
+  - - - '2'
+      - Malcolm Brown
+    - time: 3.452298 h
+      frac: 0.24901058
   - - - '25'
       - Gary Wright
     - time: 3.596840 h
-      frac: 0.56743971
+      frac: 0.17936398
   - - - '22'
       - Lukas Bader
     - time: 3.806319 h
-      frac: 0.45391774
-  - - - '16'
-      - Michael Williams
-    - time: 3.941922 h
-      frac: 0.38643778
-  - - - '34'
-      - Phil Schroder
-    - time: 3.950455 h
-      frac: 0.38231764
-  - - - '2'
-      - Malcolm Brown
-    - time: 3.952298 h
-      frac: 0.38142956
+      frac: 8.335605e-2
   - - - '7'
       - Gijs Wanders
     - time: 3.995417 h
-      frac: 0.36082875
+      frac: 8.3056e-4
+  - - - '57'
+      - Mikhail Karmazin
+    - time: 4.042171 h
+      frac: 0
   - - - '61'
       - Erland Åmot
     - time: 4.070289 h
-      frac: 0.32582225
+      frac: 0
+  - - - '18'
+      - Yoko Isomoto
+    - time: 4.144957 h
+      frac: 0
   - - - '26'
       - Rod Flockhart
     - time: 4.251607 h
-      frac: 0.24455873
-  - - - '62'
-      - Craig Taylor
-    - time: 4.282345 h
-      frac: 0.23121866
+      frac: 0
   - - - '36'
       - Howard Jones
     - time: 4.283243 h
-      frac: 0.23083086
+      frac: 0
   - - - '42'
       - Guy Hubbard
     - time: 4.506026 h
-      frac: 0.13737315
-  - - - '18'
-      - Yoko Isomoto
-    - time: 4.644957 h
-      frac: 8.159182e-2
+      frac: 0
   - - - '3'
       - Nils Vesk
     - time: 4.657598 h
-      frac: 7.660124e-2
-  - - - '57'
-      - Mikhail Karmazin
-    - time: 4.792171 h
-      frac: 2.427716e-2
-  - - - '59'
-      - Tony Giammichele
-    - time: 4.915967 h
       frac: 0
   - - - '12'
       - Ryosuke Hattori
-    - time: 5.081192 h
+    - time: 4.831192 h
+      frac: 0
+  - - - '59'
+      - Tony Giammichele
+    - time: 4.915967 h
       frac: 0
 altStopped:
 - - - - '39'
@@ -1807,6 +1759,9 @@ altStopped:
   - - - '5'
       - Bruce Wynne
     - 272.000 m
+  - - - '62'
+      - Craig Taylor
+    - 221.000 m
   - - - '10'
       - Dan Balla
     - 0.000 m
@@ -1816,12 +1771,27 @@ altStopped:
   - - - '27'
       - Franko Chetcuti
     - 0.000 m
+  - - - '28'
+      - Glen Mcfarlane
+    - 219.000 m
+  - - - '32'
+      - Jon Durand Snr
+    - 229.000 m
+  - - - '29'
+      - Jonny Durand
+    - 227.000 m
   - - - '35'
       - Justinas Pleikys
     - 197.000 m
+  - - - '16'
+      - Michael Williams
+    - 235.000 m
   - - - '43'
       - Neale Halsall
     - 217.000 m
+  - - - '47'
+      - Olav Opsanger
+    - 233.000 m
   - - - '60'
       - Peter Adriaans
     - 234.000 m
