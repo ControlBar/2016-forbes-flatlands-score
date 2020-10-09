@@ -4,7 +4,7 @@ pilotsAtEss:
 - 28
 - 26
 - 43
-- 30
+- 36
 arrivalRank:
 - []
 - - - - '26'
@@ -721,144 +721,174 @@ arrivalRank:
       - Len Paton
     - lag: 0.037077 h
       rank: '2'
-      frac: 0.929031
+      frac: 0.94055202
   - - - '31'
       - Gavin Myers
     - lag: 0.038981 h
       rank: '3'
-      frac: 0.86243022
+      frac: 0.88415381
   - - - '6'
       - Jason Kath
     - lag: 0.083886 h
       rank: '4'
-      frac: 0.800057
+      frac: 0.83072396
   - - - '37'
       - Andrew Barnes
     - lag: 0.090205 h
       rank: '5'
-      frac: 0.74177067
+      frac: 0.78018107
   - - - '49'
       - Oyvind Ellefsen
     - lag: 0.121341 h
       rank: '6'
-      frac: 0.68743056
+      frac: 0.73244374
   - - - '4'
       - Rohan Taylor
     - lag: 0.240730 h
       rank: '7'
-      frac: 0.636896
+      frac: 0.68743056
   - - - '55'
       - Simon West
     - lag: 0.318615 h
       rank: '8'
-      frac: 0.59002633
+      frac: 0.64506012
+  - - - '32'
+      - Jon Durand Snr
+    - lag: 0.341031 h
+      rank: '9'
+      frac: 0.60525103
+  - - - '47'
+      - Olav Opsanger
+    - lag: 0.467069 h
+      rank: '10'
+      frac: 0.56792188
+  - - - '28'
+      - Glen Mcfarlane
+    - lag: 0.467084 h
+      rank: '11'
+      frac: 0.53299126
+  - - - '29'
+      - Jonny Durand
+    - lag: 0.486268 h
+      rank: '12'
+      frac: 0.50037776
   - - - '1'
       - Fredy Bircher
     - lag: 0.511138 h
-      rank: '9'
-      frac: 0.54668089
+      rank: '13'
+      frac: 0.47
   - - - '51'
       - Michael Jackson
     - lag: 0.519135 h
-      rank: '10'
-      frac: 0.506719
+      rank: '14'
+      frac: 0.44177656
   - - - '48'
       - Olav Lien Olsen
     - lag: 0.522196 h
-      rank: '11'
-      frac: 0.47
+      rank: '15'
+      frac: 0.41562603
   - - - '54'
       - Josh Woods
     - lag: 0.533065 h
-      rank: '12'
-      frac: 0.43638322
+      rank: '16'
+      frac: 0.39146701
   - - - '19'
       - Federico Martini
     - lag: 0.609771 h
-      rank: '13'
-      frac: 0.405728
+      rank: '17'
+      frac: 0.36921811
   - - - '17'
       - Tullio Gervasoni
     - lag: 0.623756 h
-      rank: '14'
-      frac: 0.37789367
+      rank: '18'
+      frac: 0.3487979
   - - - '8'
       - Gordon Rigg
     - lag: 0.628029 h
-      rank: '15'
-      frac: 0.35273956
+      rank: '19'
+      frac: 0.330125
   - - - '34'
       - Phil Schroder
     - lag: 0.854211 h
-      rank: '16'
-      frac: 0.330125
+      rank: '20'
+      frac: 0.31311799
   - - - '22'
       - Lukas Bader
     - lag: 0.960076 h
-      rank: '17'
-      frac: 0.30990933
+      rank: '21'
+      frac: 0.29769547
   - - - '13'
       - Yasuhiro Noma
     - lag: 0.990059 h
-      rank: '18'
-      frac: 0.29195189
+      rank: '22'
+      frac: 0.28377604
   - - - '25'
       - Gary Wright
     - lag: 1.000596 h
-      rank: '19'
-      frac: 0.276112
+      rank: '23'
+      frac: 0.27127829
   - - - '2'
       - Malcolm Brown
     - lag: 1.106054 h
-      rank: '20'
-      frac: 0.262249
+      rank: '24'
+      frac: 0.26012082
   - - - '7'
       - Gijs Wanders
     - lag: 1.149173 h
-      rank: '21'
+      rank: '25'
       frac: 0.25022222
+  - - - '62'
+      - Craig Taylor
+    - lag: 1.186101 h
+      rank: '26'
+      frac: 0.24150109
   - - - '61'
       - Erland Åmot
     - lag: 1.224045 h
-      rank: '22'
-      frac: 0.239891
+      rank: '27'
+      frac: 0.23387603
+  - - - '16'
+      - Michael Williams
+    - lag: 1.345679 h
+      rank: '28'
+      frac: 0.22726562
   - - - '26'
       - Rod Flockhart
     - lag: 1.405363 h
-      rank: '23'
-      frac: 0.23111467
+      rank: '29'
+      frac: 0.22158848
   - - - '42'
       - Guy Hubbard
     - lag: 1.409782 h
-      rank: '24'
-      frac: 0.22375256
+      rank: '30'
+      frac: 0.21676318
   - - - '36'
       - Howard Jones
     - lag: 1.436999 h
-      rank: '25'
-      frac: 0.217664
+      rank: '31'
+      frac: 0.21270833
   - - - '57'
       - Mikhail Karmazin
     - lag: 1.695927 h
-      rank: '26'
-      frac: 0.21270833
+      rank: '32'
+      frac: 0.20934253
   - - - '18'
       - Yoko Isomoto
     - lag: 1.798714 h
-      rank: '27'
-      frac: 0.20874489
+      rank: '33'
+      frac: 0.20658436
   - - - '59'
       - Tony Giammichele
     - lag: 2.069723 h
-      rank: '28'
-      frac: 0.205633
+      rank: '34'
+      frac: 0.20435243
   - - - '3'
       - Nils Vesk
     - lag: 2.311354 h
-      rank: '29'
-      frac: 0.203232
+      rank: '35'
+      frac: 0.20256533
   - - - '12'
       - Ryosuke Hattori
     - lag: 2.484948 h
-      rank: '30'
-      frac: 0.20140122
+      rank: '36'
+      frac: 0.20114165

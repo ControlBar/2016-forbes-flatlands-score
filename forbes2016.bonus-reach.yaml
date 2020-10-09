@@ -15,8 +15,8 @@ bolster:
   mean: 123.022388 km
   stdDev: 39.217169 km
 - max: 134.326782 km
-  mean: 95.804563 km
-  stdDev: 47.592087 km
+  mean: 107.027458 km
+  stdDev: 43.582000 km
 reach:
 - max: 37.482755 km
   mean: 2.400459 km
@@ -34,8 +34,8 @@ reach:
   mean: 121.971704 km
   stdDev: 42.247741 km
 - max: 134.326782 km
-  mean: 94.573752 km
-  stdDev: 49.870293 km
+  mean: 105.796647 km
+  stdDev: 46.357920 km
 reachRank:
 - - - - '29'
       - Jonny Durand
@@ -1213,6 +1213,22 @@ reachRank:
       - Simon West
     - frac: 1
       reach: 134.326782 km
+  - - - '32'
+      - Jon Durand Snr
+    - frac: 1
+      reach: 134.326782 km
+  - - - '47'
+      - Olav Opsanger
+    - frac: 1
+      reach: 134.326782 km
+  - - - '28'
+      - Glen Mcfarlane
+    - frac: 1
+      reach: 134.326782 km
+  - - - '29'
+      - Jonny Durand
+    - frac: 1
+      reach: 134.326782 km
   - - - '1'
       - Fredy Bircher
     - frac: 1
@@ -1265,8 +1281,16 @@ reachRank:
       - Gijs Wanders
     - frac: 1
       reach: 134.326782 km
+  - - - '62'
+      - Craig Taylor
+    - frac: 1
+      reach: 134.326782 km
   - - - '61'
       - Erland Åmot
+    - frac: 1
+      reach: 134.326782 km
+  - - - '16'
+      - Michael Williams
     - frac: 1
       reach: 134.326782 km
   - - - '26'
@@ -1321,6 +1345,10 @@ reachRank:
       - Dan Balla
     - frac: 0.74110896
       reach: 99.550782 km
+  - - - '30'
+      - Peter Ebeling
+    - frac: 0.72905627
+      reach: 97.931782 km
   - - - '40'
       - Vic Hare
     - frac: 0.69484864
@@ -1333,6 +1361,10 @@ reachRank:
       - Elia Piccinini
     - frac: 0.59155576
       reach: 79.461782 km
+  - - - '56'
+      - Tony Armstrong
+    - frac: 0.53682357
+      reach: 72.109782 km
   - - - '9'
       - Peter Burkitt
     - frac: 0.41129387
@@ -1349,38 +1381,6 @@ reachRank:
       - Wayne Thompson
     - frac: 0.35306274
       reach: 47.425782 km
-  - - - '32'
-      - Jon Durand Snr
-    - frac: 0.31710565
-      reach: 42.595782 km
-  - - - '62'
-      - Craig Taylor
-    - frac: 0.31707588
-      reach: 42.591782 km
-  - - - '56'
-      - Tony Armstrong
-    - frac: 0.31706099
-      reach: 42.589782 km
-  - - - '30'
-      - Peter Ebeling
-    - frac: 0.31532641
-      reach: 42.356782 km
-  - - - '16'
-      - Michael Williams
-    - frac: 0.31453729
-      reach: 42.250782 km
-  - - - '29'
-      - Jonny Durand
-    - frac: 0.31106069
-      reach: 41.783782 km
-  - - - '47'
-      - Olav Opsanger
-    - frac: 0.30588674
-      reach: 41.088782 km
-  - - - '28'
-      - Glen Mcfarlane
-    - frac: 0.30552196
-      reach: 41.039782 km
   - - - '39'
       - Alexandra Serebrennikova
     - frac: 0
@@ -2517,6 +2517,15 @@ nigh:
         legsSum: []
         waypoints: []
       made: 93.336782 km
+  - - - '30'
+      - Peter Ebeling
+    - togo:
+        distance: 36.395000 km
+        flipSum: []
+        legs: []
+        legsSum: []
+        waypoints: []
+      made: 97.931782 km
   - - - '10'
       - Dan Balla
     - togo:
@@ -2562,6 +2571,15 @@ nigh:
         legsSum: []
         waypoints: []
       made: 53.423782 km
+  - - - '56'
+      - Tony Armstrong
+    - togo:
+        distance: 62.217000 km
+        flipSum: []
+        legs: []
+        legsSum: []
+        waypoints: []
+      made: 72.109782 km
   - - - '60'
       - Peter Adriaans
     - togo:
@@ -2580,51 +2598,6 @@ nigh:
         legsSum: []
         waypoints: []
       made: 47.425782 km
-  - - - '28'
-      - Glen Mcfarlane
-    - togo:
-        distance: 93.287000 km
-        flipSum: []
-        legs: []
-        legsSum: []
-        waypoints: []
-      made: 41.039782 km
-  - - - '47'
-      - Olav Opsanger
-    - togo:
-        distance: 93.238000 km
-        flipSum: []
-        legs: []
-        legsSum: []
-        waypoints: []
-      made: 41.088782 km
-  - - - '56'
-      - Tony Armstrong
-    - togo:
-        distance: 91.737000 km
-        flipSum: []
-        legs: []
-        legsSum: []
-        waypoints: []
-      made: 42.589782 km
-  - - - '30'
-      - Peter Ebeling
-    - togo:
-        distance: 91.970000 km
-        flipSum: []
-        legs: []
-        legsSum: []
-        waypoints: []
-      made: 42.356782 km
-  - - - '62'
-      - Craig Taylor
-    - togo:
-        distance: 91.735000 km
-        flipSum: []
-        legs: []
-        legsSum: []
-        waypoints: []
-      made: 42.591782 km
   - - - '35'
       - Justinas Pleikys
     - togo:
@@ -2634,30 +2607,3 @@ nigh:
         legsSum: []
         waypoints: []
       made: -0.156218 km
-  - - - '16'
-      - Michael Williams
-    - togo:
-        distance: 92.076000 km
-        flipSum: []
-        legs: []
-        legsSum: []
-        waypoints: []
-      made: 42.250782 km
-  - - - '32'
-      - Jon Durand Snr
-    - togo:
-        distance: 91.731000 km
-        flipSum: []
-        legs: []
-        legsSum: []
-        waypoints: []
-      made: 42.595782 km
-  - - - '29'
-      - Jonny Durand
-    - togo:
-        distance: 92.543000 km
-        flipSum: []
-        legs: []
-        legsSum: []
-        waypoints: []
-      made: 41.783782 km
