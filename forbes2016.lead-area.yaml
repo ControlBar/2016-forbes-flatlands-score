@@ -1014,6 +1014,11 @@ areas:
     - areaFlown: 83297801.8912 km^2 s
       areaAfterLanding: 0.0000 km^2 s
       areaBeforeStart: 35607453.9127 km^2 s
+  - - - '25'
+      - Gary Wright
+    - areaFlown: 83489515.2062 km^2 s
+      areaAfterLanding: 1655808.2167 km^2 s
+      areaBeforeStart: 22904465.1843 km^2 s
   - - - '31'
       - Gavin Myers
     - areaFlown: 46571987.2881 km^2 s

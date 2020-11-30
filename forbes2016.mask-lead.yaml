@@ -71,7 +71,7 @@ sumDistance:
 - 4996.842145 km
 - 6028.759090 km
 - 15201.696380 km
-- 6442.276128 km
+- 6565.345856 km
 - 5530.565100 km
 leadAreaToCoef:
 - 0.00000003870674 km^-2 s^-1
@@ -1262,6 +1262,11 @@ leadRank:
       - Fredy Bircher
     - area: 83297801.8912 km^2 s
       coef: 2.80339993
+      frac: 0
+  - - - '25'
+      - Gary Wright
+    - area: 85145323.4229 km^2 s
+      coef: 2.86557854
       frac: 0
   - - - '5'
       - Bruce Wynne

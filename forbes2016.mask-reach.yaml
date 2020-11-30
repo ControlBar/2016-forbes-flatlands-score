@@ -12,8 +12,8 @@ bolster:
   mean: 272.098213 km
   stdDev: 120.926039 km
 - max: 137.980728 km
-  mean: 123.022388 km
-  stdDev: 39.217169 km
+  mean: 123.195618 km
+  stdDev: 38.899612 km
 - max: 134.326782 km
   mean: 107.027458 km
   stdDev: 43.582000 km
@@ -31,8 +31,8 @@ reach:
   mean: 271.410658 km
   stdDev: 122.433259 km
 - max: 137.980728 km
-  mean: 121.971704 km
-  stdDev: 42.247741 km
+  mean: 122.163049 km
+  stdDev: 41.906860 km
 - max: 134.326782 km
   mean: 105.796647 km
   stdDev: 46.357920 km
@@ -1141,6 +1141,10 @@ reachRank:
       - Wayne Thompson
     - frac: 0.96701713
       reach: 133.429728 km
+  - - - '25'
+      - Gary Wright
+    - frac: 0.96440807
+      reach: 133.069728 km
   - - - '13'
       - Yasuhiro Noma
     - frac: 0.94389071
@@ -3839,6 +3843,22 @@ nigh:
         - lat: -33.1124286
           lng: 148.87971397
       made: 133.429728 km
+  - - - '25'
+      - Gary Wright
+    - togo:
+        distance: 4.910791 km
+        flipSum:
+        - 4.910791 km
+        legs:
+        - 4.910791 km
+        legsSum:
+        - 4.910791 km
+        waypoints:
+        - lat: -33.07083333
+          lng: 148.86073333
+        - lat: -33.11067137
+          lng: 148.88348599
+      made: 133.069728 km
   - - - '13'
       - Yasuhiro Noma
     - togo:

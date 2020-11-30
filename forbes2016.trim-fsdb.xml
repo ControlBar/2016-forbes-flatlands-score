@@ -1,6 +1,6 @@
 <Fs version="3.4">
   <FsCompetition id="10708" name="2016 Forbes Flatlands" location="Forbes, Australia" from="2016-01-01" to="2016-01-08" utc_offset="11" discipline="hg">
-    <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" use_arrival_position_points="1" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="15"/>
+    <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" time_points_if_not_in_goal="0.8" use_arrival_position_points="1" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="15"/>
     <FsParticipants>
       <FsParticipant id="1" name="Fredy Bircher"/>
       <FsParticipant id="2" name="Malcolm Brown"/>
@@ -64,7 +64,7 @@
     </FsParticipants>
     <FsTasks>
       <FsTask id="1" name="Missing in action" tracklog_folder="day 1">
-        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="0" score_back_time="15"/>
+        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" time_points_if_not_in_goal="0.8" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="0" score_back_time="15"/>
         <FsTaskDefinition ss="2" es="6" goal="LINE" groundstart="0">
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="500" open="2016-01-02T12:00:00+11:00" close="2016-01-02T20:00:00+11:00"/>
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="5000" open="2016-01-02T13:30:00+11:00" close="2016-01-02T20:00:00+11:00"/>
@@ -431,7 +431,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="2" name="via SUCKS" tracklog_folder="day 2">
-        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="0" score_back_time="15"/>
+        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" time_points_if_not_in_goal="0.8" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="0" score_back_time="15"/>
         <FsTaskDefinition ss="2" es="4" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="500" open="2016-01-03T12:00:00+11:00" close="2016-01-03T20:00:00+11:00"/>
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="10000" open="2016-01-03T12:30:00+11:00" close="2016-01-03T20:00:00+11:00"/>
@@ -724,7 +724,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="3" name="TTT to goal" tracklog_folder="day 3">
-        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="0" score_back_time="15"/>
+        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" time_points_if_not_in_goal="0.8" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="0" score_back_time="15"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="500" open="2016-01-06T12:00:00+11:00" close="2016-01-06T20:00:00+11:00"/>
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="10000" open="2016-01-06T12:30:00+11:00" close="2016-01-06T20:00:00+11:00"/>
@@ -1065,7 +1065,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="4" name="Where is wallygett" tracklog_folder="day 4">
-        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="0" score_back_time="15"/>
+        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" time_points_if_not_in_goal="0.8" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="0" score_back_time="15"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="500" open="2016-01-07T12:00:00+11:00" close="2016-01-07T20:00:00+11:00"/>
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="10000" open="2016-01-07T12:00:00+11:00" close="2016-01-07T20:00:00+11:00"/>
@@ -1419,7 +1419,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="5" name="racing? confused" tracklog_folder="day 5">
-        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" use_arrival_position_points="1" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="15"/>
+        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" time_points_if_not_in_goal="0.8" use_arrival_position_points="1" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="15"/>
         <FsTaskDefinition ss="2" es="4" goal="LINE" groundstart="0">
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="500" open="2016-01-08T12:00:00+11:00" close="2016-01-08T20:00:00+11:00"/>
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="10000" open="2016-01-08T14:15:00+11:00" close="2016-01-08T20:00:00+11:00"/>
@@ -1719,7 +1719,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="6" name="gunning for goal" tracklog_folder="day 6">
-        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" use_arrival_position_points="1" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="15"/>
+        <FsScoreFormula id="GAP2015" min_dist="10" nom_dist="100" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="2" jump_the_gun_max="600" time_points_if_not_in_goal="0.8" use_arrival_position_points="1" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="15"/>
         <FsTaskDefinition ss="2" es="6" goal="LINE" groundstart="0">
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="500" open="2016-01-09T12:00:00+11:00" close="2016-01-09T20:00:00+11:00"/>
           <FsTurnpoint id="FORBE" lat="-33.3608" lon="147.932" altitude="232" radius="5000" open="2016-01-09T13:30:00+11:00" close="2016-01-09T20:00:00+11:00"/>
