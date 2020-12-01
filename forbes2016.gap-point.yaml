@@ -2486,6 +2486,51 @@ score:
       subtotal: 3.949
       landedMade: 1.063 km
       stoppedAlt: 235.000 m
+  - - - '10'
+      - Dan Balla
+    - place: 53=
+      total: 3.174
+      essNotGoal: false
+      penaltiesEssNotGoal:
+        adds: []
+        muls: []
+        resets: []
+      jump: null
+      penaltiesJumpRaw: null
+      penaltiesJumpEffective:
+        adds: []
+        muls: []
+        resets: []
+      penalties:
+        adds: []
+        muls: []
+        resets: []
+      breakdown:
+        effort: 8.5e-2
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 3.174
+        leading: 0
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        ssDistance: null
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+      penaltyReason: ''
+      reach:
+        extra: 0.100 km
+        flown: 0.100 km
+      demeritFrac: 0
+      demeritPoint: 0
+      demeritReset: 0
+      subtotal: 3.174
+      landedMade: 0.100 km
+      stoppedAlt: 0.000 m
   - - - '23'
       - Steve Hogan
     - place: 53=
@@ -2530,51 +2575,6 @@ score:
       demeritReset: 0
       subtotal: 3.174
       landedMade: -307.382 km
-      stoppedAlt: 0.000 m
-  - - - '10'
-      - Dan Balla
-    - place: 53=
-      total: 3.089
-      essNotGoal: false
-      penaltiesEssNotGoal:
-        adds: []
-        muls: []
-        resets: []
-      jump: null
-      penaltiesJumpRaw: null
-      penaltiesJumpEffective:
-        adds: []
-        muls: []
-        resets: []
-      penalties:
-        adds: []
-        muls: []
-        resets: []
-      breakdown:
-        effort: 0
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.089
-        leading: 0
-      velocity:
-        ss: null
-        gs: null
-        es: null
-        ssDistance: null
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-      penaltyReason: ''
-      reach:
-        extra: 0.100 km
-        flown: 0.100 km
-      demeritFrac: 0
-      demeritPoint: 0
-      demeritReset: 0
-      subtotal: 3.089
-      landedMade: 0.100 km
       stoppedAlt: 0.000 m
   - - - '15'
       - Elia Piccinini
@@ -17158,6 +17158,51 @@ scoreDf:
       subtotal: 3.949
       landedMade: 1.063 km
       stoppedAlt: 235.000 m
+  - - - '10'
+      - Dan Balla
+    - place: 38=
+      total: 3.174
+      essNotGoal: false
+      penaltiesEssNotGoal:
+        adds: []
+        muls: []
+        resets: []
+      jump: null
+      penaltiesJumpRaw: null
+      penaltiesJumpEffective:
+        adds: []
+        muls: []
+        resets: []
+      penalties:
+        adds: []
+        muls: []
+        resets: []
+      breakdown:
+        effort: 8.5e-2
+        arrival: 0
+        time: 0
+        reach: 3.089
+        distance: 3.174
+        leading: 0
+      velocity:
+        ss: null
+        gs: null
+        es: null
+        ssDistance: null
+        ssElapsed: null
+        gsElapsed: null
+        ssVelocity: null
+        gsVelocity: null
+      penaltyReason: ''
+      reach:
+        extra: 0.100 km
+        flown: 0.100 km
+      demeritFrac: 0
+      demeritPoint: 0
+      demeritReset: 0
+      subtotal: 3.174
+      landedMade: 0.100 km
+      stoppedAlt: 0.000 m
   - - - '23'
       - Steve Hogan
     - place: 38=
@@ -17202,51 +17247,6 @@ scoreDf:
       demeritReset: 0
       subtotal: 3.174
       landedMade: -307.382 km
-      stoppedAlt: 0.000 m
-  - - - '10'
-      - Dan Balla
-    - place: 38=
-      total: 3.089
-      essNotGoal: false
-      penaltiesEssNotGoal:
-        adds: []
-        muls: []
-        resets: []
-      jump: null
-      penaltiesJumpRaw: null
-      penaltiesJumpEffective:
-        adds: []
-        muls: []
-        resets: []
-      penalties:
-        adds: []
-        muls: []
-        resets: []
-      breakdown:
-        effort: 0
-        arrival: 0
-        time: 0
-        reach: 3.089
-        distance: 3.089
-        leading: 0
-      velocity:
-        ss: null
-        gs: null
-        es: null
-        ssDistance: null
-        ssElapsed: null
-        gsElapsed: null
-        ssVelocity: null
-        gsVelocity: null
-      penaltyReason: ''
-      reach:
-        extra: 0.100 km
-        flown: 0.100 km
-      demeritFrac: 0
-      demeritPoint: 0
-      demeritReset: 0
-      subtotal: 3.089
-      landedMade: 0.100 km
       stoppedAlt: 0.000 m
   - - - '15'
       - Elia Piccinini
